@@ -1,0 +1,17 @@
+{
+  "name": "routine-linklei-eduarda",
+  "version": "2.0.0",
+  "description": "Coleta automática de movimentações processuais do LinkLei para o escritório Eduarda Machado Advocacia Estratégica",
+  "private": true,
+  "scripts": {
+    "renovar-sessao": "node scripts/salvar-sessao.js",
+    "coletar": "node scripts/coletar-linklei.js",
+    "instalar": "npm install && echo 'Pronto. Próximo passo: configure o cron no VPS.'"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
