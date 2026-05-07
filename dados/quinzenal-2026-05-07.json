@@ -1,0 +1,605 @@
+{
+  "dataColeta": "2026-05-07",
+  "totalProcessos": 38,
+  "resultados": [
+    {
+      "cliente": "AFONSO DELGADO HACHA",
+      "numeroProcesso": "2289961-94.2024.8.26.0000",
+      "whatsapp": "11984839513",
+      "link": "https://app.linklei.com.br/workspace/legal-process/aaf0d4f034e47dd207494549e9507167",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Movimentações\nPublicações / Intimações\nDocumentos\nProcesso 2º Grau\nMonitorar\nErro\nAtualizar\nAtenção: este processo não está sendo monitorado!\nMensagem de retorno do tribunal:\nProcesso não encontrado, verifique se o número CNJ, instância e tribunal estão corretos.\nComo resolver?\nVerifique se o processo realmente existe no sistema do tribunal: TJSP;\nVerifique se o processo está em segredo de justiça;\nSe o processo estiver em segredo de justiça: verifique se cadastrou corretamente as credenciais de acesso ao sistema do tribunal clicando aqui;\nSe as suas credenciais estão corretas: verifique se o processo está habilitado para sua OAB cadastrada no LinkLei;\nAcompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Processo 2º Grau\nMonitorar\nErro\nAtualizar",
+          "data": ""
+        },
+        {
+          "descricao": "Monitorar\nErro",
+          "data": ""
+        },
+        {
+          "descricao": "Acompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Acompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Espaço de armazenamento\nSalve documentos importantes em texto, imagem, vídeo, áudio e outros formatos.",
+          "data": ""
+        }
+      ],
+      "totalMovimentacoes": 6,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "AFONSO DELGADO HACHA",
+      "numeroProcesso": "1022462-81.2024.8.26.0554",
+      "whatsapp": "11984839513",
+      "link": "https://app.linklei.com.br/workspace/legal-process/6fa26a54fef51beeacfdb0e9c856d665",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "ANA GABRIELA FERREIRA ARRUDA",
+      "numeroProcesso": "1033801-37.2024.8.26.0554",
+      "whatsapp": "11958755347",
+      "link": "https://app.linklei.com.br/workspace/legal-process/5de417723256906f7f5537d0095bb55c",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Movimentações\nPublicações / Intimações\nDocumentos\nProcesso 2º Grau\nMonitorar\nErro\nAtualizar\nAtenção: este processo não está sendo monitorado!\nMensagem de retorno do tribunal:\n\"Processo possui segredo de justiça. Necessário senha para consultá-lo!\"\nComo resolver?\nVerifique se o processo realmente existe no sistema do tribunal: TJSP(ESAJ);\nVerifique se o processo está em segredo de justiça;\nSe o processo estiver em segredo de justiça: verifique se cadastrou corretamente as credenciais de acesso ao sistema do tribunal clicando aqui;\nSe as suas credenciais estão corretas: verifique se o processo está habilitado para sua OAB cadastrada no LinkLei;\nAcompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Processo 2º Grau\nMonitorar\nErro\nAtualizar",
+          "data": ""
+        },
+        {
+          "descricao": "Monitorar\nErro",
+          "data": ""
+        },
+        {
+          "descricao": "Acompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Acompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Espaço de armazenamento\nSalve documentos importantes em texto, imagem, vídeo, áudio e outros formatos.",
+          "data": ""
+        }
+      ],
+      "totalMovimentacoes": 6,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "ANA GABRIELA FERREIRA ARRUDA",
+      "numeroProcesso": "Processo Administrativo INSS",
+      "whatsapp": "11958755347",
+      "link": "",
+      "status": "SEM_LINK",
+      "movimentacoes": [],
+      "mensagemPadrao": "Processo em elaboração ou extrajudicial — sem movimentação no sistema."
+    },
+    {
+      "cliente": "ANA PAULA - PISCINAS",
+      "numeroProcesso": "em elaboração",
+      "whatsapp": "",
+      "link": "",
+      "status": "SEM_LINK",
+      "movimentacoes": [],
+      "mensagemPadrao": "Processo em elaboração ou extrajudicial — sem movimentação no sistema."
+    },
+    {
+      "cliente": "ANA PAULA ALMEIDA NASCIMENTO",
+      "numeroProcesso": "4024953-43.2026.8.26.0100",
+      "whatsapp": "",
+      "link": "",
+      "status": "SEM_LINK",
+      "movimentacoes": [],
+      "mensagemPadrao": "Processo em elaboração ou extrajudicial — sem movimentação no sistema."
+    },
+    {
+      "cliente": "ANDERSON BATISTA",
+      "numeroProcesso": "4038574-10.2026.8.26.0100",
+      "whatsapp": "",
+      "link": "",
+      "status": "SEM_LINK",
+      "movimentacoes": [],
+      "mensagemPadrao": "Processo em elaboração ou extrajudicial — sem movimentação no sistema."
+    },
+    {
+      "cliente": "ANDRÉ PCD (SANDRA MARINEZ MOSCOU)",
+      "numeroProcesso": "1032575-64.2025.8.26.0100",
+      "whatsapp": "",
+      "link": "https://app.linklei.com.br/workspace/legal-process/ace2784ec3adf706a50d7cebb2d53196",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "BÁRBARA ARAUJO CORRÊA DIAS",
+      "numeroProcesso": "1015098-44.2024.8.26.0009",
+      "whatsapp": "11958755347",
+      "link": "https://app.linklei.com.br/workspace/legal-process/d6b5a4ad5fa468ee660c9304546c4c7e",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "BRISA FRANCISCO DE ANDRADE",
+      "numeroProcesso": "1017432-65.2024.8.26.0554",
+      "whatsapp": "11958755347",
+      "link": "https://app.linklei.com.br/workspace/legal-process/e52ae0a37f39e47ebeaffee2878c03f7",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "CATIA CRISTINA FERREIRA VOLPATO",
+      "numeroProcesso": "4003687-94.2025.8.26.0565",
+      "whatsapp": "11982772894",
+      "link": "https://app.linklei.com.br/workspace/legal-process/6963cde4b6c8633a1fee8ba021684563",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "RÉPLICA - Refer. ao Evento: 30 | Usuário: SP545832\n30/04/2026",
+          "data": "30/04/2026"
+        },
+        {
+          "descricao": "Publicado no DJ Eletrônico - no dia 28/04/2026 - Refer. aos Eventos: 30, 31 | Usuário: secde\n28/04/2026",
+          "data": "28/04/2026"
+        },
+        {
+          "descricao": "Disponibilizado no DJ Eletrônico - no dia 27/04/2026 - Refer. aos Eventos: 30, 31 | Usuário: secde\n27/04/2026",
+          "data": "27/04/2026"
+        },
+        {
+          "descricao": "Expedida/certificada a intimação eletrônica - Despacho/DecisãoRefer. ao Evento 29(RÉU - TELEFONICA BRASIL S.A.) Prazo: 15 dias Status:AGUARD. ABERTURA | Usuário: J13452\n23/04/2026",
+          "data": "23/04/2026"
+        },
+        {
+          "descricao": "Expedida/certificada a intimação eletrônica - Despacho/DecisãoRefer. ao Evento 29(RÉU - TELEFONICA BRASIL S.A.) Prazo: 15 dias Status:ABERTO Data inicial da contagem do prazo: 29/04/2026 00:00:00 Data final: 20/05/2026 23:59:59 | Usuário: J13452\n23/04/2026",
+          "data": "29/04/2026"
+        },
+        {
+          "descricao": "Expedida/certificada a intimação eletrônica - Despacho/DecisãoRefer. ao Evento 29(AUTOR - CATIA CRISTINA FERREIRA VOLPATO) Prazo: 15 dias Status:ABERTO Data inicial da contagem do prazo: 29/04/2026 00:00:00 Data final: 20/05/2026 23:59:59 | Usuário: J13452\n23/04/2026",
+          "data": "29/04/2026"
+        },
+        {
+          "descricao": "Decisão interlocutória | Usuário: J13452\n1 Documento\n23/04/2026",
+          "data": "23/04/2026"
+        },
+        {
+          "descricao": "Expedida/certificada a intimação eletrônica - Despacho/DecisãoRefer. ao Evento 29(AUTOR - CATIA CRISTINA FERREIRA VOLPATO) Prazo: 15 dias Status:FECHADO Data inicial da contagem do prazo: 29/04/2026 00:00:00 Data final: 20/05/2026 23:59:59 | Usuário: J13452\n23/04/2026",
+          "data": "29/04/2026"
+        },
+        {
+          "descricao": "Expedida/certificada a intimação eletrônica - Despacho/DecisãoRefer. ao Evento 29(AUTOR - CATIA CRISTINA FERREIRA VOLPATO) Prazo: 15 dias Status:AGUARD. ABERTURA | Usuário: J13452\n23/04/2026",
+          "data": "23/04/2026"
+        },
+        {
+          "descricao": "Expedida/certificada a comunicação eletrônica - Parte: CATIA CRISTINA FERREIRA VOLPATO. Justiça gratuita: Deferida. | Usuário: M816226\n23/04/2026",
+          "data": "23/04/2026"
+        }
+      ],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "ELAINE SILVA LIMA",
+      "numeroProcesso": "1002594-24.2025.8.26.0606",
+      "whatsapp": "11956581594",
+      "link": "https://app.linklei.com.br/workspace/legal-process/b9d49e3db24ab25007bc3a20ecb0f680",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Ato Ordinatório (Não Gera Intimação no DJE ou Portal) Ao setor do cumprimento para emissão de ofício.\n28/04/2026",
+          "data": "28/04/2026"
+        }
+      ],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "ELIZABETE MARIA ARAÚJO DA COSTA",
+      "numeroProcesso": "1003026-69.2025.8.26.0565",
+      "whatsapp": "",
+      "link": "https://app.linklei.com.br/workspace/legal-process/700e77a330f58920a82c7fe366d1bddf",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "ELOI RASTOFER",
+      "numeroProcesso": "0000815-45.2023.8.26.0372",
+      "whatsapp": "",
+      "link": "https://app.linklei.com.br/workspace/legal-process/a0c1235ad4eb7d2f62e7098ae946357a",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "FABIANO BENDER MACHADO",
+      "numeroProcesso": "1003900-87.2025.8.26.0554",
+      "whatsapp": "11932188181",
+      "link": "https://app.linklei.com.br/workspace/legal-process/1d0cf3448be100f0bc789a748b20246b",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Certidão de Publicação Expedida Relação: 0539/2026 Data da Publicação: 06/05/2026\n05/05/2026",
+          "data": "06/05/2026"
+        },
+        {
+          "descricao": "Proferido Despacho de Mero Expediente Manifestem-se as partes quanto a resposta do ofício de fls. 272/283, no prazo de 15 dias. Na oportunidade, esclareçam se persiste o interesse na produção de prova, justificando sua imprescindibilidade. Após manifestação das partes, dê-se vista ao MP e tornem os autos conclusos. Intimem-se.\n1 Documento\n04/05/2026",
+          "data": "04/05/2026"
+        },
+        {
+          "descricao": "Remetido ao DJE Relação: 0539/2026 Teor do ato: Manifestem-se as partes quanto a resposta do ofício de fls. 272/283, no prazo de 15 dias. Na oportunidade, esclareçam se persiste o interesse na produção de prova, justificando sua imprescindibilidade. Após manifestação das partes, dê-se vista ao MP e tornem os autos conclusos. Intimem-se. Advogados(s): Fernando José de Oliveira Junior (OAB 473802/SP), Ana Clara de Sousa Sgreccia Morais (OAB 527290/SP), Eduarda Ferreira da Silva Machado (OAB 545832/SP)\n04/05/2026",
+          "data": "04/05/2026"
+        }
+      ],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "GABRIEL DA COSTA PEREIRA MACHADO",
+      "numeroProcesso": "1004553-56.2025.8.26.0565",
+      "whatsapp": "11984901224",
+      "link": "https://app.linklei.com.br/workspace/legal-process/39b6e72897a700bbf3e48b2086adb4cd",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Movimentações\nPublicações / Intimações\nDocumentos\nProcesso 2º Grau\nMonitorar\nErro\nAtualizar\nAtenção: este processo não está sendo monitorado!\nMensagem de retorno do tribunal:\n\"Processo possui segredo de justiça. Necessário senha para consultá-lo!\"\nComo resolver?\nVerifique se o processo realmente existe no sistema do tribunal: TJSP(ESAJ);\nVerifique se o processo está em segredo de justiça;\nSe o processo estiver em segredo de justiça: verifique se cadastrou corretamente as credenciais de acesso ao sistema do tribunal clicando aqui;\nSe as suas credenciais estão corretas: verifique se o processo está habilitado para sua OAB cadastrada no LinkLei;\nAcompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Processo 2º Grau\nMonitorar\nErro\nAtualizar",
+          "data": ""
+        },
+        {
+          "descricao": "Monitorar\nErro",
+          "data": ""
+        },
+        {
+          "descricao": "Acompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Acompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Espaço de armazenamento\nSalve documentos importantes em texto, imagem, vídeo, áudio e outros formatos.",
+          "data": ""
+        }
+      ],
+      "totalMovimentacoes": 6,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "GABRIELA KATHERINE TRAD BIFFE",
+      "numeroProcesso": "0003184-40.2023.8.26.0007",
+      "whatsapp": "11982909177",
+      "link": "https://app.linklei.com.br/workspace/legal-process/fb0a9c872ee3ca1c30cf4612d3317717",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "GLICEA GOUVEA DE OLIVEIRA",
+      "numeroProcesso": "5004167-65.2024.4.03.6126",
+      "whatsapp": "11995720733",
+      "link": "https://app.linklei.com.br/workspace/legal-process/16e15e78c395a1a7285ce398542a4429",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "GRACIA PARRADO",
+      "numeroProcesso": "1011419-50.2024.8.26.0554",
+      "whatsapp": "",
+      "link": "https://app.linklei.com.br/workspace/legal-process/f80ec87345efabe87fe14e613c5d9c69",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "GUSTAVO RASTOFER",
+      "numeroProcesso": "4010209-76.2025.8.26.0068",
+      "whatsapp": "11998185677",
+      "link": "",
+      "status": "SEM_LINK",
+      "movimentacoes": [],
+      "mensagemPadrao": "Processo em elaboração ou extrajudicial — sem movimentação no sistema."
+    },
+    {
+      "cliente": "LARISSA MARIA ARAUJO BATISSACO",
+      "numeroProcesso": "1000981-83.2025.8.26.0565",
+      "whatsapp": "",
+      "link": "",
+      "status": "SEM_LINK",
+      "movimentacoes": [],
+      "mensagemPadrao": "Processo em elaboração ou extrajudicial — sem movimentação no sistema."
+    },
+    {
+      "cliente": "LUANA DE SOUSA PITEL",
+      "numeroProcesso": "1012433-55.2024.8.26.0009",
+      "whatsapp": "11994588600",
+      "link": "https://app.linklei.com.br/workspace/legal-process/65a4b317ea180c1e8a28da96c8dbde51",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Petição Juntada Nº Protocolo: WVIP.26.70046964-3 Tipo da Petição: Petição Intermediária Data: 30/04/2026 00:55\n30/04/2026",
+          "data": "30/04/2026"
+        }
+      ],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "LUANA PARRADO DIAN",
+      "numeroProcesso": "0017113-85.2022.8.26.0554",
+      "whatsapp": "11956367491",
+      "link": "https://app.linklei.com.br/workspace/legal-process/000c9be0d76eaa8998a9893b5c30841c",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Movimentações\nPublicações / Intimações\nDocumentos\nProcesso 2º Grau\nMonitorar\nErro\nAtualizar\nAtenção: este processo não está sendo monitorado!\nMensagem de retorno do tribunal:\n\"Processo possui segredo de justiça. Necessário senha para consultá-lo!\"\nComo resolver?\nVerifique se o processo realmente existe no sistema do tribunal: TJSP(ESAJ);\nVerifique se o processo está em segredo de justiça;\nSe o processo estiver em segredo de justiça: verifique se cadastrou corretamente as credenciais de acesso ao sistema do tribunal clicando aqui;\nSe as suas credenciais estão corretas: verifique se o processo está habilitado para sua OAB cadastrada no LinkLei;\nAcompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Processo 2º Grau\nMonitorar\nErro\nAtualizar",
+          "data": ""
+        },
+        {
+          "descricao": "Monitorar\nErro",
+          "data": ""
+        },
+        {
+          "descricao": "Acompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Acompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Espaço de armazenamento\nSalve documentos importantes em texto, imagem, vídeo, áudio e outros formatos.",
+          "data": ""
+        }
+      ],
+      "totalMovimentacoes": 6,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "LUANA PARRADO DIAN",
+      "numeroProcesso": "1019648-67.2022.8.26.0554",
+      "whatsapp": "11956367491",
+      "link": "https://app.linklei.com.br/workspace/legal-process/3b969a12e4dfd0579cab485596fc1473",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Movimentações\nPublicações / Intimações\nDocumentos\nProcesso 2º Grau\nMonitorar\nErro\nAtualizar\nAtenção: este processo não está sendo monitorado!\nMensagem de retorno do tribunal:\n\"Processo possui segredo de justiça. Necessário senha para consultá-lo!\"\nComo resolver?\nVerifique se o processo realmente existe no sistema do tribunal: TJSP(ESAJ);\nVerifique se o processo está em segredo de justiça;\nSe o processo estiver em segredo de justiça: verifique se cadastrou corretamente as credenciais de acesso ao sistema do tribunal clicando aqui;\nSe as suas credenciais estão corretas: verifique se o processo está habilitado para sua OAB cadastrada no LinkLei;\nAcompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Processo 2º Grau\nMonitorar\nErro\nAtualizar",
+          "data": ""
+        },
+        {
+          "descricao": "Monitorar\nErro",
+          "data": ""
+        },
+        {
+          "descricao": "Acompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Acompanhe seu processo\nAtive o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.",
+          "data": ""
+        },
+        {
+          "descricao": "Espaço de armazenamento\nSalve documentos importantes em texto, imagem, vídeo, áudio e outros formatos.",
+          "data": ""
+        }
+      ],
+      "totalMovimentacoes": 6,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "LUANA PARRADO DIAN",
+      "numeroProcesso": "1002508-49.2024.8.26.0554",
+      "whatsapp": "11956367491",
+      "link": "https://app.linklei.com.br/workspace/legal-process/c21b291aedd9d48fe0c4f408ee817e13",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "LUANA PARRADO DIAN",
+      "numeroProcesso": "1017403-15.2024.8.26.0554",
+      "whatsapp": "11956367491",
+      "link": "https://app.linklei.com.br/workspace/legal-process/d458f3e372fe4a27e9b50c5805dfeb6d",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "LUIZ CESAR PEREIRA",
+      "numeroProcesso": "1029981-10.2024.8.26.0554",
+      "whatsapp": "11987269043",
+      "link": "https://app.linklei.com.br/workspace/legal-process/d897cb1834bffcdfd494bb8a265311d5",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "MARIA APARECIDA ZAPPAROLLI",
+      "numeroProcesso": "4009821-73.2025.8.26.0554",
+      "whatsapp": "11988479949",
+      "link": "https://app.linklei.com.br/workspace/legal-process/0c2c7dc94470e1b8b19fe18b6c89f55d",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Publicado no DJ Eletrônico - no dia 05/05/2026 - Refer. ao Evento: 20 | Usuário: secde\n05/05/2026",
+          "data": "05/05/2026"
+        },
+        {
+          "descricao": "Disponibilizado no DJ Eletrônico - no dia 04/05/2026 - Refer. ao Evento: 20 | Usuário: secde\n04/05/2026",
+          "data": "04/05/2026"
+        },
+        {
+          "descricao": "Expedida/certificada a intimação eletrônica - SentençaRefer. ao Evento 19(AUTOR - MARIA APARECIDA ZAPPAROLLI) Prazo: 20 dias Status:ABERTO Data inicial da contagem do prazo: 06/05/2026 00:00:00 Data final: 26/05/2026 23:59:59 | Usuário: J13770\n30/04/2026",
+          "data": "06/05/2026"
+        },
+        {
+          "descricao": "Extinto o processo por ausência de pressupostos processuais - tipo C | Usuário: J13770\n1 Documento\n30/04/2026",
+          "data": "30/04/2026"
+        }
+      ],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "MARIA DE LA CRUZ PARRADO",
+      "numeroProcesso": "1033195-09.2024.8.26.0554",
+      "whatsapp": "11995022622",
+      "link": "https://app.linklei.com.br/workspace/legal-process/605683e3c6ccc7d93041c04ac7764ac7",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Conclusos para Despacho\n05/05/2026",
+          "data": "05/05/2026"
+        }
+      ],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "MIRIAM DEBORA MENEZES BALTAZAR",
+      "numeroProcesso": "4000280-77.2025.8.26.0275",
+      "whatsapp": "11982132234",
+      "link": "https://app.linklei.com.br/workspace/legal-process/8ba415836d39d5fc40de05328d409472",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Decorrido prazo - Refer. aos Eventos: 32 e 33 | Usuário: secautoloc\n24/04/2026",
+          "data": "24/04/2026"
+        }
+      ],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "NATALYA AMIGO",
+      "numeroProcesso": "4007446-85.2025.8.26.0009",
+      "whatsapp": "11948877502",
+      "link": "https://app.linklei.com.br/workspace/legal-process/0861a3cf5dad293c7ffd9c6daed36cdf",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "NERY RODRIGUES LAURIANO PEREIRA",
+      "numeroProcesso": "1029980-25.2024.8.26.0554",
+      "whatsapp": "11958195667",
+      "link": "https://app.linklei.com.br/workspace/legal-process/8f302a6f348dc7057311884302f6096f",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "PEDRO RIBEIRO CAMPOS GATICA",
+      "numeroProcesso": "1019818-72.2024.8.26.0003",
+      "whatsapp": "11975475708",
+      "link": "https://app.linklei.com.br/workspace/legal-process/1db72b93957a6c27d10fad7ee0f666bd",
+      "status": "OK",
+      "movimentacoes": [
+        {
+          "descricao": "Certidão de Cartório Expedida Certidão de Cartório - CUSTAS - Certidão de Inexistência de Custas e Arquivamento - Cível - 61615\n04/05/2026",
+          "data": "04/05/2026"
+        },
+        {
+          "descricao": "Arquivado Definitivamente\n04/05/2026",
+          "data": "04/05/2026"
+        }
+      ],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "ROSANA VASCONCELLOS",
+      "numeroProcesso": "0009843-52.2019.8.26.0477",
+      "whatsapp": "11947552468",
+      "link": "https://app.linklei.com.br/workspace/legal-process/b673adb76975bb4c558fc13e6c5794e6",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "SANDRO GRANSOTI",
+      "numeroProcesso": "1004847-11.2025.8.26.0565",
+      "whatsapp": "11997944025",
+      "link": "https://app.linklei.com.br/workspace/legal-process/e49a39395160b1ae86c9ffaab2bee39e",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "SILVIA TERESA VIEIRA DE PAIVA",
+      "numeroProcesso": "0825816-21.2025.8.10.0001",
+      "whatsapp": "",
+      "link": "https://app.linklei.com.br/workspace/legal-process/eb77c10ab059d9ea0b77f37e1e2b4b87",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "VINICIUS MASINI SOARES - GOLD PET",
+      "numeroProcesso": "1003327-20.2023.8.26.0554",
+      "whatsapp": "11982909177",
+      "link": "https://app.linklei.com.br/workspace/legal-process/472f2da6017143f8ad821536a42efeed",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    },
+    {
+      "cliente": "VINICIUS MASINI SOARES - GOLD PET",
+      "numeroProcesso": "0000418-51.2025.8.26.0554",
+      "whatsapp": "11982909177",
+      "link": "https://app.linklei.com.br/workspace/legal-process/2a88fe4ed9fbc75b5ce803de11acf52f",
+      "status": "OK",
+      "movimentacoes": [],
+      "totalMovimentacoes": 10,
+      "dataColeta": "2026-05-07"
+    }
+  ]
+}
