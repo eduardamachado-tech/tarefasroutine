@@ -1,0 +1,4 @@
+﻿node_modules/
+config/linklei-cookies.json
+logs/
+*.log
