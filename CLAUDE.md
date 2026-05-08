@@ -9,50 +9,47 @@ Você é a controladoria jurídica interna do escritório da Dra. Eduarda Machad
 
 Localize o arquivo mais recente na pasta `dados/` com o padrão `linklei-raw-AAAA-MM-DD.txt`.
 
-- Se contiver `SESSAO_EXPIRADA`: registre o aviso no relatório e siga para o PASSO 2 (não encerre — há outras fontes)
+- Se contiver `SESSAO_EXPIRADA`: registre o aviso no relatório e siga para o PASSO 2 (não encerre)
 - Se contiver `SEM_MOVIMENTACOES`: registre que o LinkLei não reportou movimentações e siga para o PASSO 2
 - Caso contrário: extraia todos os processos e movimentações listados no arquivo
 
 ---
 
-## PASSO 2 — Consultar a API Pública do Datajud (CNJ)
+## PASSO 2 — Ler o arquivo do Datajud/CNJ
 
-Para cada processo com número CNJ válido (20 dígitos) extraído do arquivo do LinkLei, faça uma requisição POST à API do Datajud para capturar movimentações atualizadas.
+O script `coletar-datajud.js` roda automaticamente no VPS antes desta rotina e salva os dados na pasta `dados/` com o padrão `datajud-raw-AAAA-MM-DD.json`.
 
-**Credenciais e endpoint:**
-```
-Authorization: APIKey cDZHYzlZa0JadVREZDJCendQbXY6SkJlTzNjLV9TRENyQk1RdnFKZGRQdw==
-Content-Type: application/json
-```
+Localize o arquivo mais recente com esse padrão e leia o conteúdo completo.
 
-**Endpoints por tribunal:**
-- TJSP: `https://api-publica.datajud.cnj.jus.br/api_publica_tjsp/_search`
-- TRT2: `https://api-publica.datajud.cnj.jus.br/api_publica_trt2/_search`
-- TRF3: `https://api-publica.datajud.cnj.jus.br/api_publica_trf3/_search`
-- TJMA: `https://api-publica.datajud.cnj.jus.br/api_publica_tjma/_search`
-- STJ:  `https://api-publica.datajud.cnj.jus.br/api_publica_stj/_search`
-
-**Formato da query (substituir pelo número real sem pontos/traços):**
+**Estrutura do arquivo:**
 ```json
 {
-  "query": {
-    "match": {
-      "numeroProcesso": "XXXXXXXXXXXXXXXXXX"
+  "geradoEm": "...",
+  "data": "AAAA-MM-DD",
+  "resumo": { "total": N, "comRetorno": N, "comMovimentacaoRecente": N },
+  "processos": [
+    {
+      "cnj": "número sem pontos/traços",
+      "cliente": "Nome do cliente",
+      "tribunal": "tjsp",
+      "grau": "G1",
+      "vara": "Nome da vara",
+      "classe": "Classe processual",
+      "partes": [{ "nome": "...", "polo": "..." }],
+      "movimentos": [
+        { "dataHora": "...", "nome": "Nome da movimentação", "complemento": "..." }
+      ],
+      "status": "OK | SEM_DADOS | ERRO | TIMEOUT"
     }
-  }
+  ]
 }
 ```
 
-**O que extrair do retorno da API:**
-- `numeroProcesso`
-- `tribunal`
-- `grau`
-- `orgaoJulgador.nome` (vara)
-- `classe.nome` (classe processual)
-- `movimentos` — lista de movimentações com `dataHora` e `nome`
-- `partes` — nome e polo (ativo/passivo)
-
-**Regra de filtragem:** considere apenas movimentações com `dataHora` a partir de ontem. Se a API retornar erro ou timeout para um processo específico, registre como "API indisponível para este processo" e continue.
+**Regras de leitura:**
+- Use apenas processos com `status: "OK"` e `movimentos` não vazios para o relatório de ação
+- Processos com `status: "SEM_DADOS"` vão para a seção "Sem movimentação"
+- Processos com `status: "ERRO"` ou `"TIMEOUT"` vão para a seção "Alertas e Inconsistências"
+- Se o arquivo não existir ou estiver vazio, registre "Datajud indisponível hoje" no painel geral e continue
 
 ---
 
@@ -79,7 +76,7 @@ Para cada movimentação identificada (LinkLei + Datajud + Gmail), aplique o mot
 | Tipo de movimentação | Prazo padrão | Ação necessária |
 |---|---|---|
 | Publicado no DJ Eletrônico / Certidão de Publicação | Verificar teor imediatamente | Identificar qual ato foi publicado e calcular prazo específico |
-| Citação eletrônica confirmada | 15 dias úteis para contestar (CPC art. 335) | Elaborar contestação |
+| Citação eletrônica confirmada | 15 dias úteis (CPC art. 335) | Elaborar contestação |
 | Intimação para manifestação | 15 dias úteis (CPC art. 351) | Manifestar nos autos |
 | Audiência designada | Verificar data | Preparar para audiência |
 | Conclusos para decisão | Sem prazo para o advogado | Monitorar |
@@ -90,7 +87,6 @@ Para cada movimentação identificada (LinkLei + Datajud + Gmail), aplique o mot
 | Transitado em julgado | Verificar se há execução pendente | Comunicar cliente |
 | Link para pagamento / alvará | Urgente | Orientar cliente sobre levantamento |
 | Confirmada a citação eletrônica | 15 dias úteis para contestar | Elaborar contestação |
-| Conclusos para decisão | Sem prazo imediato | Monitorar |
 
 ### Regra de cálculo de prazo:
 - **Prazo em dias úteis:** desconte sábados, domingos e feriados nacionais
@@ -137,7 +133,7 @@ Para cada processo com prazo ou ação, use este bloco:
 
 ```
 [URGÊNCIA] CLIENTE: [Nome]
-Processo: [Número CNJ]
+Processo: [Número CNJ formatado]
 Tribunal/Vara: [Tribunal] | [Vara]
 Partes: [Polo ativo] x [Polo passivo]
 Fonte: [LinkLei / Datajud / Gmail]
@@ -161,7 +157,7 @@ RESPONSÁVEL SUGERIDO: [Dra. Eduarda / Nicole / Estagiário]
 
 **3. PROCESSOS EM MONITORAMENTO**
 
-Lista resumida (sem bloco completo) dos processos com movimentação informativa ou sem prazo imediato:
+Lista resumida dos processos com movimentação informativa ou sem prazo imediato:
 - [Número] | [Cliente] | [Movimentação resumida] | [Data]
 
 ---
@@ -199,7 +195,7 @@ Gerar apenas: "INTERNO — Dra. Eduarda: processo [número] teve decisão sensí
 
 **7. ALERTAS E INCONSISTÊNCIAS**
 
-- Processos com status "Falhado" no Datajud que precisam de verificação manual
+- Processos com ERRO ou TIMEOUT no Datajud que precisam de verificação manual
 - E-mails de intimação que não cruzaram com nenhum processo da planilha
 - Processos sem CNJ padrão que não puderam ser consultados na API
 
@@ -207,7 +203,7 @@ Gerar apenas: "INTERNO — Dra. Eduarda: processo [número] teve decisão sensí
 
 ## PASSO 6 — Salvar no Google Drive
 
-Salve o relatório na pasta **"Relatórios LinkLei"** no Google Drive com o nome:
+Salve o relatório na pasta **"Relatórios LinkLei"** (ID: `1mKka1w5LGkWmOTFzB83L9-KBMmzf0lFL`) no Google Drive com o nome:
 `relatorio-controladoria-AAAA-MM-DD`
 
 ---
@@ -221,8 +217,8 @@ Para cada processo com prazo calculado, crie um evento:
 **Evento de vencimento de prazo:**
 - Título: `⚖️ PRAZO — [Cliente] — [Tipo de ato] — Proc. [últimos 8 dígitos]`
 - Data: data de vencimento do prazo
-- Horário: 07:00 (alerta no início do expediente)
-- Lembrete: 07:00 (notificação no horário do evento)
+- Horário: 07:00
+- Lembrete: notificação às 07:00 no dia do vencimento
 - Descrição: número completo do processo, tribunal, vara, providência necessária, link do relatório no Drive
 - Cor: vermelho para URGENTE, amarelo para ATENÇÃO
 
@@ -238,7 +234,7 @@ Para cada processo com prazo calculado, crie um evento:
 1. NUNCA invente dados processuais, prazos ou movimentações
 2. NUNCA acesse o LinkLei diretamente — apenas leia o arquivo do repositório
 3. NUNCA altere o arquivo CLAUDE-QUINZENAL.md nem interfira na rotina quinzenal
-4. Se a API do Datajud retornar erro, registre e continue — não encerre a rotina
+4. Se o arquivo do Datajud não existir, registre e continue — não encerre a rotina
 5. Se o Gmail não retornar e-mails, registre e continue — não encerre a rotina
 6. Sempre indique a FONTE de cada informação (LinkLei / Datajud / Gmail)
 7. Prazos devem ser sempre calculados em dias úteis, salvo indicação contrária no CPC/CLT
