@@ -1,12 +1,12 @@
 {
-  "geradoEm": "2026-05-21T15:32:21.602Z",
+  "geradoEm": "2026-05-21T15:32:25.675Z",
   "data": "2026-05-21",
   "ontem": "2026-05-20",
   "resumo": {
     "total": 57,
-    "comRetorno": 36,
+    "comRetorno": 37,
     "semDados": 20,
-    "erros": 1,
+    "erros": 0,
     "comMovimentacaoRecente": 0
   },
   "processos": [
@@ -80,9 +80,15 @@
     {
       "cnj": "10150984420248260009",
       "cliente": "BARBARA ARAUJO CORREA DIAS",
-      "tribunal": "tjsp",
-      "status": "TIMEOUT",
-      "movimentos": []
+      "tribunal": "TJSP",
+      "grau": "G1",
+      "vara": "01 CIVEL DE VILA PRUDENTE",
+      "classe": "Procedimento Comum Cível",
+      "partes": [],
+      "movimentos": [],
+      "totalMovimentos": 40,
+      "dataAjuizamento": "20241020123341",
+      "status": "OK"
     },
     {
       "cnj": "40036879420258260565",
