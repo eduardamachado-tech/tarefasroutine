@@ -1,12 +1,12 @@
 {
-  "geradoEm": "2026-05-27T15:32:53.185Z",
+  "geradoEm": "2026-05-27T15:32:53.287Z",
   "data": "2026-05-27",
   "ontem": "2026-05-26",
   "resumo": {
     "total": 57,
-    "comRetorno": 35,
+    "comRetorno": 34,
     "semDados": 19,
-    "erros": 3,
+    "erros": 4,
     "comMovimentacaoRecente": 0
   },
   "processos": [
@@ -48,28 +48,22 @@
       "cnj": "40385741020268260100",
       "cliente": "ANDERSON BATISTA",
       "tribunal": "tjsp",
-      "status": "SEM_DADOS",
+      "status": "TIMEOUT",
       "movimentos": []
     },
     {
       "cnj": "10325756420258260100",
       "cliente": "ANDRE PCD (SANDRA MOSCOU)",
       "tribunal": "tjsp",
-      "status": "TIMEOUT",
+      "status": "SEM_DADOS",
       "movimentos": []
     },
     {
       "cnj": "10174326520248260554",
       "cliente": "BRISA FRANCISCO DE ANDRADE",
-      "tribunal": "TJSP",
-      "grau": "G1",
-      "vara": "04 CIVEL DE SANTO ANDRE",
-      "classe": "Procedimento Comum Cível",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 89,
-      "dataAjuizamento": "20240701124206",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "10150984420248260009",
@@ -172,15 +166,9 @@
     {
       "cnj": "00031844020238260007",
       "cliente": "GABRIELA KATHERINE TRAD BIFFE",
-      "tribunal": "TJSP",
-      "grau": "JE",
-      "vara": "VARA JUIZADO ESP. CIVEL CRIM. DE FERRAZ DE VASCONCELOS",
-      "classe": "Procedimento do Juizado Especial Cível",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 84,
-      "dataAjuizamento": "20230309072511",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "40032237020258260565",
@@ -316,9 +304,15 @@
     {
       "cnj": "10025084920248260554",
       "cliente": "LUANA PARRADO DIAN",
-      "tribunal": "tjsp",
-      "status": "TIMEOUT",
-      "movimentos": []
+      "tribunal": "TJSP",
+      "grau": "JE",
+      "vara": "Juízo Titular I - Vara do Juizado Especial Cível da Comarca de Santo André",
+      "classe": "Execução de Título Extrajudicial",
+      "partes": [],
+      "movimentos": [],
+      "totalMovimentos": 129,
+      "dataAjuizamento": "20240202162228",
+      "status": "OK"
     },
     {
       "cnj": "10174031520248260554",
