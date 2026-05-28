@@ -1,27 +1,21 @@
 {
-  "geradoEm": "2026-05-28T15:33:17.330Z",
+  "geradoEm": "2026-05-28T15:33:17.621Z",
   "data": "2026-05-28",
   "ontem": "2026-05-27",
   "resumo": {
     "total": 57,
-    "comRetorno": 32,
-    "semDados": 19,
-    "erros": 6,
+    "comRetorno": 22,
+    "semDados": 20,
+    "erros": 15,
     "comMovimentacaoRecente": 0
   },
   "processos": [
     {
       "cnj": "10224628120248260554",
       "cliente": "AFONSO DELGADO HACHA",
-      "tribunal": "TJSP",
-      "grau": "G2",
-      "vara": "11ª CÂMARA DE DIREITO PRIVADO",
-      "classe": "Apelação Cível",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 48,
-      "dataAjuizamento": "20250318151418",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "10354588420258260002",
@@ -74,54 +68,30 @@
     {
       "cnj": "10150984420248260009",
       "cliente": "BARBARA ARAUJO CORREA DIAS",
-      "tribunal": "TJSP",
-      "grau": "G1",
-      "vara": "01 CIVEL DE VILA PRUDENTE",
-      "classe": "Procedimento Comum Cível",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 40,
-      "dataAjuizamento": "20241020123341",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "40036879420258260565",
       "cliente": "CATIA CRISTINA FERREIRA VOLPATO",
-      "tribunal": "TJSP",
-      "grau": "G1",
-      "vara": "Juízo Titular I - 4ª Vara Cível da Comarca de São Caetano do Sul",
-      "classe": "Procedimento Comum Cível",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 27,
-      "dataAjuizamento": "20251208205335",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "10037073920258260565",
       "cliente": "SANDRO GRANSOTI (Cooperativa)",
-      "tribunal": "TJSP",
-      "grau": "G1",
-      "vara": "04 CIVEL DE SAO CAETANO DO SUL",
-      "classe": "Execução de Título Extrajudicial",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 106,
-      "dataAjuizamento": "20250522143342",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "10025942420258260606",
       "cliente": "ELAINE SILVA LIMA",
-      "tribunal": "TJSP",
-      "grau": "G1",
-      "vara": "05 CIVEL DE SUZANO",
-      "classe": "Alvará Judicial - Lei 6858/80",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 47,
-      "dataAjuizamento": "20250317201600",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "10030266920258260565",
@@ -146,15 +116,9 @@
     {
       "cnj": "10039008720258260554",
       "cliente": "FABIANO BENDER MACHADO",
-      "tribunal": "TJSP",
-      "grau": "G1",
-      "vara": "09 CIVEL DE SANTO ANDRE",
-      "classe": "Procedimento Comum Cível",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 65,
-      "dataAjuizamento": "20250218183551",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "10045535620258260565",
@@ -194,7 +158,7 @@
       "cnj": "10114195020248260554",
       "cliente": "GRACIA PARRADO",
       "tribunal": "tjsp",
-      "status": "TIMEOUT",
+      "status": "SEM_DADOS",
       "movimentos": []
     },
     {
@@ -240,28 +204,16 @@
     {
       "cnj": "10010988320258260565",
       "cliente": "LARISSA MARIA ARAUJO BATISSACO",
-      "tribunal": "TJSP",
-      "grau": "G1",
-      "vara": "01 CIVEL DE SAO CAETANO DO SUL",
-      "classe": "Embargos à Execução",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 48,
-      "dataAjuizamento": "20250217204121",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "10124335520248260009",
       "cliente": "LUANA DE SOUSA PITEL",
-      "tribunal": "TJSP",
-      "grau": "G1",
-      "vara": "01 CIVEL DE VILA PRUDENTE",
-      "classe": "Procedimento Comum Cível",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 63,
-      "dataAjuizamento": "20240828194655",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "40081648220258260009",
@@ -504,15 +456,9 @@
     {
       "cnj": "40375911120268260100",
       "cliente": "ROZENILDO FEITOZA",
-      "tribunal": "TJSP",
-      "grau": "G1",
-      "vara": "Juízo Titular II - 37ª Vara Cível - Foro Central Cível",
-      "classe": "Procedimento Comum Cível",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 9,
-      "dataAjuizamento": "20260310181935",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "10048471120258260565",
@@ -530,15 +476,9 @@
     {
       "cnj": "10033272020238260554",
       "cliente": "VINICIUS MASINI SOARES (Goldpet)",
-      "tribunal": "TJSP",
-      "grau": "G1",
-      "vara": "01 CIVEL DE SANTO ANDRE",
-      "classe": "Procedimento Comum Cível",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 39,
-      "dataAjuizamento": "2023-02-14T18:27:29.000Z",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "00004185120258260554",
