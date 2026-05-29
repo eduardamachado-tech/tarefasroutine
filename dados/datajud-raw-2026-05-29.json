@@ -1,12 +1,12 @@
 {
-  "geradoEm": "2026-05-29T15:32:33.281Z",
+  "geradoEm": "2026-05-29T15:32:33.586Z",
   "data": "2026-05-29",
   "ontem": "2026-05-28",
   "resumo": {
     "total": 57,
-    "comRetorno": 34,
+    "comRetorno": 36,
     "semDados": 20,
-    "erros": 3,
+    "erros": 1,
     "comMovimentacaoRecente": 0
   },
   "processos": [
@@ -178,15 +178,9 @@
     {
       "cnj": "00031844020238260007",
       "cliente": "GABRIELA KATHERINE TRAD BIFFE",
-      "tribunal": "TJSP",
-      "grau": "JE",
-      "vara": "VARA JUIZADO ESP. CIVEL CRIM. DE FERRAZ DE VASCONCELOS",
-      "classe": "Procedimento do Juizado Especial Cível",
-      "partes": [],
-      "movimentos": [],
-      "totalMovimentos": 84,
-      "dataAjuizamento": "20230309072511",
-      "status": "OK"
+      "tribunal": "tjsp",
+      "status": "TIMEOUT",
+      "movimentos": []
     },
     {
       "cnj": "40032237020258260565",
@@ -204,9 +198,15 @@
     {
       "cnj": "50041676520244036126",
       "cliente": "GLICEA GOUVEA DE OLIVEIRA (TRF3)",
-      "tribunal": "trf3",
-      "status": "TIMEOUT",
-      "movimentos": []
+      "tribunal": "TRF3",
+      "grau": "JE",
+      "vara": "01ª VARA-GABINETE DO JUIZADO ESPECIAL FEDERAL DE SANTO ANDRÉ",
+      "classe": "Petição Cível",
+      "partes": [],
+      "movimentos": [],
+      "totalMovimentos": 27,
+      "dataAjuizamento": "20241203221338",
+      "status": "OK"
     },
     {
       "cnj": "10114195020248260554",
@@ -218,16 +218,28 @@
     {
       "cnj": "40102097620258260068",
       "cliente": "GUSTAVO RASTOFER",
-      "tribunal": "tjsp",
-      "status": "TIMEOUT",
-      "movimentos": []
+      "tribunal": "TJSP",
+      "grau": "G1",
+      "vara": "Juízo Titular I - 2ª Vara Cível da Comarca de Barueri",
+      "classe": "Produção Antecipada da Prova",
+      "partes": [],
+      "movimentos": [],
+      "totalMovimentos": 30,
+      "dataAjuizamento": "20251205202437",
+      "status": "OK"
     },
     {
       "cnj": "10104581320238260565",
       "cliente": "LARISSA MARIA ARAUJO BATISSACO",
-      "tribunal": "tjsp",
-      "status": "ERRO: socket hang up",
-      "movimentos": []
+      "tribunal": "TJSP",
+      "grau": "G1",
+      "vara": "01 CIVEL DE SAO CAETANO DO SUL",
+      "classe": "Execução de Título Extrajudicial",
+      "partes": [],
+      "movimentos": [],
+      "totalMovimentos": 116,
+      "dataAjuizamento": "20231228150758",
+      "status": "OK"
     },
     {
       "cnj": "40046766120268260405",
