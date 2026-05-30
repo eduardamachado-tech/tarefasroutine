@@ -1,0 +1,857 @@
+RELATÓRIO DIÁRIO DE CONTROLADORIA JURÍDICA
+Escritório Eduarda Machado Advocacia Estratégica
+Advogada Responsável: Dra. EDUARDA FERREIRA DA SILVA MACHADO, OAB/SP 545.832
+Data de Referência: 2026-05-30 (sábado)
+Gerado automaticamente em: 2026-05-30 às 09:30 (horário de São Paulo)
+
+NOTA DE EXECUÇÃO: Hoje é sábado (30/05/2026). A rotina executou utilizando os arquivos de dados mais recentes disponíveis no repositório, de 29/05/2026 (sexta-feira). Todas as movimentações identificadas devem ser tratadas no próximo dia útil (segunda-feira, 01/06/2026), com atenção especial ao processo 1510208-54.2022.8.26.0565, cujo prazo vence em 05/06/2026.
+
+================================================================================
+SEÇÃO 2 - RESUMO EXECUTIVO
+================================================================================
+
+Total de processos únicos identificados: 14
+
+Fontes de coleta:
+- Arquivo LinkLei txt (2026-05-29): 10 movimentações, resultando em 9 processos únicos (1 processo com 2 notificações consolidadas: LFT x ESP)
+- Gmail (EPROC, eSAJ, LinkLei email): 5 processos identificados via e-mail, sendo 4 exclusivos do Gmail
+- DataJud (2026-05-29): Complementação de números CNJ e dados das varas para 3 processos
+
+Por grau de urgência:
+- URGENTE (prazo até 5 dias úteis): 1 processo
+- ATENÇÃO (prazo entre 6 e 15 dias úteis): 10 processos
+- MONITORAR (sem prazo imediato): 3 processos
+
+Rascunhos de petição gerados: 6
+- Com teor completo (prontos para revisão): 1
+- Esqueletos com marcadores [INSERIR]: 5
+
+Processos apenas para ciência (sem petição): 3
+
+ALERTAS CRÍTICOS (prazo até 3 dias úteis a partir de 01/06/2026):
+🔴 Processo 1510208-54.2022.8.26.0565: Petição de complementação do pedido de desbloqueio SISBAJUD. PRAZO: 05/06/2026 (5 dias úteis contados de 29/05/2026). Ação: protocolar petição com extrato bancário identificando o bloqueio SISBAJUD.
+
+================================================================================
+SEÇÃO 3 - DIAGNÓSTICO DE QUALIDADE DOS DADOS
+================================================================================
+
+QUALIDADE DOS DADOS COLETADOS:
+
+LinkLei (arquivo txt 2026-05-29):
+- Registros no arquivo: 10 movimentações (9 processos únicos após consolidação)
+- Registros com número de processo CNJ: 0 de 10 (0%)
+- Registros com teor da movimentação: 0 de 10 (0%)
+- Registros apenas com título genérico: 10 de 10 (100%)
+
+DataJud (arquivo json 2026-05-29):
+- Processos monitorados: 57
+- Processos com dados retornados (comRetorno): 34
+- Processos sem dados (semDados): 20
+- Erros de consulta: 3
+- Processos com movimentação recente identificada (comMovimentacaoRecente): 0
+- Complementações realizadas (número CNJ via cruzamento de partes): 3 processos
+  * 1002508-49.2024.8.26.0554 (LUANA PARRADO DIAN, JEC Santo André)
+  * 4009821-73.2025.8.26.0554 (MARIA APARECIDA ZAPPAROLLI, 1ª Vara Cível Santo André)
+  * 4006692-85.2026.8.26.0405 (PAULO MATTOS DA SILVA GOMES)
+
+Gmail (período: 29/05/2026):
+- Processos com teor completo da intimação via Gmail: 1 (processo 1510208-54.2022.8.26.0565, intimação EPROC)
+- Processos encontrados exclusivamente via Gmail (ausentes do arquivo LinkLei txt): 4
+  * 1510208-54.2022.8.26.0565 (RUBENS x MUNICÍPIO, URGENTE)
+  * SUELEN APARECIDA DOS SANTOS ANTONIO x THALITA TRINDADE SILVA DOS SANTOS
+  * MATHEUS OLIVEIRA DOS SANTOS x CLOUDWALK INC.
+  * INSTITUTO PAULISTA DE ENFERMAGEM x LARISSA MARIA ARAUJO BATISSACO
+
+IMPACTO NA GERAÇÃO DE RASCUNHOS:
+- Rascunhos com teor completo (prontos para revisão): 1
+- Rascunhos com teor parcial: 0
+- Rascunhos-esqueleto (estrutura completa, teor indisponível): 5
+- Movimentações sem rascunho (ciência ou aguardar deliberação judicial): 8
+
+RECOMENDAÇÃO TÉCNICA:
+O script de coleta do LinkLei não está capturando o teor das movimentações nem os números CNJ dos processos. 100% dos registros vieram sem teor e sem número de processo. Recomenda-se revisar o script coletar-linklei.js no VPS para incluir a extração do conteúdo completo das publicações e o número CNJ de cada processo. Enquanto isso, os rascunhos estão sendo gerados com marcadores [INSERIR] para preenchimento manual após acesso direto ao PJe/ESAJ/EPROC.
+
+================================================================================
+SEÇÃO 4 - MOVIMENTAÇÕES POR PROCESSO
+(Ordem: URGENTE > ATENÇÃO > MONITORAR)
+================================================================================
+
+================================================================================
+🔴 URGENTE (1 processo)
+================================================================================
+
+───────────────────────────────────────────────────────────
+PROCESSO Nº 1510208-54.2022.8.26.0565
+Origem: [Gmail] (EPROC TJSP, intimação de 29/05/2026)
+Observação: processo NÃO cadastrado no arquivo LinkLei txt; identificado exclusivamente via Gmail.
+Cliente: RUBENS MARCONDES DA FONSECA
+Partes: RUBENS MARCONDES DA FONSECA (executado) x MUNICÍPIO DE SANTO ANDRÉ (executante)
+Tribunal/Vara: Comarca de Santo André/SP [INSERIR: verificar vara exata nos autos]
+Tipo de movimentação: Despacho judicial, determinação de complementação de pedido
+Data da publicação/intimação: 29/05/2026
+Prazo: 5 dias úteis, vence em 05/06/2026 (sexta-feira)
+Urgência: 🔴 URGENTE
+Manifestação cabível: PETIÇÃO DE COMPLEMENTAÇÃO DE PEDIDO DE DESBLOQUEIO SISBAJUD
+Teor disponível: SIM (Gmail, intimação EPROC)
+
+TEOR DA MOVIMENTAÇÃO:
+Despacho judicial determinando que a parte executada complemente o pedido de desbloqueio SISBAJUD com a juntada de extrato bancário contendo o número de identificação do bloqueio e o número do processo, no prazo de 5 (cinco) dias úteis.
+
+ANÁLISE JURÍDICA:
+Trata-se de execução fiscal em que houve bloqueio de ativos financeiros via SISBAJUD (art. 854 do CPC). A parte executada havia apresentado pedido de desbloqueio, mas o juízo entendeu o pedido incompleto e determinou complementação com extrato bancário identificando o bloqueio. A intimação ocorreu por via eletrônica (EPROC/TJSP) em 29/05/2026 (sexta-feira). O prazo de 5 dias úteis começa a correr a partir do primeiro dia útil seguinte (01/06/2026, segunda-feira), vencendo em 05/06/2026 (sexta-feira). O não cumprimento poderá resultar em arquivamento ou indeferimento do pedido de desbloqueio, mantendo os valores bloqueados à disposição do juízo.
+
+ESTRATÉGIA APLICÁVEL:
+1. IMEDIATO: Contatar o cliente (Rubens) para solicitar urgentemente o extrato bancário da conta onde o bloqueio foi realizado, com o número/ID do bloqueio SISBAJUD (geralmente aparece como "bloqueio judicial" com código de referência no extrato).
+2. Verificar nos autos o fundamento do pedido de desbloqueio original para adequar a complementação.
+3. Protocolar a petição de complementação via EPROC até 05/06/2026.
+4. Se os valores tiverem natureza alimentar (salário, aposentadoria, benefício previdenciário), invocar expressamente a impenhorabilidade do art. 833, IV, do CPC.
+
+RASCUNHO DE PETIÇÃO:
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 1510208-54.2022.8.26.0565
+Teor disponível: SIM (fonte: Gmail, intimação EPROC TJSP de 29/05/2026)
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA [INSERIR: verificar vara nos autos], COMARCA DE SANTO ANDRÉ, ESTADO DE SÃO PAULO
+
+Processo nº 1510208-54.2022.8.26.0565
+
+RUBENS MARCONDES DA FONSECA, já qualificado nos autos da Execução Fiscal em epígrafe que lhe é movida pelo MUNICÍPIO DE SANTO ANDRÉ, vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), em atendimento ao despacho proferido em 29/05/2026 e intimado via portal EPROC, apresentar
+
+COMPLEMENTAÇÃO DE PEDIDO DE DESBLOQUEIO SISBAJUD
+
+com fundamento nos arts. 854, §3º, e 831 do Código de Processo Civil, pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+1. O executado RUBENS MARCONDES DA FONSECA teve valores bloqueados em sua conta bancária por determinação judicial via sistema SISBAJUD, no âmbito da presente Execução Fiscal.
+
+2. Em [INSERIR: verificar data do peticionamento anterior nos autos], a defesa apresentou pedido de desbloqueio dos valores com fundamento em [INSERIR: verificar fundamento do pedido anterior nos autos, ex.: excesso de penhora, natureza alimentar dos valores, quitação da dívida].
+
+3. O Juízo, por despacho de 29/05/2026, intimado via EPROC em 29/05/2026, determinou a complementação do pedido com a juntada de extrato bancário contendo o número de identificação do bloqueio SISBAJUD e o número do processo.
+
+4. Em fiel cumprimento à determinação judicial, junta-se ao presente o extrato bancário atualizado da conta de titularidade do executado, conforme documento em anexo (Doc. 01).
+
+5. Conforme demonstra o extrato bancário anexo, o bloqueio SISBAJUD foi realizado sob o número de identificação [INSERIR: número/ID do bloqueio conforme extrato bancário], vinculado ao processo nº 1510208-54.2022.8.26.0565.
+
+II, DO DIREITO
+
+6. O art. 854 do CPC autoriza o bloqueio eletrônico de ativos financeiros do executado mediante requisição direta às instituições financeiras. Contudo, o mesmo dispositivo, em seu §3º, garante ao executado o direito de requerer a imediata liberação dos valores quando verificada uma das seguintes hipóteses: (a) impenhorabilidade do bem; (b) excesso de penhora; (c) inexistência ou extinção do débito.
+
+7. [INSERIR: fundamento jurídico específico conforme situação do cliente. Exemplos:]
+
+   Se natureza alimentar: "Os valores bloqueados têm natureza alimentar, tratando-se de [salário/aposentadoria/benefício previdenciário], sendo absolutamente impenhoráveis nos termos do art. 833, IV, do CPC, aplicável independentemente da natureza da dívida exequenda."
+
+   Se excesso de penhora: "O montante bloqueado de R$ [INSERIR: valor bloqueado] excede o valor do débito exequendo acrescido de juros, multa e custas, no importe de R$ [INSERIR: valor atualizado da dívida], configurando excesso de penhora vedado pelo art. 831 do CPC, que determina que a penhora deve recair sobre tantos bens quantos bastem para o pagamento do principal atualizado, dos juros, das custas e dos honorários advocatícios."
+
+   Se pagamento: "A dívida exequenda foi integralmente quitada em [data], conforme comprovante de pagamento em anexo (Doc. 02), razão pela qual o bloqueio perdeu seu objeto e deve ser imediatamente cancelado."
+
+8. O bloqueio indevido ou excessivo causa prejuízo real ao executado, que fica privado de recursos necessários à sua subsistência e/ou ao exercício de sua atividade, razão pela qual a liberação deve ser determinada com a máxima brevidade.
+
+III, DOS PEDIDOS
+
+Ante o exposto, em atendimento ao despacho de 29/05/2026, requer:
+a) Seja recebida e apreciada a presente complementação;
+b) Uma vez comprovado o fundamento do pedido de desbloqueio, seja determinado o imediato cancelamento do bloqueio SISBAJUD nº [INSERIR: número/ID do bloqueio] realizado na conta bancária do executado;
+c) Sejam expedidas pelo sistema SISBAJUD as ordens eletrônicas necessárias para efetivação do desbloqueio junto à instituição financeira [INSERIR: nome do banco];
+d) [INSERIR: pedido adicional conforme situação, ex.: "Seja determinada a liberação e devolução à conta de origem dos valores retidos, no importe de R$ [INSERIR: valor]."]
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, 30 de maio de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+───────────────────────────────────────────────────────────
+
+
+================================================================================
+🟡 ATENÇÃO (10 processos)
+================================================================================
+
+───────────────────────────────────────────────────────────
+PROCESSO 1/10 (ATENÇÃO)
+Processo: [NÚMERO NÃO CAPTURADO PELO LINKLEI, verificar manualmente]
+Origem: [LinkLei]
+Cliente: NATALYA AMIGO
+Partes: CLEYDSON VALADARES COSTA x FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.
+Tribunal/Vara: [INSERIR: verificar nos autos]
+Tipo de movimentação: Publicação no DJE Eletrônico, Evento 12 | Usuário: secde
+Data da publicação: 22/05/2026
+Prazo: A determinar conforme teor. Estimativa (15 dias úteis a partir de 22/05/2026): vence aprox. 12/06/2026
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: [INSERIR: verificar teor do Evento 12 no sistema do tribunal]
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL NO LINKLEI. O sistema informou apenas "Publicado no DJ Eletrônico - no dia 22/05/2026 - Refer. ao Evento: 12 | Usuário: secde". Verificar diretamente no ESAJ/TJSP ou no DJE o conteúdo do ato judicial publicado.]
+
+ANÁLISE JURÍDICA:
+A publicação no DJE indica ato judicial publicado oficialmente, iniciando prazo para eventual manifestação. O Evento 12 pode corresponder a despacho, decisão interlocutória, sentença ou outro ato. Sem o teor, não é possível determinar a manifestação cabível nem o prazo exato. A publicação foi em 22/05/2026 e o prazo pode estar próximo do vencimento. Verificação urgente.
+
+ESTRATÉGIA APLICÁVEL:
+1. Acessar o ESAJ/TJSP e verificar o conteúdo do Evento 12 no processo CLEYDSON x FACEBOOK.
+2. Após verificar o teor, determinar o tipo de manifestação cabível, calcular o prazo exato e completar o rascunho abaixo.
+3. Caso o processo envolva Direito Digital ou do Consumidor contra o Facebook/Meta, avaliar aplicação do Marco Civil da Internet (Lei 12.965/2014), CDC e LGPD.
+
+RASCUNHO DE PETIÇÃO (ESQUELETO):
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo: CLEYDSON x FACEBOOK (Evento 12, DJE 22/05/2026)
+Teor disponível: NÃO. Rascunho-esqueleto gerado para agilizar o trabalho após verificação do teor.
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA [INSERIR: verificar vara nos autos], COMARCA DE [INSERIR: verificar comarca], ESTADO DE SÃO PAULO
+
+Processo nº [INSERIR: verificar número CNJ nos autos]
+
+[INSERIR: CLEYDSON VALADARES COSTA ou NATALYA AMIGO conforme quem Dra. Eduarda representa], já qualificado(a) nos autos da ação em epígrafe, vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+[INSERIR: RÉPLICA / CONTESTAÇÃO / APELAÇÃO / MANIFESTAÇÃO, conforme teor do Evento 12]
+
+com fundamento nos arts. [INSERIR: artigos aplicáveis conforme tipo de manifestação], pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+[INSERIR: contextualizar com base no teor do Evento 12 verificado no sistema do tribunal. Descrever:
+- O que foi decidido ou determinado pelo juízo no Evento 12
+- O histórico relevante do processo para contextualizar a resposta
+- Os fatos específicos que embasam a manifestação da parte representada]
+
+II, DO DIREITO
+
+[INSERIR: fundamentação jurídica após verificação do teor. Possibilidades:
+- Se réplica: arts. 350-351 do CPC; rebater os argumentos da contestação com base nas provas
+- Se apelação: arts. 1.009-1.014 do CPC; impugnar a sentença com fundamentos de fato e de direito
+- Se agravo de instrumento: arts. 1.015-1.020 do CPC
+- Se manifestação simples: fundamentos pertinentes ao conteúdo da determinação
+- Citar Marco Civil da Internet (Lei 12.965/2014) e CDC se pertinente ao caso Facebook
+NÃO inventar jurisprudência ou ementas. Se precisar referenciar precedente, usar [INSERIR: pesquisar jurisprudência sobre X].]
+
+III, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) [INSERIR: pedido principal conforme tipo de manifestação e teor do Evento 12]
+b) [INSERIR: pedidos acessórios aplicáveis]
+c) A condenação da parte contrária em honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC.
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, [INSERIR: data de protocolo].
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+───────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────
+PROCESSO 2/10 (ATENÇÃO)
+Processo nº 4009821-73.2025.8.26.0554
+Origem: [LinkLei + DataJud]
+Cliente: MARIA APARECIDA ZAPPAROLLI (CPF: 347.267.748-16)
+Partes: MARIA APARECIDA ZAPPAROLLI x [INSERIR: verificar réu nos autos]
+Tribunal/Vara: 1ª Vara Cível, Comarca de Santo André/SP (conforme DataJud, código 0554)
+Tipo de movimentação: 3 novas movimentações processuais (categoria BANCÁRIOS); possível certificado de trânsito em julgado
+Data: 29/05/2026
+Prazo: A determinar após verificação do teor. Se transitado em julgado e resultado favorável: prazo para cumprimento de sentença inicia quando requerido
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: VERIFICAR. Possível CUMPRIMENTO DE SENTENÇA (se resultado favorável) ou CIÊNCIA (se desfavorável ou em fase de recurso da parte contrária)
+Teor disponível: PARCIAL (DataJud confirmou número CNJ e vara; 3 movimentações sem teor no LinkLei)
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL NO LINKLEI. O sistema informou "3 novas movimentações processuais". O DataJud (código 0554, 1ª Vara Cível Santo André) identificou o processo mas não trouxe conteúdo de movimentação recente (comMovimentacaoRecente: 0). Verificar diretamente no ESAJ/TJSP o conteúdo das 3 movimentações, incluindo possível certificado de trânsito em julgado.]
+
+ANÁLISE JURÍDICA:
+O processo 4009821-73.2025.8.26.0554, iniciado em 2025 na 1ª Vara Cível de Santo André, envolve matéria bancária. Se uma das 3 movimentações for certidão de trânsito em julgado, o processo encerrou definitivamente a fase de conhecimento. Verificar: (a) se houve sentença favorável à cliente, para iniciar cumprimento de sentença; (b) se houve sentença desfavorável, para avaliar recurso; (c) se o trânsito em julgado ocorreu por decurso de prazo sem recurso da parte adversa. A contagem do prazo para cumprimento de sentença voluntário é de 15 dias após a intimação (art. 523 do CPC), mas o cumprimento de sentença é iniciado pela parte credora, não pelo devedor.
+
+ESTRATÉGIA APLICÁVEL:
+1. Acessar o ESAJ/TJSP e verificar o processo 4009821-73.2025.8.26.0554.
+2. Identificar o conteúdo das 3 movimentações e o resultado da sentença.
+3. Se resultado favorável: peticionar cumprimento de sentença com planilha de cálculos atualizada.
+4. Se resultado desfavorável: avaliar possibilidade de recurso, verificar prazo.
+
+RASCUNHO DE PETIÇÃO (ESQUELETO, CUMPRIMENTO DE SENTENÇA):
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 4009821-73.2025.8.26.0554
+Teor disponível: PARCIAL (DataJud identificou o processo; teor das 3 movimentações indisponível).
+Rascunho-esqueleto de cumprimento de sentença, a completar após verificação do resultado.
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA 1ª VARA CÍVEL, COMARCA DE SANTO ANDRÉ, ESTADO DE SÃO PAULO
+
+Processo nº 4009821-73.2025.8.26.0554
+
+MARIA APARECIDA ZAPPAROLLI, já qualificada nos autos da ação em epígrafe que move em face de [INSERIR: nome do réu/devedor], vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), em face do trânsito em julgado da sentença proferida nos autos, apresentar
+
+REQUERIMENTO DE CUMPRIMENTO DE SENTENÇA
+
+com fundamento nos arts. 513 e seguintes do Código de Processo Civil, pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+1. A ação foi julgada procedente por sentença proferida em [INSERIR: verificar data da sentença nos autos], condenando o réu [INSERIR: nome do réu] a [INSERIR: verificar obrigação imposta na sentença, ex.: pagamento de R$ X a título de danos materiais/morais, restituição de valores, etc.].
+
+2. A sentença transitou em julgado em [INSERIR: verificar data do trânsito em julgado, possivelmente 26/05/2026 conforme movimentações], sem interposição de recurso pela parte adversa.
+
+3. Não houve cumprimento voluntário da obrigação pela parte devedora no prazo legal, razão pela qual a exequente promove o presente cumprimento de sentença.
+
+4. Os valores devidos, devidamente atualizados até [INSERIR: data dos cálculos], totalizam R$ [INSERIR: valor conforme planilha de cálculos em anexo], conforme demonstra a planilha anexa (Doc. 01).
+
+II, DO DIREITO
+
+5. Nos termos do art. 513 do CPC, o cumprimento da sentença que reconhece a exigibilidade de obrigação de pagar quantia certa é efetivado mediante requerimento do exequente.
+
+6. O art. 523 do CPC estabelece que o devedor será intimado para pagar o débito no prazo de 15 (quinze) dias, sob pena de incidência de multa de 10% sobre o valor do débito e de honorários de advogado de também 10%.
+
+7. A atualização monetária e os juros de mora são devidos nos termos fixados na sentença ou, subsidiariamente, pelos índices legais (IPCA-E para atualização monetária e taxa SELIC para juros, conforme entendimento consolidado do STJ).
+
+III, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) Seja instaurada a fase de cumprimento de sentença, com a intimação do devedor [INSERIR: nome] para pagar o valor de R$ [INSERIR: valor atualizado] no prazo de 15 (quinze) dias, nos termos do art. 523 do CPC;
+b) Em caso de não pagamento voluntário no prazo legal, seja automaticamente acrescida a multa de 10% e honorários de 10% sobre o valor do débito, nos termos do art. 523, §1º, do CPC;
+c) Em caso de não pagamento, seja expedido mandado de penhora e avaliação sobre bens do devedor;
+d) [INSERIR: pedidos adicionais conforme situação, ex.: penhora online via SISBAJUD, bloqueio de bens via RENAJUD etc.]
+
+Dá-se à causa o valor de R$ [INSERIR: valor do débito].
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, [INSERIR: data de protocolo].
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+───────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────
+PROCESSO 3/10 (ATENÇÃO)
+Processo nº 4006692-85.2026.8.26.0405
+Origem: [Gmail + DataJud]
+Partes: PAULO MATTOS DA SILVA GOMES x MILENA SOUZA RODRIGUES e outros
+Tribunal/Vara: [INSERIR: verificar vara, código 0405 no DataJud]
+Tipo de movimentação: Decorrido prazo, Eventos 27 e 28
+Data: 28/05/2026
+Prazo: Sem prazo imediato (decorrido prazo do outro lado); aguardar deliberação do juízo
+Urgência: 🟡 ATENÇÃO (monitorar próxima movimentação)
+Manifestação cabível: Aguardar deliberação do juízo após decurso de prazo
+Teor disponível: PARCIAL (Gmail eSAJ confirmou o processo; DataJud confirmou número CNJ)
+
+TEOR DA MOVIMENTAÇÃO:
+Sistema eSAJ registrou o decurso de prazo nos Eventos 27 e 28 em 28/05/2026. O decurso de prazo indica que a parte adversa (possivelmente MILENA SOUZA RODRIGUES) não se manifestou dentro do prazo judicial fixado para os Eventos 27 e 28. O juízo poderá agora proferir sentença ou outra decisão de ofício.
+
+ANÁLISE JURÍDICA:
+O decurso de prazo dos Eventos 27 e 28 indica que o outro lado perdeu a oportunidade de se manifestar. A consequência mais comum é que o juízo passa a ter condição de proferir sentença ou deliberação de mérito. Monitorar próxima movimentação.
+
+ESTRATÉGIA APLICÁVEL:
+Monitorar o processo 4006692-85.2026.8.26.0405 para a próxima movimentação judicial. [INSERIR: verificar qual parte Dra. Eduarda representa neste processo e se o decurso de prazo beneficia ou prejudica o cliente.]
+
+Não há petição a ser apresentada neste momento. Acompanhamento apenas.
+───────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────
+PROCESSO 4/10 (ATENÇÃO)
+Processo nº 1002508-49.2024.8.26.0554
+Origem: [LinkLei + DataJud]
+Partes: EIRA VELHA E ALCARAS ODONTOLOGIA LTDA e LUANA PARRADO DIAN x [INSERIR: verificar exequente]
+Tribunal/Vara: Juizado Especial Cível (JEC), Comarca de Santo André/SP (código 0554, DataJud)
+Tipo de movimentação: Juntada de PETIÇÃO pela exequente, Evento 138 | Usuário: SP353357
+Data: 29/05/2026 (referência "Há 2 dias" na notificação de 29/05)
+Prazo: 15 dias úteis a partir da intimação (data a confirmar). Estimativa: vence aprox. 19/06/2026
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: MANIFESTAÇÃO SOBRE PETIÇÃO DA PARTE CONTRÁRIA
+Teor disponível: PARCIAL (DataJud identificou o processo e a vara; teor da petição juntada indisponível)
+
+TEOR DA MOVIMENTAÇÃO:
+A parte exequente juntou petição (Evento 138) aos autos. O conteúdo da petição não está disponível no arquivo LinkLei. Verificar diretamente no ESAJ o conteúdo da petição juntada no Evento 138 para determinar se há necessidade de manifestação ou impugnação pela executada (LUANA PARRADO DIAN).
+
+ANÁLISE JURÍDICA:
+No contexto do JEC de Santo André, a juntada de petição pela exequente no Evento 138 pode indicar: (a) petição de cálculos para cumprimento de sentença; (b) pedido de penhora ou medidas executivas; (c) impugnação a embargos; (d) requerimento sobre documentos. A resposta cabível depende inteiramente do conteúdo. Verificar se Dra. Eduarda representa LUANA PARRADO DIAN (a executada) neste processo.
+
+ESTRATÉGIA APLICÁVEL:
+1. Acessar o ESAJ/TJSP e verificar o Evento 138 do processo 1002508-49.2024.8.26.0554.
+2. Ler o conteúdo da petição juntada pela exequente.
+3. Avaliar se há pedidos que exijam impugnação ou manifestação da executada.
+4. Calcular o prazo exato a partir da data de publicação da intimação.
+
+RASCUNHO DE PETIÇÃO (ESQUELETO):
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 1002508-49.2024.8.26.0554
+Teor disponível: NÃO (petição da parte contrária não lida). Rascunho-esqueleto gerado para agilizar o trabalho após verificação do Evento 138.
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DO JUIZADO ESPECIAL CÍVEL, COMARCA DE SANTO ANDRÉ, ESTADO DE SÃO PAULO
+
+Processo nº 1002508-49.2024.8.26.0554
+
+LUANA PARRADO DIAN, já qualificada nos autos do processo em epígrafe, vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), em atenção à petição juntada pela parte exequente no Evento 138, apresentar
+
+MANIFESTAÇÃO
+
+com fundamento no art. [INSERIR: artigo pertinente conforme conteúdo do Evento 138], pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+[INSERIR: após ler o Evento 138 nos autos:
+- Descrever o conteúdo da petição juntada pela exequente
+- Contextualizar com o histórico do processo
+- Apresentar os fatos que embasam a posição da executada]
+
+II, DO DIREITO
+
+[INSERIR: fundamentação após verificação do conteúdo do Evento 138. Possibilidades:
+- Se impugnação a cálculos: art. 525 do CPC; apontar incorreções nos valores apresentados
+- Se contestação a pedido de penhora: art. 833 do CPC (impenhorabilidade) ou excesso de constrição
+- Se manifestação sobre documentos: livre manifestação sobre o conteúdo apresentado
+NÃO inventar jurisprudência. Indicar [INSERIR: pesquisar jurisprudência sobre X] se necessário.]
+
+III, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) [INSERIR: pedido principal conforme conteúdo do Evento 138]
+b) O indeferimento dos pedidos da parte exequente que se mostrarem excessivos ou indevidos.
+c) [INSERIR: pedidos adicionais conforme situação]
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, [INSERIR: data de protocolo].
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+───────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────
+PROCESSO 5/10 (ATENÇÃO)
+Processo: [NÚMERO NÃO CAPTURADO, verificar manualmente]
+Origem: [Gmail] (notificação via e-mail de publicação no DJE)
+Partes: SUELEN APARECIDA DOS SANTOS ANTONIO x THALITA TRINDADE SILVA DOS SANTOS
+Tribunal/Vara: [INSERIR: verificar nos autos]
+Tipo de movimentação: Publicação no DJE, Evento 6
+Data da publicação: 26/05/2026
+Prazo: A determinar conforme teor. Estimativa (15 dias úteis a partir de 26/05/2026): vence aprox. 16/06/2026
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: [INSERIR: verificar teor do Evento 6 no sistema do tribunal]
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL. O e-mail de notificação informou apenas que houve publicação no DJE referente ao Evento 6 do processo SUELEN x THALITA. Verificar diretamente no ESAJ/TJSP.]
+
+ANÁLISE JURÍDICA:
+Sem o teor do Evento 6, a análise é limitada. Processo entre partes pessoa física; verificar imediatamente o tipo de ato publicado e se há prazo em aberto.
+
+ESTRATÉGIA APLICÁVEL:
+1. Acessar o ESAJ/TJSP e verificar o processo SUELEN x THALITA, Evento 6.
+2. Identificar qual parte Dra. Eduarda representa e se há prazo em aberto.
+3. Completar o rascunho abaixo após verificação.
+
+RASCUNHO DE PETIÇÃO (ESQUELETO):
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo: SUELEN x THALITA (Evento 6, DJE 26/05/2026)
+Teor disponível: NÃO. Rascunho-esqueleto gerado para agilizar o trabalho após verificação do teor.
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA [INSERIR: verificar vara nos autos], COMARCA DE [INSERIR: verificar comarca], ESTADO DE SÃO PAULO
+
+Processo nº [INSERIR: verificar número CNJ nos autos]
+
+[INSERIR: SUELEN APARECIDA DOS SANTOS ANTONIO ou THALITA TRINDADE SILVA DOS SANTOS, conforme quem Dra. Eduarda representa], já qualificada nos autos da ação em epígrafe, vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+[INSERIR: tipo de manifestação conforme teor do Evento 6]
+
+com fundamento nos arts. [INSERIR: artigos aplicáveis], pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+[INSERIR: contextualizar com base no teor do Evento 6 verificado no sistema do tribunal]
+
+II, DO DIREITO
+
+[INSERIR: fundamentação jurídica aplicável ao tipo de manifestação identificado]
+
+III, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) [INSERIR: pedido principal]
+b) [INSERIR: pedidos acessórios]
+c) A condenação da parte contrária em honorários advocatícios sucumbenciais nos termos do art. 85 do CPC.
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, [INSERIR: data de protocolo].
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+───────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────
+PROCESSO 6/10 (ATENÇÃO)
+Processo: [NÚMERO NÃO CAPTURADO, verificar manualmente]
+Origem: [Gmail] (notificação via e-mail de publicação no DJE)
+Partes: MATHEUS OLIVEIRA DOS SANTOS x CLOUDWALK INC.
+Tribunal/Vara: [INSERIR: verificar nos autos]
+Tipo de movimentação: Publicação no DJE, Evento 7
+Data da publicação: 26/05/2026
+Prazo: A determinar conforme teor. Estimativa (15 dias úteis a partir de 26/05/2026): vence aprox. 16/06/2026
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: [INSERIR: verificar teor do Evento 7 no sistema do tribunal]
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL. O e-mail de notificação informou apenas que houve publicação no DJE referente ao Evento 7 do processo MATHEUS x CLOUDWALK. Verificar diretamente no ESAJ/TJSP.]
+
+ANÁLISE JURÍDICA:
+Sem o teor do Evento 7, a análise é limitada. CLOUDWALK INC. é uma fintech (InfinityPay/CloudWalk), o que sugere caso de Direito Digital ou do Consumidor envolvendo serviços financeiros digitais. O Evento 7 em fase inicial pode indicar despacho de citação, decisão sobre tutela de urgência ou outro ato. Verificar imediatamente.
+
+ESTRATÉGIA APLICÁVEL:
+1. Acessar o ESAJ/TJSP e verificar o processo MATHEUS x CLOUDWALK, Evento 7.
+2. Identificar qual parte Dra. Eduarda representa e se há prazo em aberto.
+3. Considerar a aplicação do CDC, Marco Civil da Internet (Lei 12.965/2014) e LGPD se pertinente.
+4. Completar o rascunho abaixo após verificação.
+
+RASCUNHO DE PETIÇÃO (ESQUELETO):
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo: MATHEUS x CLOUDWALK (Evento 7, DJE 26/05/2026)
+Teor disponível: NÃO. Rascunho-esqueleto gerado para agilizar o trabalho após verificação do teor.
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA [INSERIR: verificar vara nos autos], COMARCA DE [INSERIR: verificar comarca], ESTADO DE SÃO PAULO
+
+Processo nº [INSERIR: verificar número CNJ nos autos]
+
+[INSERIR: MATHEUS OLIVEIRA DOS SANTOS ou conforme quem Dra. Eduarda representa], já qualificado nos autos da ação em epígrafe [que move em face de / que lhe é movida por] CLOUDWALK INC., vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+[INSERIR: tipo de manifestação conforme teor do Evento 7]
+
+com fundamento nos arts. [INSERIR: artigos aplicáveis. Se caso de Direito Digital ou Consumidor: CDC (Lei 8.078/1990), Marco Civil da Internet (Lei 12.965/2014), LGPD (Lei 13.709/2018), conforme pertinente ao caso concreto], pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+[INSERIR: contextualizar com base no teor do Evento 7 verificado no sistema do tribunal]
+
+II, DO DIREITO
+
+[INSERIR: fundamentação jurídica aplicável ao tipo de manifestação identificado. Se envolver fintech e serviços financeiros digitais: considerar aplicação do CDC, Marco Civil e LGPD conforme pertinente ao caso concreto.
+NÃO inventar jurisprudência. Usar [INSERIR: pesquisar jurisprudência sobre X] se necessário.]
+
+III, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) [INSERIR: pedido principal]
+b) [INSERIR: pedidos acessórios]
+c) A condenação da parte contrária em honorários advocatícios sucumbenciais nos termos do art. 85 do CPC.
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, [INSERIR: data de protocolo].
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+───────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────
+PROCESSO 7/10 (ATENÇÃO)
+Processo: [NÚMERO NÃO CAPTURADO, verificar manualmente]
+Origem: [LinkLei]
+Partes: PAPELE RJ LTDA x EBAZAR.COM.BR. LTDA e outros
+Tribunal/Vara: [INSERIR: verificar nos autos]
+Tipo de movimentação: Decorrido prazo, Eventos 55, 62, 63 e 64 | Usuário: SECFP
+Data: 27/05/2026 (referência "Há 2 dias" na notificação de 29/05)
+Prazo: Sem prazo imediato. Aguardar deliberação do juízo.
+Urgência: 🟡 ATENÇÃO (monitorar próxima movimentação)
+Manifestação cabível: Aguardar deliberação do juízo
+Teor disponível: NÃO
+
+NOTA ADICIONAL (DataJud): Agravo de Instrumento nº 40325541220268260000/TJSP relacionado a este caso consta como "baixado" (devolvido ao primeiro grau). Verificar resultado do AI.
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL. O sistema registrou o decurso de prazo dos Eventos 55, 62, 63 e 64. O volume de 4 eventos com prazo decorrido simultaneamente pode indicar encerramento de fase processual. O AI 40325541220268260000 foi baixado, o que pode ter gerado determinações no primeiro grau.]
+
+ANÁLISE JURÍDICA:
+O decurso de prazo de 4 eventos e a baixa do AI indicam que o processo está em transição de fase. Verificar: (a) resultado do AI no TJSP (se provido ou improvido); (b) se há determinações ao processo de origem decorrentes da decisão do AI; (c) se o decurso de prazo dos 4 eventos favorece ou prejudica o cliente de Dra. Eduarda.
+
+ESTRATÉGIA APLICÁVEL:
+Verificar no ESAJ o resultado do AI 40325541220268260000/TJSP e os Eventos 55, 62, 63 e 64 do processo principal. Monitorar próxima movimentação.
+
+Não há petição a ser apresentada neste momento. Acompanhamento apenas.
+───────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────
+PROCESSO 8/10 (ATENÇÃO)
+Processo: [NÚMERO NÃO CAPTURADO, verificar manualmente]
+Origem: [LinkLei]
+Cliente: RUBENS MARCONDES DA FONSECA
+Partes: PREFEITURA MUNICIPAL DE BARUERI x JILLIANE DIAS BEZERRA
+Tribunal/Vara: [INSERIR: verificar nos autos]
+Tipo de movimentação: 12 novas movimentações processuais
+Data: 27/05/2026 (referência "Há 2 dias" na notificação de 29/05)
+Prazo: Indeterminado sem teor. Volume elevado exige verificação urgente.
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: [INSERIR: verificar teor das 12 movimentações no sistema do tribunal]
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL. O sistema registrou 12 novas movimentações processuais. O volume incomum exige verificação imediata de todas elas para identificar se há prazos em aberto.]
+
+ANÁLISE JURÍDICA:
+Doze movimentações simultâneas pode indicar atos de mero expediente em grande número (certidões, conclusões, remessas) ou atos com prazo em processos com múltiplos incidentes. Verificação urgente no primeiro dia útil.
+
+ESTRATÉGIA APLICÁVEL:
+1. Acessar o sistema do tribunal e verificar todas as 12 movimentações do processo PREFEITURA BARUERI x JILLIANE.
+2. Identificar se há atos que exijam manifestação da parte representada por Dra. Eduarda.
+3. Verificar se há prazos já iniciados. Comunicar o cliente (Rubens) sobre o andamento se necessário.
+
+Não há petição a ser apresentada neste momento sem o teor. Verificação manual urgente.
+───────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────
+PROCESSO 9/10 (ATENÇÃO)
+Processo: [NÚMERO NÃO CAPTURADO, verificar manualmente]
+Origem: [LinkLei]
+Partes: JF ALIMENTOS LTDA x IFOOD.COM AGENCIA DE RESTAURANTES ONLINE S.A.
+Tribunal/Vara: [INSERIR: verificar nos autos]
+Tipo de movimentação: 2 novas movimentações processuais
+Data: 27/05/2026 (referência "Há 2 dias" na notificação de 29/05)
+Prazo: A determinar conforme teor
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: [INSERIR: verificar teor das 2 movimentações]
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL. O sistema registrou 2 novas movimentações processuais no caso JF ALIMENTOS x IFOOD. Verificar diretamente no sistema do tribunal.]
+
+ANÁLISE JURÍDICA:
+Caso envolvendo relação comercial entre empresa alimentícia e plataforma de delivery (iFood). Sem o teor, não é possível determinar se há prazo em aberto. Verificar os autos.
+
+ESTRATÉGIA APLICÁVEL:
+Acessar o sistema do tribunal e verificar as 2 movimentações. Identificar se há prazos em aberto para a parte representada por Dra. Eduarda.
+
+Não há petição a ser apresentada neste momento. Acompanhamento apenas.
+───────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────
+PROCESSO 10/10 (ATENÇÃO)
+Processo: [NÚMERO NÃO CAPTURADO, verificar manualmente]
+Origem: [LinkLei]
+Partes: ISMAELA CONFECCOES E CALCADOS LTDA x EBAZAR.COM.BR. LTDA
+Tribunal/Vara: [INSERIR: verificar nos autos]
+Tipo de movimentação: 2 novas movimentações processuais
+Data: 27/05/2026 (referência "Há 2 dias" na notificação de 29/05)
+Prazo: A determinar conforme teor
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: [INSERIR: verificar teor das 2 movimentações]
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL. O sistema registrou 2 novas movimentações processuais no caso ISMAELA CONFECCOES E CALCADOS LTDA x EBAZAR.COM.BR. Verificar diretamente no sistema do tribunal.]
+
+ANÁLISE JURÍDICA:
+Caso envolvendo relação comercial entre empresa de confecções/calçados e plataforma de e-commerce (Americanas/B2W). Sem o teor, não é possível determinar se há prazo em aberto. Verificar os autos.
+
+ESTRATÉGIA APLICÁVEL:
+Acessar o sistema do tribunal e verificar as 2 movimentações. Identificar se há prazos em aberto para a parte representada por Dra. Eduarda.
+
+Não há petição a ser apresentada neste momento. Acompanhamento apenas.
+───────────────────────────────────────────────────────────
+
+
+================================================================================
+🟢 MONITORAR (3 processos)
+================================================================================
+
+───────────────────────────────────────────────────────────
+PROCESSO 1/3 (MONITORAR)
+Processo: [NÚMERO NÃO CAPTURADO, verificar manualmente]
+Origem: [LinkLei] (2 notificações consolidadas)
+Cliente: LUCIENE FERREIRA TORRES
+Partes: L. F. T. x E. S. P. e outros (Luciene Ferreira Torres x Estado de São Paulo e outros)
+Tribunal/Vara: [INSERIR: verificar nos autos, possivelmente TRT2 ou TJSP]
+Tipo de movimentação: (1) Expedida intimação ao ESTADO DE SAO PAULO; (2) 7 novas movimentações processuais anteriores
+Data: 29/05/2026 e anterior
+Prazo: Sem prazo imediato para Dra. Eduarda (intimação expedida ao outro lado)
+Urgência: 🟢 MONITORAR
+Manifestação cabível: Ciência. Acompanhar resposta do ESTADO DE SAO PAULO.
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL. (1) O juízo expediu intimação ao ESTADO DE SAO PAULO, não à parte representada por Dra. Eduarda. (2) 7 novas movimentações anteriores sem teor. A intimação ao Estado indica que este deve manifestar-se, cumprir determinação ou apresentar documentos.]
+
+ANÁLISE JURÍDICA:
+A intimação foi expedida ao ESTADO DE SAO PAULO, não à cliente LUCIENE FERREIRA TORRES. Não há prazo para a parte representada neste momento. Monitorar o cumprimento da intimação pelo Estado.
+
+Não há petição a ser apresentada neste momento processual. Acompanhamento apenas.
+───────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────
+PROCESSO 2/3 (MONITORAR)
+Processo: [INSERIR: verificar número CNJ nos autos]
+Origem: [Gmail]
+Partes: INSTITUTO PAULISTA DE ENFERMAGEM x LARISSA MARIA ARAUJO BATISSACO
+Tribunal/Vara: [INSERIR: verificar nos autos]
+Tipo de movimentação: Despacho "Manifeste-se a parte exequente"
+Data: [INSERIR: verificar data do despacho nos autos]
+Prazo: Sem prazo imediato para Dra. Eduarda (prazo conferido ao EXEQUENTE)
+Urgência: 🟢 MONITORAR
+Manifestação cabível: Ciência. O prazo é para o exequente (Instituto Paulista de Enfermagem), não para a executada.
+Teor disponível: PARCIAL (Gmail identificou a movimentação e seu tipo)
+
+TEOR DA MOVIMENTAÇÃO:
+O juízo proferiu despacho determinando que a parte exequente (INSTITUTO PAULISTA DE ENFERMAGEM) se manifeste nos autos. A determinação foi dirigida ao exequente, não à executada LARISSA MARIA ARAUJO BATISSACO.
+
+ANÁLISE JURÍDICA:
+Dra. Eduarda representa a EXECUTADA (LARISSA). O despacho "Manifeste-se a parte exequente" confere prazo ao Instituto Paulista para se manifestar. Não há prazo para a executada neste momento. Monitorar o cumprimento pelo exequente e aguardar próxima determinação judicial.
+
+Não há petição a ser apresentada neste momento processual. Acompanhamento apenas.
+───────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────
+PROCESSO 3/3 (MONITORAR)
+Processo: [NÚMERO NÃO CAPTURADO, verificar manualmente]
+Origem: [LinkLei]
+Cliente: CLEYTON SILVA DA COSTA
+Partes: C. S. C. x B. N. A. (Cleyton Silva da Costa x Brand New Automóveis Ltda.)
+Tribunal/Vara: [INSERIR: verificar nos autos]
+Tipo de movimentação: Decorrido prazo de BRAND NEW AUTOMOVEIS LTDA em 26/05/2026
+Data: 26/05/2026
+Prazo: Sem prazo imediato para Dra. Eduarda
+Urgência: 🟢 MONITORAR
+Manifestação cabível: Ciência. Aguardar deliberação do juízo.
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL. O sistema registrou o decurso do prazo da BRAND NEW AUTOMOVEIS LTDA em 26/05/2026. A parte adversa não se manifestou dentro do prazo fixado. O juízo poderá agora proferir sentença ou outra deliberação.]
+
+ANÁLISE JURÍDICA:
+O decurso do prazo da empresa adversa é cenário favorável ao cliente CLEYTON SILVA DA COSTA (se ele for o autor/requerente). A BRAND NEW AUTOMOVEIS LTDA não cumpriu o prazo judicial, o que pode configurar revelia ou omissão processual relevante. Monitorar próxima movimentação.
+
+Não há petição a ser apresentada neste momento processual. Acompanhamento apenas.
+───────────────────────────────────────────────────────────
+
+
+================================================================================
+SEÇÃO 5 - LISTA CONSOLIDADA DE TAREFAS POR PRIORIDADE
+================================================================================
+
+🔴 URGENTE (até 5 dias úteis, tratar na segunda-feira 01/06/2026):
+- [ ] Processo nº 1510208-54.2022.8.26.0565, petição de complementação do pedido de desbloqueio SISBAJUD, PRAZO: 05/06/2026 [TEOR: disponível]. Ação: contatar RUBENS para obter extrato bancário com ID do bloqueio; protocolar via EPROC até 05/06/2026.
+
+🟡 ATENÇÃO (verificação manual urgente na segunda-feira 01/06/2026):
+- [ ] Processo CLEYDSON x FACEBOOK (cliente NATALYA AMIGO), verificar Evento 12 DJE 22/05/2026 [TEOR: indisponível], prazo estimado 12/06/2026. Rascunho disponível para completar.
+- [ ] Processo nº 4009821-73.2025.8.26.0554 (MARIA APARECIDA ZAPPAROLLI), verificar 3 movimentações [TEOR: indisponível], 29/05/2026. Rascunho de cumprimento de sentença disponível para completar.
+- [ ] Processo nº 1002508-49.2024.8.26.0554 (LUANA PARRADO DIAN), verificar Evento 138 (petição da exequente) [TEOR: indisponível], prazo estimado 19/06/2026. Rascunho disponível para completar.
+- [ ] Processo SUELEN x THALITA, verificar Evento 6 DJE 26/05/2026 [TEOR: indisponível], prazo estimado 16/06/2026. Rascunho disponível para completar.
+- [ ] Processo MATHEUS x CLOUDWALK, verificar Evento 7 DJE 26/05/2026 [TEOR: indisponível], prazo estimado 16/06/2026. Rascunho disponível para completar.
+- [ ] Processo PAPELE x EBAZAR, verificar resultado do AI 40325541220268260000/TJSP e decurso de prazo Eventos 55/62/63/64 [TEOR: indisponível].
+- [ ] Processo PREFEITURA BARUERI x JILLIANE (cliente RUBENS), verificar 12 movimentações [TEOR: indisponível], 27/05/2026. Volume alto exige atenção.
+- [ ] Processo JF ALIMENTOS x IFOOD, verificar 2 movimentações [TEOR: indisponível], 27/05/2026.
+- [ ] Processo ISMAELA x EBAZAR, verificar 2 movimentações [TEOR: indisponível], 27/05/2026.
+- [ ] Processo nº 4006692-85.2026.8.26.0405 (PAULO MATTOS x MILENA), decorrido prazo Eventos 27-28, monitorar deliberação do juízo.
+
+🟢 MONITORAR (sem prazo imediato):
+- [ ] Processo LFT x ESP (cliente LUCIENE FERREIRA TORRES), ciência da intimação expedida ao ESTADO DE SAO PAULO. Acompanhar.
+- [ ] Processo Instituto Paulista de Enfermagem x LARISSA, ciência do despacho "Manifeste-se a parte exequente" (prazo para o outro lado). Acompanhar.
+- [ ] Processo CSC x BNA (cliente CLEYTON SILVA DA COSTA), ciência do decurso de prazo da BRAND NEW AUTOMOVEIS LTDA em 26/05/2026. Cenário favorável ao cliente.
+
+================================================================================
+SEÇÃO 6 - MENSAGENS PRONTAS PARA CLIENTES
+================================================================================
+
+Cliente: RUBENS MARCONDES DA FONSECA
+Processo relacionado: 1510208-54.2022.8.26.0565 (SISBAJUD, URGENTE)
+Mensagem sugerida (WhatsApp):
+"Olá, Rubens! Passando para um aviso urgente sobre seu processo. O juiz determinou que precisamos complementar nosso pedido de desbloqueio bancário com o extrato da sua conta, especificamente o trecho que mostra o bloqueio judicial com o número de identificação dele. Preciso desse extrato com urgência pois o prazo vence na sexta-feira, dia 05/06. Você consegue acessar o aplicativo do banco e me enviar o extrato completo do período em que o bloqueio aparece? Qualquer dúvida, estou à disposição!"
+
+---
+
+Cliente: RUBENS MARCONDES DA FONSECA
+Processo relacionado: PREFEITURA MUNICIPAL DE BARUERI x JILLIANE DIAS BEZERRA
+Mensagem sugerida (WhatsApp):
+"Olá, Rubens! Recebi uma notificação de que houve 12 novas movimentações no processo da Prefeitura de Barueri. Estou verificando o conteúdo de cada uma para checar se há alguma providência a tomar. Te aviso assim que confirmar tudo, provavelmente na segunda-feira."
+
+---
+
+Cliente: NATALYA AMIGO
+Processo relacionado: CLEYDSON VALADARES COSTA x FACEBOOK
+Mensagem sugerida (WhatsApp):
+"Olá, Natalya! Passando para informar que seu processo contra o Facebook teve uma publicação no Diário Oficial em 22/05. Estou verificando o conteúdo para confirmar o que foi publicado e se há alguma providência a tomar. Em breve te passo mais detalhes!"
+
+---
+
+Cliente: LUCIENE FERREIRA TORRES
+Processo relacionado: LFT x ESP e outros
+Mensagem sugerida (WhatsApp):
+"Olá, Luciene! Seu processo teve movimentações recentes. O juízo expediu uma intimação para o Estado de São Paulo se manifestar, então no momento a bola está com eles. Não há nada urgente para fazermos agora, mas estou acompanhando de perto. Qualquer novidade, te aviso!"
+
+---
+
+Cliente: CLEYTON SILVA DA COSTA
+Processo relacionado: C. S. C. x B. N. A.
+Mensagem sugerida (WhatsApp):
+"Olá, Cleyton! Boas notícias: o prazo que o juiz deu para a Brand New Automóveis se manifestar venceu e eles não apresentaram nada. Isso é positivo para o seu caso! Agora aguardamos o juiz proferir uma decisão. Te aviso assim que houver novidades."
+
+================================================================================
+SEÇÃO 7 - ALERTAS DE SISTEMA
+================================================================================
+
+1. DADO AUSENTE - SÁBADO SEM ARQUIVO: Não há arquivo LinkLei para a data de hoje (2026-05-30, sábado). A rotina utilizou o arquivo mais recente disponível: linklei-raw-2026-05-29.txt. O relatório cobre movimentações coletadas em 29/05/2026 e deve ser tratado no primeiro dia útil seguinte (01/06/2026, segunda-feira).
+
+2. QUALIDADE CRÍTICA DO ARQUIVO LINKLEI: 100% dos 10 registros do arquivo linklei-raw-2026-05-29.txt vieram sem número de processo CNJ e sem teor da movimentação. Todos os registros contêm apenas títulos genéricos. RECOMENDAÇÃO: revisar o script coletar-linklei.js no VPS para capturar (a) o número CNJ de cada processo e (b) o conteúdo/teor das movimentações, não apenas o título da notificação.
+
+3. PROCESSO URGENTE NÃO CADASTRADO NO LINKLEI: O processo 1510208-54.2022.8.26.0565 (prazo mais urgente do dia, vence 05/06/2026) foi identificado EXCLUSIVAMENTE via Gmail (intimação EPROC). Este processo NÃO apareceu no arquivo LinkLei txt. Verificar se o processo está corretamente cadastrado no sistema de monitoramento do LinkLei.
+
+4. PROCESSOS EXCLUSIVOS DO GMAIL (ausentes do arquivo LinkLei txt): 4 processos (28,5% do total de 14) foram encontrados apenas pelo Gmail:
+   a) 1510208-54.2022.8.26.0565 (RUBENS x MUNICÍPIO, URGENTE)
+   b) SUELEN APARECIDA DOS SANTOS ANTONIO x THALITA TRINDADE SILVA DOS SANTOS
+   c) MATHEUS OLIVEIRA DOS SANTOS x CLOUDWALK INC.
+   d) INSTITUTO PAULISTA DE ENFERMAGEM x LARISSA MARIA ARAUJO BATISSACO
+
+5. DATAJUD SEM MOVIMENTAÇÕES RECENTES: O campo comMovimentacaoRecente retornou 0 nos 57 processos monitorados. O DataJud não trouxe nenhum teor de movimentação nova. Foi útil apenas para confirmar números CNJ e dados de varas de 3 processos (1002508, 4009821, 4006692) via cruzamento pelo nome das partes.
+
+6. PROCESSOS NÃO ENCONTRADOS NO DATAJUD:
+   a) RUBENS MARCONDES DA FONSECA (processo 1510208-54.2022.8.26.0565): não localizado pelo DataJud.
+   b) JF ALIMENTOS LTDA x IFOOD.COM: não localizado pelo DataJud.
+   Verificar se esses processos estão cadastrados corretamente no monitoramento DataJud.
+
+7. PROCESSO COM DUPLA NOTIFICAÇÃO LINKLEI CONSOLIDADA: O processo LFT x ESP (cliente LUCIENE FERREIRA TORRES) gerou 2 notificações no arquivo LinkLei (uma sobre expedição de intimação e outra com "7 novas movimentações"). Ambas foram consolidadas em um único registro neste relatório.
+
+8. DIVERGÊNCIA DE DATA: O relatório foi gerado em sábado (2026-05-30). Os dados são de sexta-feira (2026-05-29). Todas as contagens de prazo já consideram que os prazos correm apenas em dias úteis (art. 219 do CPC). O prazo urgente de 5 dias úteis do processo 1510208 foi calculado a partir de 29/05/2026 (data da intimação EPROC), vencendo em 05/06/2026.
+
+================================================================================
+AVISO DE SEGURANÇA
+================================================================================
+
+Apenas leitura foi realizada no LinkLei (arquivo txt do repositório), no DataJud (arquivo json do repositório) e no Gmail.
+Nenhuma notificação foi alterada, excluída ou marcada.
+Nenhum e-mail foi respondido, encaminhado ou movido.
+Nenhum dado foi modificado em qualquer plataforma de origem.
+
+================================================================================
+FIM DO RELATÓRIO
+Rotina de Controladoria Jurídica, Escritório Eduarda Machado Advocacia Estratégica
+Dra. EDUARDA FERREIRA DA SILVA MACHADO, OAB/SP 545.832
+================================================================================
