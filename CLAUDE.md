@@ -16,8 +16,8 @@ A Routine roda todos os dias às 09:00 (horário de São Paulo) e deve executar 
 1. Localize o arquivo mais recente na pasta `dados/` do repositório, com o padrão `linklei-raw-AAAA-MM-DD.txt`
 2. Confira se a data do arquivo corresponde ao dia atual (AAAA-MM-DD = hoje)
 3. Tratamentos especiais:
-   - Se o arquivo contiver `SESSAO_EXPIRADA`, registre alerta no relatório (sessão LinkLei precisa ser renovada) e prossiga para a Etapa 1.5
-   - Se o arquivo contiver `SEM_MOVIMENTACOES`, registre que o LinkLei não retornou movimentações hoje e prossiga para a Etapa 1.5
+   - Se o arquivo contiver `SESSAO_EXPIRADA`, registre alerta no relatório (sessão LinkLei precisa ser renovada) e prossiga para a Etapa 2
+   - Se o arquivo contiver `SEM_MOVIMENTACOES`, registre que o LinkLei não retornou movimentações hoje e prossiga para a Etapa 2
    - Caso contrário, extraia TODAS as movimentações processuais listadas no arquivo
 4. **LEITURA DO TEOR (OBRIGATÓRIO):** Para cada movimentação extraída do LinkLei, você DEVE tentar identificar:
    - Número do processo no formato CNJ (NNNNNNN-DD.AAAA.J.TR.OOOO)
@@ -26,23 +26,7 @@ A Routine roda todos os dias às 09:00 (horário de São Paulo) e deve executar 
    - **Teor/conteúdo do ato processual** (o que foi decidido, determinado ou intimado)
    - Data da publicação ou intimação
 5. **SE o arquivo LinkLei NÃO contiver o teor da movimentação** (apenas título genérico como "despacho proferido" ou "decisão publicada" sem dizer O QUE foi decidido), registre no campo TEOR DA MOVIMENTAÇÃO: `[TEOR NÃO DISPONÍVEL NO LINKLEI, verificar diretamente no sistema do tribunal ou no e-mail de intimação]`
-6. **SE o arquivo LinkLei NÃO contiver o número do processo**, registre: `[NÚMERO NÃO CAPTURADO PELO LINKLEI, verificar manualmente]` e siga para a Etapa 1.5 tentando localizar pelo DataJud
-
-### Etapa 1.5: Complementação via DataJud (NOVA)
-
-1. Localize o arquivo mais recente na pasta `dados/` do repositório, com o padrão `datajud-raw-AAAA-MM-DD.json`
-2. O DataJud contém dados estruturados com número do processo, classe processual, assunto, órgão julgador e movimentações com código e descrição
-3. Para cada movimentação do LinkLei que estiver **sem número de processo** ou **sem teor**, tente localizar correspondência no DataJud usando:
-   - Nome das partes como chave de busca
-   - Data da movimentação
-   - Tipo do ato processual
-4. Se encontrar correspondência no DataJud, **complemente os dados do LinkLei** com:
-   - Número do processo (campo `numeroProcesso`)
-   - Classe processual (campo `classe.nome`)
-   - Assunto (campo `assuntos[].nome`)
-   - Órgão julgador (campo `orgaoJulgador.nome`)
-   - Descrição da movimentação (campo `movimentos[].nome` e `movimentos[].complementosTabelados`)
-5. Marque a origem como `[LinkLei + DataJud]` quando houver complementação
+6. **SE o arquivo LinkLei NÃO contiver o número do processo**, registre: `[NÚMERO NÃO CAPTURADO PELO LINKLEI, verificar manualmente]`
 
 ### Etapa 2: Coleta de intimações no Gmail
 
@@ -63,14 +47,13 @@ A Routine roda todos os dias às 09:00 (horário de São Paulo) e deve executar 
 
 ### Etapa 3: Cruzamento dos dados (evitar duplicidade)
 
-1. Para cada movimentação coletada (LinkLei + DataJud + Gmail), use o NÚMERO DO PROCESSO como chave única
+1. Para cada movimentação coletada (LinkLei + Gmail), use o NÚMERO DO PROCESSO como chave única
 2. Se a mesma movimentação aparecer em mais de uma fonte, consolide em um único registro indicando todas as fontes
 3. **REGRA DE PRIORIDADE PARA TEOR:**
    - 1º Gmail (intimação oficial do tribunal, geralmente com teor completo)
-   - 2º DataJud (dados estruturados com código e descrição da movimentação)
-   - 3º LinkLei (pode ter apenas título genérico)
+   - 2º LinkLei (pode ter apenas título genérico)
 4. Se houver divergência entre fontes, priorize o Gmail e registre a divergência no relatório
-5. Marque cada movimentação consolidada com tag de origem: `[LinkLei]`, `[Gmail]`, `[DataJud]`, `[LinkLei + Gmail]`, `[LinkLei + DataJud]`, `[Gmail + DataJud]` ou `[LinkLei + Gmail + DataJud]`
+5. Marque cada movimentação consolidada com tag de origem: `[LinkLei]`, `[Gmail]` ou `[LinkLei + Gmail]`
 
 ### Etapa 4: Análise jurídica de cada movimentação
 
@@ -141,7 +124,7 @@ Processo nº [NÚMERO]
 com fundamento nos arts. [ARTIGOS], pelos fatos e fundamentos a seguir expostos.
 
 I, DOS FATOS
-[Contextualizar com base no teor da movimentação. Usar APENAS as informações que constem do arquivo do LinkLei, DataJud ou do e-mail do Gmail. Onde faltar informação, usar marcador [INSERIR, verificar nos autos: motivo]]
+[Contextualizar com base no teor da movimentação. Usar APENAS as informações que constem do arquivo do LinkLei ou do e-mail do Gmail. Onde faltar informação, usar marcador [INSERIR, verificar nos autos: motivo]]
 
 II, DO DIREITO
 [Fundamentação jurídica aplicável ao tipo de manifestação. Citar legislação pertinente: CPC, CDC, CC, Marco Civil, LGPD, conforme o caso. NÃO inventar jurisprudência, números de julgados ou ementas. Se precisar referenciar jurisprudência, indicar [INSERIR, pesquisar jurisprudência sobre X].]
@@ -164,7 +147,7 @@ OAB/SP 545.832
 
 ### Regras invioláveis para os rascunhos
 
-1. NUNCA inventar fatos que não constem no arquivo do LinkLei, DataJud ou no e-mail do Gmail
+1. NUNCA inventar fatos que não constem no arquivo do LinkLei ou no e-mail do Gmail
 2. NUNCA inventar jurisprudência, números de processos, ementas ou precedentes
 3. NUNCA citar artigos de lei sem segurança de que existem
 4. Onde faltar informação, SEMPRE usar marcador [INSERIR, motivo]
@@ -191,13 +174,13 @@ Gerado automaticamente em: [DATA E HORA]
 ```
 
 ### 2. RESUMO EXECUTIVO
-- Total de movimentações coletadas: X (sendo Y do LinkLei, Z do Gmail, W do DataJud, N duplicadas/consolidadas)
+- Total de movimentações coletadas: X (sendo Y do LinkLei, Z do Gmail, N duplicadas/consolidadas)
 - Quantidade por grau de urgência: X URGENTES, Y ATENÇÃO, Z MONITORAR
 - Quantidade de rascunhos de petição gerados: X (sendo Y com teor completo, Z com teor parcial/indisponível)
 - Quantidade de processos apenas para ciência: Y
 - Alertas críticos: [listar processos URGENTES com prazo de até 3 dias úteis]
 
-### 3. DIAGNÓSTICO DE QUALIDADE DOS DADOS (NOVO)
+### 3. DIAGNÓSTICO DE QUALIDADE DOS DADOS
 
 ```
 QUALIDADE DOS DADOS COLETADOS:
@@ -206,10 +189,6 @@ LinkLei:
 - Registros com número de processo: X de Y (Z%)
 - Registros com teor da movimentação: X de Y (Z%)
 - Registros apenas com título genérico: X
-
-DataJud:
-- Processos com movimentações encontradas: X de Y
-- Complementações realizadas: X
 
 Gmail:
 - E-mails de tribunais encontrados: X
@@ -234,7 +213,7 @@ Para cada processo, na ordem de urgência (URGENTE > ATENÇÃO > MONITORAR):
 ```
 ───────────────────────────────────────────────────────────
 PROCESSO Nº [NÚMERO]
-Origem: [LinkLei / Gmail / DataJud / combinações]
+Origem: [LinkLei / Gmail / LinkLei + Gmail]
 Partes: [AUTOR] x [RÉU]
 Tribunal/Vara: [VARA], Comarca de [COMARCA]
 Tipo de movimentação: [DESPACHO/DECISÃO/SENTENÇA/INTIMAÇÃO/etc.]
@@ -290,7 +269,7 @@ Mensagem sugerida (WhatsApp):
 
 Registrar qualquer ocorrência técnica:
 - Sessão LinkLei expirada (precisa renovar cookies no VPS)
-- Divergências entre LinkLei, DataJud e Gmail
+- Divergências entre LinkLei e Gmail
 - E-mails sem número de processo identificável (revisão manual)
 - Anexos relevantes em e-mails que não puderam ser processados
 - **Registros do LinkLei sem número de processo (listar quantos e quais)**
@@ -348,11 +327,10 @@ https://drive.google.com/drive/folders/1ggPT2-QUioAn3qNMJMiIpu7zxEo2TUVp
 9. Não usar as expressões "consultoria de negócios" ou "serviços jurídicos": preferir "legalização empresarial" e "advocacia"
 10. **GERAR rascunho-esqueleto mesmo quando o teor estiver indisponível, desde que o tipo da movimentação indique necessidade de manifestação**
 11. **Sempre incluir o Diagnóstico de Qualidade dos Dados na seção 3 do relatório**
-12. **Consultar o arquivo DataJud para complementar dados faltantes do LinkLei**
 
 ## AVISO DE SEGURANÇA
 
-- Apenas leitura foi realizada no LinkLei, DataJud e no Gmail
+- Apenas leitura foi realizada no LinkLei e no Gmail
 - Nenhuma notificação foi alterada, excluída ou marcada
 - Nenhum e-mail foi respondido, encaminhado ou movido
 - Nenhum dado foi modificado em qualquer plataforma de origem
