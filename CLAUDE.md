@@ -292,7 +292,7 @@ Registrar qualquer ocorrência técnica:
 - **Agenda de destino:** `backupeduarda.machado@gmail.com`
 - **Link da agenda:** https://calendar.google.com/calendar/u/1?cid=YmFja3VwZWR1YXJkYS5tYWNoYWRvQGdtYWlsLmNvbQ
 - **Título do evento:** `Relatório Controladoria Jurídica concluído, AAAA-MM-DD`
-- **Horário:** 09:30 (São Paulo) no dia da execução
+- **Horário:** usar o horário ATUAL de conclusão da rotina (horário de São Paulo), não um horário fixo. Se forem 09:45, criar o evento às 09:45. Se forem 10:10, criar às 10:10. Isso garante que o evento apareça no calendário do dia, não fique "no passado".
 - **Duração:** 15 minutos
 - **Descrição do evento:**
 ```
