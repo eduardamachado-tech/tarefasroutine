@@ -13,19 +13,23 @@ A Routine roda todos os dias às 09:00 (horário de São Paulo) e deve executar 
 
 ### Etapa 1: Coleta de movimentações no LinkLei
 
+O arquivo do LinkLei tem duas seções:
+- **RESUMO DAS NOTIFICAÇÕES**: painel de avisos (títulos genéricos como "3 novas movimentações")
+- **CONTEÚDO DETALHADO DOS PROCESSOS NOTIFICADOS**: conteúdo completo de cada processo visitado
+
 1. Localize o arquivo mais recente na pasta `dados/` do repositório, com o padrão `linklei-raw-AAAA-MM-DD.txt`
 2. Confira se a data do arquivo corresponde ao dia atual (AAAA-MM-DD = hoje)
 3. Tratamentos especiais:
    - Se o arquivo contiver `SESSAO_EXPIRADA`, registre alerta no relatório (sessão LinkLei precisa ser renovada) e prossiga para a Etapa 2
    - Se o arquivo contiver `SEM_MOVIMENTACOES`, registre que o LinkLei não retornou movimentações hoje e prossiga para a Etapa 2
-   - Caso contrário, extraia TODAS as movimentações processuais listadas no arquivo
-4. **LEITURA DO TEOR (OBRIGATÓRIO):** Para cada movimentação extraída do LinkLei, você DEVE tentar identificar:
+   - Caso contrário, leia AMBAS as seções do arquivo
+4. **LEITURA DO TEOR (OBRIGATÓRIO):** Para cada processo na seção "CONTEÚDO DETALHADO", extraia:
    - Número do processo no formato CNJ (NNNNNNN-DD.AAAA.J.TR.OOOO)
    - Nome das partes (autor e réu)
    - Tipo exato do ato (despacho, decisão interlocutória, sentença, intimação, certidão, etc.)
    - **Teor/conteúdo do ato processual** (o que foi decidido, determinado ou intimado)
    - Data da publicação ou intimação
-5. **SE o arquivo LinkLei NÃO contiver o teor da movimentação** (apenas título genérico como "despacho proferido" ou "decisão publicada" sem dizer O QUE foi decidido), registre no campo TEOR DA MOVIMENTAÇÃO: `[TEOR NÃO DISPONÍVEL NO LINKLEI, verificar diretamente no sistema do tribunal ou no e-mail de intimação]`
+5. Para processos que aparecerem **apenas no RESUMO DAS NOTIFICAÇÕES** (sem conteúdo detalhado), registre no campo TEOR DA MOVIMENTAÇÃO: `[TEOR NÃO DISPONÍVEL NO LINKLEI, verificar diretamente no sistema do tribunal ou no e-mail de intimação]`
 6. **SE o arquivo LinkLei NÃO contiver o número do processo**, registre: `[NÚMERO NÃO CAPTURADO PELO LINKLEI, verificar manualmente]`
 
 ### Etapa 2: Coleta de intimações no Gmail
@@ -75,13 +79,20 @@ Para cada movimentação consolidada, produza:
 
 Para CADA movimentação que exigir manifestação, gere um rascunho de petição completo seguindo as regras da seção "PADRÃO DE FORMATAÇÃO" abaixo.
 
-**REGRA CRÍTICA SOBRE TEOR INDISPONÍVEL:**
+**REGRA CRÍTICA SOBRE TEOR INDISPONÍVEL OU PARCIAL:**
 Mesmo quando o teor completo da movimentação NÃO estiver disponível, você AINDA DEVE gerar um rascunho de petição se o tipo da movimentação indicar necessidade de manifestação (ex: "intimação para réplica", "intimação para contestação", "prazo para recurso"). Nesse caso:
 - Gere o rascunho com a estrutura completa (endereçamento, qualificação, seções)
 - Na seção DOS FATOS, use marcadores `[INSERIR]` para cada informação faltante
 - Na seção DO DIREITO, fundamente com base no tipo genérico da manifestação (ex: se é réplica, cite arts. 350-351 do CPC; se é apelação, cite arts. 1.009-1.014 do CPC)
 - Na seção DOS PEDIDOS, inclua os pedidos padrão para aquele tipo de peça
 - **O rascunho incompleto ainda economiza tempo da Dra. Eduarda**, pois ela só precisa preencher os `[INSERIR]` após verificar os autos, em vez de redigir a peça inteira do zero
+
+**REGRA SOBRE MOVIMENTAÇÕES GENÉRICAS ("X novas movimentações processuais"):**
+Quando o LinkLei informar apenas "X novas movimentações processuais" sem detalhar o tipo, PRESUMA que pode haver necessidade de manifestação e:
+- Gere um rascunho-esqueleto para cada processo com esse aviso
+- Classifique como 🟡 ATENÇÃO até que o teor seja verificado
+- Na seção DOS FATOS do rascunho, indique: `[INSERIR, verificar quais das X movimentações exigem resposta. Acessar o processo no ESAJ/PJe para identificar o tipo e teor de cada ato]`
+- Nunca ignore uma movimentação só porque o título é genérico, o prazo pode estar correndo
 
 #### Quando gerar rascunho completo
 - Intimação para réplica
