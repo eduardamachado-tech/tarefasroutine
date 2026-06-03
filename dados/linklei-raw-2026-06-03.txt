@@ -88,11 +88,22 @@ Verifique se o processo realmente existe no sistema do tribunal: TJSP(ESAJ);
 Verifique se o processo está em segredo de justiça;
 Se o processo estiver em segredo de justiça: verifique se cadastrou corretamente as credenciais de acesso ao sistema do tribunal clicando aqui;
 Se as suas credenciais estão corretas: verifique se o processo está habilitado para sua OAB cadastrada no LinkLei;
+Acompanhe seu processo
+Ative o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.
 ---
 Processo 2º Grau
 Monitorar
 Erro
 Atualizar
+---
+Acompanhe seu processo
+Ative o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.
+---
+Acompanhe seu processo
+Ative o monitoramento para receber automaticamente as últimas atualizações dos seus processos e mantenha-se sempre informado.
+---
+Espaço de armazenamento
+Salve documentos importantes em texto, imagem, vídeo, áudio e outros formatos.
 
 ────────────────────────────────────────────────────────────
 PROCESSO: 0017113-85.2022.8.26.0554
