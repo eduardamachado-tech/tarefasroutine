@@ -1,0 +1,834 @@
+RELATÓRIO DIÁRIO DE CONTROLADORIA JURÍDICA
+Escritório Eduarda Machado Advocacia Estratégica
+Advogada Responsável: Dra. EDUARDA FERREIRA DA SILVA MACHADO, OAB/SP 545.832
+Data de Referência: 2026-06-10
+Gerado automaticamente em: 2026-06-10 às 13:00 (horário de São Paulo)
+
+════════════════════════════════════════════════════════════════
+1. RESUMO EXECUTIVO
+════════════════════════════════════════════════════════════════
+
+Total de movimentações coletadas: 15 registros
+  , sendo 8 do Gmail (últimas 24h), 6 do LinkLei (arquivo 2026-06-04), 2 sem fonte de número confirmado
+  , 3 registros consolidados por aparecerem em mais de uma fonte
+
+Quantidade por grau de urgência:
+  , 🔴 URGENTE (até 5 dias úteis): 0
+  , 🟡 ATENÇÃO (6 a 15 dias úteis): 9
+  , 🟢 MONITORAR (sem prazo imediato): 4
+  , Ciência/Informativo (sem ação necessária): 2
+
+Quantidade de rascunhos de petição gerados: 7
+  , Com teor completo (pronto para revisão): 1
+  , Com teor parcial (necessita complementação): 3
+  , Esqueleto sem teor (marcadores [INSERIR]): 3
+
+Processos apenas para ciência: 2
+
+ALERTAS CRÍTICOS:
+  , NENHUM processo com prazo vencendo nos próximos 3 dias úteis
+  , ⚠ DOIS processos com prazo vencendo em 30/06/2026 (20 dias corridos): 4075382 e 4097163
+  , ⚠ TEOR INDISPONÍVEL em 5 processos com intimação ativa, verificação manual urgente
+  , ⚠ SCRIPT DE COLETA LINKLEI/DATAJUD PARADO: nenhum arquivo gerado entre 04/06 e 10/06/2026 (6 dias de gap)
+  , ⚠ DOIS PROCESSOS sem número de processo identificado (LEO BATISTA FORTES e FELIPE GARCIA)
+
+════════════════════════════════════════════════════════════════
+2. DIAGNÓSTICO DE QUALIDADE DOS DADOS
+════════════════════════════════════════════════════════════════
+
+QUALIDADE DOS DADOS COLETADOS:
+
+LinkLei:
+  , Arquivo disponível para hoje (2026-06-10): NÃO, arquivo mais recente é de 2026-06-04
+  , Registros com número de processo: 10 de 11 (91%)
+  , Registros com teor da movimentação: 5 de 11 (45%)
+  , Registros apenas com título genérico ("X novas movimentações"): 3
+  , Processos com erro de segredo de justiça (sem monitoramento ativo): 3
+
+DataJud:
+  , Arquivo disponível para hoje (2026-06-10): NÃO, arquivo mais recente é de 2026-06-04
+  , Total de processos cadastrados: 57 (42 com retorno, 15 sem dados)
+  , Movimentos recentes disponíveis: 0 (campo "movimentos" vazio em todos os registros)
+  , Complementação possível: nenhuma (DataJud não trouxe movimentos detalhados)
+
+Gmail:
+  , E-mails de tribunais/LinkLei encontrados: 8 threads relevantes
+  , E-mails com teor completo da intimação: 2 (EPROC + LinkLei Nova Publicação)
+  , E-mails sem número de processo identificável: 2 (LEO BATISTA FORTES, FELIPE GARCIA)
+  , E-mails apenas informativos (sem nova intimação para responder): 3
+
+IMPACTO NA GERAÇÃO DE RASCUNHOS:
+  , Rascunhos com teor completo (prontos para revisão): 1
+  , Rascunhos com teor parcial (precisam complementação manual): 3
+  , Rascunhos-esqueleto (apenas estrutura, teor indisponível): 3
+  , Movimentações sem rascunho por falta total de dados: 0
+
+RECOMENDAÇÃO TÉCNICA:
+O script de coleta do LinkLei e do DataJud não gerou nenhum arquivo entre 2026-06-04 (quinta) e 2026-06-10 (quarta). Gap de 6 dias corridos, incluindo 4 dias úteis (05, 08, 09, 10/06). Recomenda-se verificar urgentemente o VPS e reiniciar o processo de coleta. Enquanto isso, o Gmail compensou parcialmente as lacunas, mas processos monitorados somente via LinkLei podem ter tido intimações perdidas nesse período.
+
+Os rascunhos foram gerados com marcadores [INSERIR] para os casos sem teor disponível.
+
+════════════════════════════════════════════════════════════════
+3. PROCESSOS EM SEGREDO DE JUSTIÇA (ALERTA DE MONITORAMENTO)
+════════════════════════════════════════════════════════════════
+
+Os seguintes processos constam no LinkLei mas NÃO estão sendo monitorados:
+
+  1. Processo 1019648-67.2022.8.26.0554 (ARTHUR PARRADO DIAN;LUANA PARRADO DIAN) - TJSP
+     Erro: "Processo possui segredo de justiça. Necessário senha para consultá-lo."
+     Ação recomendada: verificar se as credenciais de acesso estão configuradas corretamente no LinkLei.
+
+  2. Processo 0017113-85.2022.8.26.0554 (ARTHUR PARRADO DIAN;LUANA PARRADO DIAN) - TJSP
+     Erro: "Processo possui segredo de justiça. Necessário senha para consultá-lo."
+     Ação recomendada: mesma do item acima.
+
+  3. Processo 1004553-56.2025.8.26.0565 (GABRIEL DA COSTA PEREIRA MACHADO) - TJSP
+     Erro: "Processo possui segredo de justiça. Necessário senha para consultá-lo."
+     Ação recomendada: mesma dos itens acima.
+
+════════════════════════════════════════════════════════════════
+4. MOVIMENTAÇÕES POR PROCESSO (ATENÇÃO > MONITORAR)
+════════════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────
+PROCESSO Nº 4097163-92.2026.8.26.0100
+Origem: [Gmail + LinkLei]
+Partes: JESSICA CRISTINA PEREIRA BISSOLATI (AUTORA) x BARRETOS COUNTRY EMPREENDIMENTOS IMOBILIARIOS SPE LTDA (RÉU)
+Tribunal/Vara: TJSP, [INSERIR, verificar vara no EPROC]
+Comarca: São Paulo (Foro Central Cível)
+Tipo de movimentação: Despacho, determinação de emenda à inicial
+Data da intimação/confirmação: 09/06/2026
+Prazo: 15 dias úteis a partir de 10/06/2026, vence em 30/06/2026
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: EMENDA À INICIAL (art. 321 CPC)
+Teor disponível: PARCIAL
+
+TEOR DA MOVIMENTAÇÃO:
+Fonte Gmail (LinkLei notificação, 09/06/2026): "Determinada a emenda à inicial."
+Fonte EPROC (09/06/2026): Confirmada a intimação eletrônica, Evento 7. Juntada de Petição, Evento 8.
+[TEOR COMPLETO NÃO DISPONÍVEL, verificar no EPROC o conteúdo exato do despacho que determinou a emenda: quais requisitos da petição inicial foram apontados como deficientes ou incompletos]
+
+ANÁLISE JURÍDICA:
+O juízo determinou a emenda à petição inicial com fundamento no art. 321 do CPC, que impõe ao autor o dever de corrigir ou complementar a peça inicial quando houver defeitos ou ausência de requisitos dos arts. 319 e 320 do CPC. O descumprimento do prazo implica extinção do processo sem resolução do mérito (art. 321, parágrafo único, CPC). Fase: inicial (pré-contestação ou em fase saneadora). O cumprimento da determinação é obrigatório e constitui ato processual urgente.
+
+ESTRATÉGIA APLICÁVEL:
+Verificar imediatamente no EPROC o teor completo do despacho para identificar exatamente o que o juízo determinou que seja emenado ou complementado. Após identificação, apresentar a emenda dentro do prazo com todas as correções solicitadas, evitando que o processo seja extinto por descumprimento.
+
+RASCUNHO DE PETIÇÃO:
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 4097163-92.2026.8.26.0100
+Teor disponível: PARCIAL (tipo do ato confirmado pelo Gmail/EPROC, conteúdo específico indisponível)
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA [INSERIR, vara identificada no EPROC], COMARCA DE SÃO PAULO
+
+Processo nº 4097163-92.2026.8.26.0100
+
+JESSICA CRISTINA PEREIRA BISSOLATI, já qualificada nos autos da ação em epígrafe que move em face de BARRETOS COUNTRY EMPREENDIMENTOS IMOBILIARIOS SPE LTDA, vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+EMENDA À PETIÇÃO INICIAL
+
+com fundamento no art. 321 do Código de Processo Civil, em cumprimento ao despacho de Vossa Excelência que determinou a emenda, pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+A autora ajuizou a presente ação em face de BARRETOS COUNTRY EMPREENDIMENTOS IMOBILIARIOS SPE LTDA visando [INSERIR, verificar objeto da ação no EPROC].
+
+Intimada do despacho de Vossa Excelência de [INSERIR, data do despacho conforme EPROC], que determinou a emenda à petição inicial, a autora vem, tempestivamente, proceder à regularização conforme determinado.
+
+[INSERIR: verificar no EPROC o que exatamente foi determinado que fosse emendado. Descrever aqui cada ponto de correção ou complementação determinado pelo juízo]
+
+II, DO DIREITO
+
+O art. 321 do Código de Processo Civil confere ao autor o prazo de 15 (quinze) dias para emendar ou complementar a petição inicial, quando o juízo verificar que a peça não preenche os requisitos dos arts. 319 e 320, ou que apresenta defeitos e irregularidades capazes de dificultar o julgamento de mérito.
+
+[INSERIR: fundamentação jurídica específica conforme o objeto da emenda, com base no despacho do juízo e nas correções realizadas]
+
+III, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) O recebimento e processamento da presente emenda à petição inicial;
+b) O prosseguimento regular do feito;
+c) [INSERIR, demais pedidos específicos conforme o caso]
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, 10 de junho de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────
+PROCESSO Nº 4075382-14.2026.8.26.0100
+Origem: [Gmail + LinkLei]
+Partes: ISMAELA CONFECCOES E CALCADOS LTDA (AUTORA) x EBAZAR.COM.BR. LTDA (RÉU)
+Tribunal/Vara: TJSP, Juízo Titular I, 16ª Vara Cível, Foro Central Cível
+Comarca: São Paulo (Capital)
+Tipo de movimentação: Despacho, intimação para réplica
+Data da intimação/confirmação: 09/06/2026 (confirmação eletrônica EPROC, evento 34)
+Prazo: 15 dias úteis a partir de 10/06/2026, vence em 30/06/2026
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: RÉPLICA (arts. 350 e 351 CPC)
+Teor disponível: SIM (completo, via Gmail LinkLei)
+
+TEOR DA MOVIMENTAÇÃO:
+Despacho proferido em 08/06/2026 pelo Juízo Titular I, 16ª Vara Cível, Foro Central Cível:
+"Vistos. Manifeste-se o autor em réplica à contestação no prazo de 15 dias, sob pena de preclusão (arts. 350 e 351 do CPC). Int."
+
+ANÁLISE JURÍDICA:
+A ré EBAZAR.COM.BR. LTDA apresentou contestação. O juízo intimou a autora para se manifestar em réplica, conforme os arts. 350 e 351 do CPC. O art. 350 concede ao autor o prazo de 15 dias para se manifestar sobre preliminares arguidas pelo réu; o art. 351 aplica-se quando o réu alega fatos impeditivos, modificativos ou extintivos do direito do autor. O não cumprimento implica preclusão, ou seja, perde-se a oportunidade de impugnar os argumentos da defesa. Fase processual: contraditório após contestação. A apresentação de réplica é estrategicamente importante para rebater os argumentos da defesa e reforçar os pontos favoráveis à autora.
+
+ESTRATÉGIA APLICÁVEL:
+Apresentar réplica tempestiva dentro de 15 dias úteis. Na réplica: (a) rebater ponto a ponto as preliminares da contestação, se houver; (b) impugnar especificamente os argumentos de mérito da ré; (c) reiterar os pedidos da inicial; (d) requerer, se necessário, a produção de provas complementares. Antes de redigir a réplica completa, verificar o conteúdo da contestação da EBAZAR.COM.BR. LTDA no ESAJ/EPROC para fundamentar adequadamente a resposta.
+
+RASCUNHO DE PETIÇÃO:
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 4075382-14.2026.8.26.0100
+Teor disponível: SIM (despacho completo obtido via Gmail, LinkLei Nova Publicação/Intimação)
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DO JUÍZO TITULAR I DA 16ª VARA CÍVEL DO FORO CENTRAL CÍVEL, COMARCA DE SÃO PAULO
+
+Processo nº 4075382-14.2026.8.26.0100
+
+ISMAELA CONFECCOES E CALCADOS LTDA, já qualificada nos autos da ação em epígrafe que move em face de EBAZAR.COM.BR. LTDA, vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+RÉPLICA À CONTESTAÇÃO
+
+com fundamento nos arts. 350 e 351 do Código de Processo Civil, pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+A autora ajuizou a presente ação em face de EBAZAR.COM.BR. LTDA visando [INSERIR, verificar objeto da ação nos autos: pedido de ressarcimento, indenização, revisão contratual ou outro].
+
+A ré apresentou contestação arguindo [INSERIR, verificar o conteúdo da contestação da EBAZAR nos autos: verificar se há preliminares de mérito, ilegitimidade, incompetência, ou defesas de mérito].
+
+Intimada do despacho de Vossa Excelência de 08/06/2026, que determinou a manifestação em réplica no prazo de 15 dias (arts. 350 e 351 do CPC), a autora vem, tempestivamente e dentro do prazo legal, rebater os argumentos da ré.
+
+II, DAS PRELIMINARES ARGUIDAS PELA RÉ (SE HOUVER)
+[INSERIR: verificar nos autos se a contestação da EBAZAR trouxe preliminares processuais e rebater cada uma]
+
+III, DO MÉRITO
+
+[INSERIR: após leitura da contestação, rebater ponto a ponto os argumentos da ré, com fundamento nos fatos narrados na petição inicial e nas provas já juntadas. Não inventar argumentos, basear exclusivamente no conteúdo dos autos]
+
+[INSERIR: destacar eventual ausência de impugnação específica a algum fato da inicial, com base no art. 341 do CPC]
+
+IV, DO DIREITO
+
+[INSERIR: artigos aplicáveis ao caso concreto conforme objeto da ação, ex: CDC, CC, Marco Civil da Internet, LGPD, conforme se tratar de relação de consumo, contratual ou direito digital]
+
+V, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) O recebimento e processamento da presente réplica;
+b) A rejeição de todas as preliminares arguidas pela ré, com o prosseguimento do feito;
+c) A procedência integral dos pedidos formulados na petição inicial;
+d) A condenação da ré ao pagamento das custas processuais e honorários advocatícios sucumbenciais;
+e) [INSERIR, demais pedidos específicos conforme o caso]
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, 10 de junho de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────
+PROCESSO Nº 4013390-48.2026.8.26.0554
+Origem: [Gmail, EPROC TJSP]
+Partes: MARIA APARECIDA ZAPPAROLLI (AUTORA) x ITAU UNIBANCO S.A. (RÉU)
+Tribunal/Vara: TJSP, [INSERIR, verificar vara no EPROC]
+Comarca: Santo André
+Tipo de movimentação: Intimação eletrônica expedida (Evento 6)
+Data da intimação: 09/06/2026
+Prazo: [INSERIR, verificar teor para calcular prazo]
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: [INSERIR, verificar teor]
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR INDISPONÍVEL, nenhuma fonte trouxe o conteúdo do ato. O e-mail EPROC de 09/06/2026 informa apenas que foi "Expedida/certificada a intimação eletrônica, Evento 6", com as partes MARIA APARECIDA ZAPPAROLLI (autora, advogada EDUARDA FERREIRA DA SILVA MACHADO SP545832) x ITAU UNIBANCO S.A. (réu). Verificar manualmente no EPROC: https://eproc1g.tjsp.jus.br/eproc/ para identificar o ato processual, seu teor e o prazo.]
+
+ANÁLISE JURÍDICA:
+Análise baseada apenas no tipo genérico da movimentação. O Evento 6 com intimação eletrônica em processo de 2026 em fase inicial (poucos eventos registrados) pode corresponder a: despacho determinando emendar a inicial, intimação para pagar custas, citação da ré ou outro ato. Sem o teor, é impossível determinar o prazo ou a manifestação cabível com segurança. Verificar teor completo antes de qualquer protocolo.
+
+Observação: este processo (4013390-48.2026.8.26.0554, ajuizado em 2026) é distinto do processo 4009821-73.2025.8.26.0554 (mesma cliente, já transitado em julgado em 26/05/2026 após extinção por ausência de pressupostos processuais). Verificar se este é um novo processo ajuizado após a extinção do anterior.
+
+ESTRATÉGIA APLICÁVEL:
+Verificar com urgência o teor do Evento 6 no EPROC. Se for despacho determinando providência com prazo, calcular e cumprir dentro do prazo. Se for mero despacho de expediente sem prazo, registrar como ciência.
+
+RASCUNHO DE PETIÇÃO:
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 4013390-48.2026.8.26.0554
+Teor disponível: NÃO (apenas notificação de intimação eletrônica, sem conteúdo do ato)
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA [INSERIR, vara identificada no EPROC], COMARCA DE SANTO ANDRÉ, SÃO PAULO
+
+Processo nº 4013390-48.2026.8.26.0554
+
+MARIA APARECIDA ZAPPAROLLI, já qualificada nos autos da ação em epígrafe que move em face de ITAU UNIBANCO S.A., vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+[INSERIR, verificar o tipo de manifestação cabível após leitura do teor do Evento 6 no EPROC: RÉPLICA / EMENDA À INICIAL / MANIFESTAÇÃO / IMPUGNAÇÃO / outro]
+
+com fundamento nos arts. [INSERIR, artigos conforme o tipo de manifestação], pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+[INSERIR, verificar nos autos o objeto da ação e o teor do ato processual (Evento 6) que determinou a intimação, para contextualizar os fatos relevantes]
+
+II, DO DIREITO
+
+[INSERIR, fundamentação jurídica após leitura do ato processual e identificação do tipo de manifestação necessária]
+
+III, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) [INSERIR, pedido principal conforme o tipo de manifestação cabível]
+b) [INSERIR, pedidos acessórios]
+c) O prosseguimento regular do feito.
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, 10 de junho de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────
+PROCESSO Nº 4018295-58.2026.8.26.0405
+Origem: [Gmail, EPROC TJSP]
+Partes: PAULO MATTOS DA SILVA GOMES (EXEQUENTE) x BAUEN STORE COMERCIO DE ACESSORIOS LTDA; MERCADOLIVRE.COM ATIVIDADES DE INTERNET LTDA; EBAZAR.COM.BR. LTDA; MERCADO PAGO INSTITUICAO DE PAGAMENTO LTDA (EXECUTADOS)
+Tribunal/Vara: TJSP, [INSERIR, verificar vara, provavelmente Comarca de Osasco, dado o código 0405]
+Comarca: Osasco (SP)
+Tipo de movimentação: Intimação eletrônica, Despacho/Decisão (Eventos 8 a 12); Confirmação da intimação (Evento 13); Juntada de Petição (Evento 14)
+Data da intimação/confirmação: 09/06/2026
+Prazo: [INSERIR, verificar teor para calcular prazo]
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: [INSERIR, verificar teor]
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR INDISPONÍVEL, o e-mail EPROC de 09/06/2026 informa apenas que houve "Expedida/certificada a intimação eletrônica, Despacho/Decisão, Eventos 8-9-10-11-12" e posterior confirmação (Evento 13) e Juntada de Petição (Evento 14), para o processo 4018295-58.2026.8.26.0405. Verificar manualmente no EPROC o teor do Despacho/Decisão para identificar o ato, seu prazo e a manifestação cabível.]
+
+ANÁLISE JURÍDICA:
+Análise baseada apenas no tipo genérico. O processo é de execução (os réus incluem o Mercado Livre e Mercado Pago, sugerindo ação de cumprimento de sentença ou execução de título extrajudicial). O Despacho/Decisão (Eventos 8-12) seguido de confirmação e juntada de petição sugere que: (a) o juízo proferiu alguma decisão sobre a execução, (b) a intimação foi confirmada (Evento 13), e (c) possivelmente Eduarda ou co-procurador já juntou uma petição em resposta (Evento 14 - juntada de petição). Verificar se a petição do Evento 14 já cobre a necessidade de manifestação, evitando duplicidade.
+
+ESTRATÉGIA APLICÁVEL:
+Verificar no EPROC: (1) teor do Despacho/Decisão; (2) quem juntou a petição do Evento 14 (se foi Eduarda, verificar se já cobriu o prazo); (3) se há prazo adicional em aberto. Agir conforme o teor.
+
+RASCUNHO DE PETIÇÃO:
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 4018295-58.2026.8.26.0405
+Teor disponível: NÃO (apenas notificação EPROC, sem conteúdo do ato)
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA [INSERIR, vara identificada no EPROC], COMARCA DE OSASCO, SÃO PAULO
+
+Processo nº 4018295-58.2026.8.26.0405
+
+PAULO MATTOS DA SILVA GOMES, já qualificado nos autos da execução em epígrafe que move em face de BAUEN STORE COMERCIO DE ACESSORIOS LTDA e outros, vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+[INSERIR, verificar o tipo de manifestação cabível após leitura do teor do Despacho/Decisão (Eventos 8-12) no EPROC]
+
+com fundamento nos arts. [INSERIR, artigos conforme o tipo de manifestação, podendo ser arts. 513 e ss. CPC para execução, ou arts. 824 e ss. para execução por quantia certa], pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+[INSERIR, verificar nos autos o objeto da execução e o teor do ato processual que determinou a intimação]
+
+II, DO DIREITO
+[INSERIR, fundamentação jurídica após leitura do ato]
+
+III, DOS PEDIDOS
+Ante o exposto, requer:
+a) [INSERIR, pedido principal]
+b) [INSERIR, pedidos acessórios]
+c) O prosseguimento regular da execução.
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, 10 de junho de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────
+PROCESSO Nº 1017403-15.2024.8.26.0554
+Origem: [LinkLei]
+Partes: MARIA DE LA CRUZ PARRADO DIAN; LUANA PARRADO DIAN (AUTORAS) x [INSERIR, verificar nome do réu, locador, nos autos]
+Tribunal/Vara: TJSP, Vara Cível, Comarca de Santo André
+Comarca: Santo André (SP)
+Tipo de movimentação: Sentença (julgado parcialmente procedente, publicado 27/05/2026); Embargos de Declaração juntados pela parte contrária em 01/06/2026
+Data da publicação da sentença: 27/05/2026 (Relação 0805/2026)
+Prazo para apelação: SUSPENSO (embargos de declaração em trâmite); novo prazo correrá após julgamento dos embargos
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: APELAÇÃO (após julgamento dos embargos) e/ou ciência dos embargos da parte contrária
+Teor disponível: SIM (dispositivo da sentença obtido via LinkLei)
+
+TEOR DA MOVIMENTAÇÃO:
+Dispositivo da sentença (publicada 27/05/2026, Relação 0805/2026):
+"Diante do exposto, JULGO PARCIALMENTE PROCEDENTES os pedidos para: DECLARAR rescindido o contrato de locação residencial firmado entre as partes, afastada a aplicação de multa rescisória; CONDENAR o réu a restituir às autoras os valores pagos indevidamente a título de consumo excessivo de água, no montante apurado de R$ 634,09, acrescido de correção monetária pelo IPCA a partir da data do desembolso e juros de mora a contar da citação, observada, nos períodos de incidência concomitante, a taxa SELIC. Condeno as partes ao pagamento das custas, despesas processuais e honorários ao advogado do vencedor, fixados nos termos da fundamentação. Resolvido o mérito, extingue-se o processo, forte no art. 487, inciso I, do Código de Processo Civil."
+
+Embargos de Declaração juntados em 01/06/2026 (Protocolo WSNE.26.70141546-6) pela parte contrária.
+
+ANÁLISE JURÍDICA:
+A sentença foi PARCIALMENTE PROCEDENTE, com resultado misto: as autoras (clientes) obtiveram a declaração de rescisão do contrato SEM multa rescisória e a condenação do réu a restituir R$634,09 por consumo excessivo de água. No entanto, como o julgamento foi apenas parcial, alguma parte do pedido foi negada (verificar nos autos quais pedidos não foram acolhidos). A parte contrária (réu/locador) opôs Embargos de Declaração em 01/06/2026, o que INTERROMPE (não suspende) o prazo para recurso de ambas as partes (art. 1.026, §1º, CPC). O prazo para apelação (15 dias úteis, art. 1.003, §5º c/c 1.009, §1º CPC) somente reiniciará do zero após a publicação do acórdão dos embargos.
+
+Ponto de atenção: como o julgamento foi parcialmente procedente, é necessário verificar com as clientes se há interesse em apelar dos pedidos NÃO acolhidos. A apelação pode ser interposta sem embargos próprios, aguardando o julgamento dos embargos da parte contrária.
+
+ESTRATÉGIA APLICÁVEL:
+1. Verificar nos autos quais pedidos foram negados na sentença (parte do "parcialmente procedente").
+2. Avaliar com as clientes (MARIA DE LA CRUZ e LUANA) se há interesse em apelar dos pedidos não concedidos.
+3. Monitorar o julgamento dos embargos de declaração da parte contrária.
+4. Após publicação da decisão dos embargos, o prazo para apelação se renova integralmente (15 dias úteis). Preparar apelação se for o caso.
+5. Se o réu obtiver provimento nos embargos que altere a sentença desfavoravelmente às autoras, avaliar interposição de contra-embargos ou apelação ampliada.
+
+RASCUNHO DE PETIÇÃO:
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 1017403-15.2024.8.26.0554
+Teor disponível: SIM (dispositivo da sentença obtido via LinkLei)
+Nota: rascunho de APELAÇÃO preparado preventivamente; protocolar somente após julgamento dos embargos de declaração
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA VARA CÍVEL DA COMARCA DE SANTO ANDRÉ, SÃO PAULO
+(para encaminhamento ao Egrégio Tribunal de Justiça do Estado de São Paulo)
+
+Processo nº 1017403-15.2024.8.26.0554
+
+MARIA DE LA CRUZ PARRADO DIAN e LUANA PARRADO DIAN, já qualificadas nos autos da ação de [INSERIR, verificar classe processual: ação de rescisão de contrato de locação e ressarcimento] em epígrafe que movem em face de [INSERIR, nome completo do réu/locador, verificar nos autos], vêm, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), interpor
+
+APELAÇÃO CÍVEL
+
+com fundamento nos arts. 1.009 a 1.014 do Código de Processo Civil, em face da sentença de fls. [INSERIR, nº de fls.], que julgou parcialmente procedentes os pedidos, pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+Trata-se de ação proposta pelas ora apelantes em face de [RÉU] versando sobre [INSERIR, objeto da ação].
+
+A sentença proferida em [INSERIR, data] e publicada em 27/05/2026 julgou PARCIALMENTE PROCEDENTE o pedido, reconhecendo a rescisão do contrato de locação sem multa rescisória e condenando o réu a restituir R$634,09 a título de consumo excessivo de água. Contudo, deixou de acolher os seguintes pedidos formulados pelas autoras: [INSERIR, verificar nos autos quais pedidos foram negados].
+
+II, DO DIREITO
+
+[INSERIR, fundamentação jurídica das razões de recurso, atacando especificamente os fundamentos da sentença nos pontos desfavoráveis. Citar legislação pertinente. NÃO inventar jurisprudência.]
+
+[INSERIR, pesquisar jurisprudência do TJSP sobre os pontos controvertidos para embasar as razões recursais]
+
+III, DOS PEDIDOS
+
+Ante o exposto, as apelantes requerem:
+a) O recebimento e processamento do presente recurso;
+b) O provimento do recurso para reformar a sentença no(s) ponto(s) [INSERIR, indicar especificamente o que se pretende reformar], julgando-se procedente também o(s) pedido(s) não acolhido(s) na origem;
+c) A manutenção dos capítulos favoráveis às apelantes;
+d) A condenação do apelado ao pagamento das custas e honorários advocatícios sucumbenciais.
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, [INSERIR, data de protocolo, somente após julgamento dos embargos da parte contrária].
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────
+PROCESSO Nº 1003026-69.2025.8.26.0565 (e Cumprimento de Sentença nº 0001628-70.2026.8.26.0565)
+Origem: [LinkLei]
+Partes: [INSERIR, verificar quem é Autor e Réu no processo original de despejo. Clientes do escritório: BRUNO ROSARIO DA ANUNCIACAO; ELIZABETE MARIA ARAÚJO DA COSTA, provavelmente como RÉUS/locatários]
+Tribunal/Vara: TJSP, 5ª Vara Cível, Comarca de São Caetano do Sul
+Comarca: São Caetano do Sul (SP)
+Tipo de movimentação: Execução/Cumprimento de Sentença Iniciada (0001628-70.2026.8.26.0565) em 02/06/2026
+Data da movimentação: 02/06/2026
+Prazo: Monitorar citação/intimação dos clientes no processo de cumprimento (0001628-70.2026.8.26.0565)
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: IMPUGNAÇÃO AO CUMPRIMENTO DE SENTENÇA (art. 525 CPC), a depender da citação/intimação dos clientes no novo processo
+Teor disponível: SIM (parcial, via LinkLei)
+
+TEOR DA MOVIMENTAÇÃO:
+O processo de despejo (1003026-69.2025.8.26.0565) foi arquivado definitivamente em 26/05/2026. O acórdão de 24/02/2026 não conheceu a apelação dos réus por deserção. Foi iniciado o Cumprimento de Sentença nº 0001628-70.2026.8.26.0565 em 02/06/2026. O despacho de 25/03/2026 determina: "Cumpra-se o v. acórdão. Para a execução da sentença, o qual deverá tramitar digitalmente, providencie a parte autora, em querendo, o cumprimento do Provimento CG nº 16/2016 da Corregedoria Geral de Justiça, disponibilizado no DJE em 04/04/2016. Oportunamente, arquivem-se os autos com as cautelas de praxe."
+
+ANÁLISE JURÍDICA:
+O processo de despejo (ação principal) foi encerrado após apelação dos réus não conhecida por deserção. O locador (parte autora) iniciou o cumprimento de sentença em 02/06/2026. Os clientes de Eduarda (BRUNO e ELIZABETE, provavelmente os locatários/réus) deverão ser intimados no processo de cumprimento. Uma vez intimados, terão 15 dias para apresentar IMPUGNAÇÃO AO CUMPRIMENTO DE SENTENÇA (art. 525 CPC) se discordarem dos valores, do procedimento ou se houver alguma causa extintiva ou modificativa da obrigação. Se não impugnarem, a execução prosseguirá normalmente. Verificar se os clientes já foram ou serão intimados no processo 0001628-70.2026.8.26.0565.
+
+ESTRATÉGIA APLICÁVEL:
+Acessar o processo de cumprimento de sentença (0001628-70.2026.8.26.0565) no ESAJ/TJSP para verificar o estágio atual, se houve intimação dos clientes e qual o valor cobrado. Orientar os clientes sobre a situação. Verificar se há base para impugnação (pagamento anterior, excesso de execução, etc.). Manter monitoramento ativo.
+
+Não há petição a ser apresentada neste momento processual sem antes verificar o teor da intimação no cumprimento de sentença. Acompanhamento e verificação necessários.
+
+────────────────────────────────────────────────────────────
+PROCESSO Nº 1033195-09.2024.8.26.0554
+Origem: [LinkLei + Gmail]
+Partes: MARIA DE LA CRUZ PARRADO DIAN (AUTORA/REQUERENTE) x SORRIDENTS ADMINISTRADORA E LICENCIADORA LTDA e outros (RÉUS/REQUERIDOS)
+Tribunal/Vara: TJSP, 3ª Vara Cível, Comarca de Santo André
+Comarca: Santo André (SP)
+Tipo de movimentação: "2 novas movimentações processuais" (04/06/2026), Pedido de Liminar/Tutela Antecipada juntado em 02/06/2026, aguardando decisão do juízo
+Data da movimentação: 02/06/2026 a 04/06/2026
+Prazo: Aguardando decisão do juízo sobre a liminar (sem prazo para a advogada neste momento)
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: Aguardar decisão, monitorar
+Teor disponível: PARCIAL
+
+TEOR DA MOVIMENTAÇÃO:
+LinkLei (04/06/2026): "2 novas movimentações processuais, Maria de La Cruz Parrado Dian x Sorridents Administradora e Licenciadora Ltda e outros." O conteúdo detalhado das 2 movimentações NÃO está disponível no arquivo LinkLei.
+
+Contexto histórico disponível no arquivo (novembro/2025): o juízo determinou que as requeridas regularizassem suas representações processuais em 15 dias (sob pena de revelia, art. 76, §1º, II, CPC), e que a autora poderia trazer prova de sua deficiência visual para requerer prioridade de tramitação.
+
+Em 02/06/2026: Pedido de Liminar/Tutela Antecipada juntado (Protocolo WSNE.26.70143089-9).
+Em 03/06/2026: Petição de Juntada de Substabelecimento/Procuração (Protocolo WSNE.26.70143301-4).
+Em 05/05/2026: os autos estavam conclusos para despacho.
+
+Informação adicional (Gmail): A Dra. Eduarda enviou e-mail ao gabinete da Juíza Vivian Novaretti em 01/06/2026 solicitando tramitação prioritária para PCD. O gabinete respondeu em 02/06 informando que o e-mail institucional não é canal para receber petições (COMUNICADO CG nº 949/2020). A secretaria da 3ª Vara Cível (stoandre3cv@tjsp.jus.br) respondeu em 10/06/2026 com mensagem automática de atendimento. Não há intimação judicial ativa neste thread.
+
+ANÁLISE JURÍDICA:
+O processo está aguardando despacho do juízo sobre o pedido de liminar/tutela antecipada juntado em 02/06/2026. As 2 movimentações de 04/06 podem ser: (a) conclusão ao juízo, (b) despacho sobre a liminar, ou (c) juntada de documentos. Sem o teor, não há como determinar se há prazo ativo. Verificar no ESAJ as movimentações de 02 a 04/06/2026 neste processo.
+
+ESTRATÉGIA APLICÁVEL:
+Verificar no ESAJ o teor das 2 movimentações registradas em 04/06/2026. Se o juízo deferiu ou indeferiu a liminar, verificar o conteúdo e adotar as medidas cabíveis (ex: agravo de instrumento em caso de indeferimento, se cabível). Monitorar ativo.
+
+Não há petição a ser apresentada neste momento sem verificar o teor das movimentações. Acompanhamento necessário.
+
+────────────────────────────────────────────────────────────
+PROCESSO: [NÚMERO NÃO DISPONÍVEL NO LINKLEI]
+Partes: LEO BATISTA FORTES x 99 TECNOLOGIA LTDA
+Origem: [Gmail, LinkLei]
+Tribunal/Vara: TJSP, [INSERIR, verificar no LinkLei]
+Data da movimentação: 09/06/2026
+Tipo: 5 Novas Movimentações Processuais, última: "Confirmada a intimação eletrônica, Refer. ao Evento 25"
+Prazo: [INSERIR, verificar teor]
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: [INSERIR, verificar teor]
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL NO LINKLEI, e NÚMERO NÃO CAPTURADO PELO LINKLEI. O e-mail do LinkLei de 09/06/2026 informa apenas "5 Novas Movimentações Processuais, LEO BATISTA FORTES x 99 TECNOLOGIA LTDA, última movimentação: Confirmada a intimação eletrônica, Refer. ao Evento: 25". Verificar diretamente na plataforma LinkLei ou no sistema do tribunal.]
+
+ANÁLISE JURÍDICA:
+Análise baseada apenas no tipo genérico. "Confirmada a intimação eletrônica" indica que houve uma intimação para manifestação com prazo em curso. Com 5 movimentações recentes e intimação confirmada, há risco de prazo ativo. Verificar com urgência.
+
+ESTRATÉGIA APLICÁVEL:
+Acessar o LinkLei e identificar o número do processo. Verificar o teor do Evento 25 e os eventos anteriores. Calcular o prazo a partir da data de confirmação da intimação.
+
+RASCUNHO DE PETIÇÃO:
+═══════════════════════════════════════════════════════════
+RASCUNHO-ESQUELETO, Processo: LEO BATISTA FORTES x 99 TECNOLOGIA LTDA
+Número do processo: [NÚMERO NÃO DISPONÍVEL, verificar no LinkLei]
+Teor disponível: NÃO
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA [INSERIR, vara e comarca], SÃO PAULO
+
+Processo nº [INSERIR, número identificado no LinkLei]
+
+LEO BATISTA FORTES, já qualificado nos autos da ação em epígrafe que move em face de 99 TECNOLOGIA LTDA, vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+[INSERIR, tipo de manifestação após verificação do teor do Evento 25 no LinkLei ou tribunal]
+
+com fundamento nos arts. [INSERIR, artigos aplicáveis], pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+[INSERIR, verificar nos autos o objeto da ação e o teor do ato processual]
+
+II, DO DIREITO
+[INSERIR, fundamentação jurídica]
+
+III, DOS PEDIDOS
+a) [INSERIR, pedido principal]
+b) [INSERIR, pedidos acessórios]
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, 10 de junho de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────
+PROCESSO: [NÚMERO NÃO DISPONÍVEL NO LINKLEI]
+Partes: FELIPE GARCIA x EXCLUSIVA ENGENHARIA E CONSTRUCAO LTDA
+Origem: [Gmail, LinkLei]
+Tribunal/Vara: TJSP, [INSERIR, verificar no LinkLei]
+Data da movimentação: 09/06/2026
+Tipo: 9 Novas Movimentações Processuais, última: "Decisão interlocutória"
+Prazo: possivelmente 15 dias para agravo de instrumento (se cabível, art. 1.015 CPC)
+Urgência: 🟡 ATENÇÃO
+Manifestação cabível: AGRAVO DE INSTRUMENTO (se hipótese taxativa do art. 1.015 CPC) ou CIÊNCIA
+Teor disponível: NÃO
+
+TEOR DA MOVIMENTAÇÃO:
+[TEOR NÃO DISPONÍVEL NO LINKLEI, e NÚMERO NÃO CAPTURADO PELO LINKLEI. O e-mail LinkLei de 09/06/2026 informa "9 Novas Movimentações Processuais, FELIPE GARCIA x EXCLUSIVA ENGENHARIA E CONSTRUCAO LTDA, última movimentação: Decisão interlocutória". Verificar diretamente na plataforma LinkLei ou tribunal para identificar o número e o teor.]
+
+ANÁLISE JURÍDICA:
+Análise baseada apenas no tipo genérico. A "decisão interlocutória" pode ou não ser agravável via agravo de instrumento (prazo de 15 dias úteis, art. 1.015 e 1.003, §5º CPC), dependendo se se enquadra nas hipóteses taxativas do art. 1.015 do CPC (tutela provisória, mérito, rejeição de litisconsorte necessário, exclusão de litisconsorte, improcedência liminar, rejeição de convenção de arbitragem, saneamento e organização do processo, inadmissão de intervenção de terceiros, concessão, modificação ou revogação do efeito suspensivo aos embargos à execução, redistribuição do ônus da prova). Sem o teor, não é possível determinar a recorribilidade. URGENTE verificar.
+
+ESTRATÉGIA APLICÁVEL:
+Verificar com MÁXIMA URGÊNCIA o teor da decisão interlocutória no LinkLei ou tribunal. Se a decisão se enquadrar em hipótese do art. 1.015 do CPC, o prazo para agravo de instrumento é de 15 dias úteis (contados da data de confirmação da intimação). Se não for agravável, registrar como ciência e aguardar sentença para eventual apelação (art. 1.009, §1º CPC).
+
+RASCUNHO DE PETIÇÃO:
+═══════════════════════════════════════════════════════════
+RASCUNHO-ESQUELETO, Processo: FELIPE GARCIA x EXCLUSIVA ENGENHARIA E CONSTRUCAO LTDA
+Número do processo: [NÚMERO NÃO DISPONÍVEL, verificar no LinkLei]
+Teor disponível: NÃO
+Atenção: protocolar APENAS se a decisão se enquadrar nas hipóteses do art. 1.015 CPC
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). DESEMBARGADOR(A) RELATOR(A) DO EGRÉGIO TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO
+(Agravo de Instrumento)
+
+Processo de origem nº [INSERIR, número identificado no LinkLei]
+
+FELIPE GARCIA, já qualificado nos autos da ação em epígrafe que move em face de EXCLUSIVA ENGENHARIA E CONSTRUCAO LTDA, vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), interpor
+
+AGRAVO DE INSTRUMENTO
+
+com fundamento no art. 1.015, [INSERIR, inciso aplicável conforme teor da decisão recorrida], do Código de Processo Civil, em face da decisão interlocutória proferida em [INSERIR, data], pelos fatos e fundamentos a seguir expostos.
+
+I, DA TEMPESTIVIDADE
+O presente recurso é tempestivo, interposto dentro do prazo de 15 (quinze) dias úteis previsto no art. 1.003, §5º c/c art. 1.015 do CPC, contados a partir de [INSERIR, data de confirmação da intimação].
+
+II, DOS FATOS
+[INSERIR, verificar nos autos o objeto da ação e o teor da decisão interlocutória recorrida]
+
+III, DO DIREITO
+[INSERIR, fundamentação jurídica atacando os fundamentos da decisão recorrida]
+
+IV, DO CABIMENTO DO AGRAVO
+[INSERIR, demonstrar que a decisão se enquadra na hipótese taxativa do art. 1.015, X, do CPC]
+
+V, DOS PEDIDOS
+Ante o exposto, o agravante requer:
+a) O recebimento e processamento do presente agravo de instrumento;
+b) A concessão de efeito suspensivo, ante [INSERIR, urgência e risco de dano];
+c) O provimento do recurso para [INSERIR, o que se pretende reformar];
+d) A condenação da agravada ao pagamento de custas e honorários.
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, 10 de junho de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────
+PROCESSO Nº 1003707-39.2025.8.26.0565
+Origem: [Gmail, LinkLei]
+Partes: COOPERATIVA DE CREDITO MUTUO DOS MICROS E PEQUENOS EMPRESARIOS E MICROEMPREENDEDORES DO GRANDE ABC (EXEQUENTE) x SHIELD COMERCIO, IMPORTACAO E EXPORTACAO DE ARTIGOS DE PRODUTOS OPTICOS LTDA; SANDRO GRANSOTI (EXECUTADOS)
+Tribunal/Vara: TJSP, [INSERIR, verificar vara]
+Comarca: São Caetano do Sul (SP)
+Tipo de movimentação: Vista para ciência de Mandado de Levantamento Eletrônico
+Data: 10/06/2026
+Prazo: Sem prazo processual obrigatório (ciência)
+Urgência: 🟢 MONITORAR
+Manifestação cabível: CIÊNCIA (sem petição necessária)
+Teor disponível: SIM
+
+TEOR DA MOVIMENTAÇÃO (via Gmail, LinkLei, 10/06/2026):
+"Vista dos autos às partes e interessados para: Ciência da expedição de Mandado de Levantamento Eletrônico, em cumprimento à r. decisão proferida à pág. 287 e dados indicados no formulário juntado à pág. 283, nos termos que seguem: Mandado nº: 20260529131203046016, Conta judicial nº: 2300114378575. ADV: ANA CLARA DE SOUSA SGRECCIA MORAIS (OAB 527290/SP), EDUARDA FERREIRA DA SILVA MACHADO (OAB 545832/SP), ELTON LUIZ BARTOLI (OAB 317095/SP)"
+
+ANÁLISE JURÍDICA:
+Foi expedido Mandado de Levantamento Eletrônico (Mandado nº 20260529131203046016, Conta judicial nº 2300114378575) em cumprimento à decisão de fl. 287. O levantamento favorece a exequente (Cooperativa). A intimação é para CIÊNCIA dos advogados das partes. Não há prazo para manifestação obrigatória dos executados neste momento.
+
+Não há petição a ser apresentada neste momento processual. Acompanhamento apenas.
+
+Atenção: verificar com o cliente SANDRO GRANSOTI se concorda com o levantamento. Se houver discordância quanto ao valor ou procedimento, verificar se há base para impugnação ou pedido de reconsideração.
+
+────────────────────────────────────────────────────────────
+PROCESSO Nº 1003900-87.2025.8.26.0554
+Origem: [LinkLei]
+Partes: FABIANO BENDER MACHADO (PARTE) x JULIANA GALASSI VALE CREPALLI e outros
+Tribunal/Vara: TJSP, 9ª Vara Cível, Comarca de Santo André
+Comarca: Santo André (SP)
+Tipo de movimentação: Manifestação do MP juntada em 03/06/2026 (após despacho "Dê-se vista ao MP")
+Data da movimentação: 03/06/2026
+Prazo: Sem prazo ativo (aguardando retorno ao juízo após manifestação do MP)
+Urgência: 🟢 MONITORAR
+Manifestação cabível: Aguardar conclusão ao juízo para despacho seguinte
+Teor disponível: PARCIAL
+
+TEOR DA MOVIMENTAÇÃO:
+Despacho de 01/06/2026 (Relação 0719/2026, publicado 03/06/2026): "Vistos. Dê-se vista ao MP. Após, tornem conclusos. Int."
+Em 03/06/2026: "Petição Juntada Nº Protocolo: WSNE.26.80064839-6, Tipo da Petição: Manifestação do MP."
+
+O MP manifestou-se em 03/06/2026. Após a manifestação do MP, os autos retornam conclusos ao juízo para o próximo despacho/decisão.
+
+ANÁLISE JURÍDICA:
+O juízo deu vista ao Ministério Público, que manifestou em 03/06/2026. Os autos estão pendentes de novo despacho do juízo. Não há prazo ativo para a advogada. Monitorar a próxima movimentação para verificar o conteúdo do próximo despacho e se haverá nova intimação das partes.
+
+Não há petição a ser apresentada neste momento processual. Acompanhamento apenas.
+
+────────────────────────────────────────────────────────────
+PROCESSO Nº 1002508-49.2024.8.26.0554
+Origem: [LinkLei]
+Partes: LUANA PARRADO DIAN (EXECUTADA, provavelmente) x EIRA VELHA E ALCARAS CLINICA ODONTOLOGICA LTDA (EXEQUENTE)
+Tribunal/Vara: [INSERIR, verificar tribunal, uso de interface PJe]
+Comarca: [INSERIR, código 0554 = Santo André, confirmar]
+Tipo de movimentação: Decisão interlocutória (Evento 133, 18/05/2026); prazo da exequente FECHADO em 03/06/2026
+Data: 18/05/2026 (decisão); 03/06/2026 (prazo exequente fechado)
+Prazo: sem prazo ativo para os clientes neste momento
+Urgência: 🟢 MONITORAR
+Manifestação cabível: Monitorar próxima movimentação
+Teor disponível: PARCIAL (sem teor da decisão interlocutória)
+
+TEOR DA MOVIMENTAÇÃO:
+Decisão interlocutória proferida em 18/05/2026 (Evento 133). Intimação expedida para a EXEQUENTE (EIRA VELHA E ALCARAS CLINICA ODONTOLOGICA LTDA) com prazo de 10 dias (21/05 a 03/06/2026), prazo FECHADO. Uma petição foi juntada em 27/05/2026 (SP353357, não é Eduarda). Teor da decisão indisponível no arquivo do LinkLei.
+
+ANÁLISE JURÍDICA:
+O prazo da exequente (parte contrária) venceu em 03/06/2026. O processo segue seu andamento normal. Verificar a próxima movimentação para acompanhar os desdobramentos da decisão interlocutória.
+
+Não há petição a ser apresentada neste momento processual. Acompanhamento apenas.
+
+────────────────────────────────────────────────────────────
+PROCESSO Nº 4079477-87.2026.8.26.0100
+Origem: [Gmail, EPROC TJSP]
+Partes: ANDERSON BATISTA DO NASCIMENTO (AUTOR) x 99 TECNOLOGIA LTDA (RÉU)
+Tribunal/Vara: TJSP, [INSERIR, verificar vara]
+Comarca: São Paulo (código 0100 = Capital)
+Tipo de movimentação: Decorrido prazo, Evento 9
+Data: 09/06/2026
+Prazo: sem prazo ativo para os clientes neste momento
+Urgência: 🟢 MONITORAR
+Manifestação cabível: Verificar próxima movimentação
+Teor disponível: PARCIAL
+
+TEOR DA MOVIMENTAÇÃO:
+EPROC (09/06/2026): "Decorrido prazo, Evento 9." Partes: ANDERSON BATISTA DO NASCIMENTO (Autor, advogada EDUARDA FERREIRA DA SILVA MACHADO SP545832) x 99 TECNOLOGIA LTDA (Réu). O "decorrido prazo" indica que um prazo processual expirou. Sem o teor do Evento 9, não é possível determinar de qual prazo se trata (da parte contrária ou do autor).
+
+ANÁLISE JURÍDICA:
+Verificar no EPROC o teor do Evento 9 e o contexto do prazo decorrido. Se foi prazo da parte contrária que expirou, o processo pode prosseguir para a próxima fase (despacho do juízo, julgamento antecipado, etc.). Se foi prazo do autor (ANDERSON BATISTA), verificar urgentemente se houve perda de oportunidade processual.
+
+Não há petição a ser apresentada neste momento sem verificar o teor. Acompanhamento necessário.
+
+════════════════════════════════════════════════════════════════
+5. LISTA CONSOLIDADA DE TAREFAS POR PRIORIDADE
+════════════════════════════════════════════════════════════════
+
+🔴 URGENTE (até 5 dias úteis):
+  Nenhum processo nesta categoria hoje.
+
+🟡 ATENÇÃO (6 a 15 dias úteis ou verificação urgente necessária):
+
+  [ ] Processo nº 4097163-92.2026.8.26.0100, JESSICA BISSOLATI x BARRETOS COUNTRY
+      Emenda à inicial, vence em 30/06/2026 [TEOR: parcial, verificar conteúdo exato do despacho no EPROC]
+
+  [ ] Processo nº 4075382-14.2026.8.26.0100, ISMAELA x EBAZAR
+      Réplica à contestação, vence em 30/06/2026 [TEOR: disponível, rascunho gerado]
+
+  [ ] Processo nº 4013390-48.2026.8.26.0554, MARIA APARECIDA ZAPPAROLLI x ITAU UNIBANCO
+      Verificar URGENTE teor da intimação eletrônica (Evento 6, 09/06/2026) no EPROC
+      [TEOR: indisponível, prazo desconhecido, rascunho-esqueleto gerado]
+
+  [ ] Processo nº 4018295-58.2026.8.26.0405, PAULO MATTOS x BAUEN STORE/MERCADOLIVRE/EBAZAR/MERCADO PAGO
+      Verificar teor do Despacho/Decisão (Eventos 8-12, 09/06/2026) no EPROC; confirmar se Evento 14 (juntada de petição) já cobriu a necessidade
+      [TEOR: indisponível, rascunho-esqueleto gerado]
+
+  [ ] Processo nº 1017403-15.2024.8.26.0554, MARIA DE LA CRUZ/LUANA x [RÉU]
+      Monitorar julgamento dos Embargos de Declaração (juntados 01/06/2026 pela parte contrária); preparar apelação preventivamente; verificar quais pedidos não foram acolhidos na sentença
+      [TEOR: disponível (dispositivo), rascunho de apelação gerado preventivamente]
+
+  [ ] Processo nº 1003026-69.2025.8.26.0565 / 0001628-70.2026.8.26.0565
+      Verificar no ESAJ o estágio do Cumprimento de Sentença; verificar se clientes (BRUNO/ELIZABETE) foram intimados; preparar impugnação ao cumprimento se necessário
+      [TEOR: parcial]
+
+  [ ] Processo nº 1033195-09.2024.8.26.0554, MARIA DE LA CRUZ x SORRIDENTS
+      Verificar no ESAJ as 2 movimentações de 04/06/2026; verificar decisão sobre pedido de liminar juntado em 02/06/2026
+      [TEOR: parcial]
+
+  [ ] Processo [SEM NÚMERO], LEO BATISTA FORTES x 99 TECNOLOGIA LTDA
+      Verificar URGENTE número do processo e teor da intimação confirmada (Evento 25) no LinkLei; prazo desconhecido
+      [TEOR: indisponível, rascunho-esqueleto gerado]
+
+  [ ] Processo [SEM NÚMERO], FELIPE GARCIA x EXCLUSIVA ENGENHARIA
+      Verificar URGENTE número do processo e teor da decisão interlocutória (09/06/2026) no LinkLei; verificar se cabe agravo de instrumento em 15 dias úteis
+      [TEOR: indisponível, rascunho-esqueleto de agravo gerado]
+
+🟢 MONITORAR (sem prazo imediato):
+
+  [ ] Processo nº 1003707-39.2025.8.26.0565, Cooperativa x SANDRO GRANSOTI
+      Ciência de mandado de levantamento eletrônico (Mandado 20260529131203046016); sem petição necessária
+
+  [ ] Processo nº 1003900-87.2025.8.26.0554, FABIANO BENDER MACHADO x JULIANA GALASSI
+      MP manifestou em 03/06/2026; aguardar próximo despacho do juízo; sem ação necessária agora
+
+  [ ] Processo nº 1002508-49.2024.8.26.0554, LUANA PARRADO DIAN x EIRA VELHA
+      Prazo da exequente expirou; monitorar próxima movimentação
+
+  [ ] Processo nº 4079477-87.2026.8.26.0100, ANDERSON BATISTA x 99 TECNOLOGIA
+      Verificar teor do Evento 9 (decorrido prazo) no EPROC; monitorar
+
+CIÊNCIA (sem ação necessária):
+
+  [ ] Processo nº 1031376-18.2016.8.26.0554
+      Protocolo de petição intermediária confirmado pelo e-SAJ (09/06/2026, WSNE.26.70147429-2); apenas registro
+
+  [ ] Email do gabinete stoandre3cv@tjsp.jus.br (10/06/2026)
+      Resposta automática de atendimento da 3ª Vara Cível de Santo André; não é intimação judicial; apenas registro
+
+════════════════════════════════════════════════════════════════
+6. MENSAGENS PRONTAS PARA CLIENTES
+════════════════════════════════════════════════════════════════
+
+CLIENTE: Jessica Cristina Pereira Bissolati
+Processo: 4097163-92.2026.8.26.0100
+Mensagem sugerida (WhatsApp):
+"Olá, Jessica! Tudo bem? Passando para avisar que o juízo pediu que a gente faça um ajuste na petição inicial do seu processo contra a Barretos Country. Temos até 30/06 para protocolar. Já estou providenciando. Qualquer dúvida, é só me falar!"
+
+CLIENTE: Ismaela Confecções e Calçados Ltda
+Processo: 4075382-14.2026.8.26.0100
+Mensagem sugerida (WhatsApp):
+"Olá! O juízo intimou para apresentarmos a réplica (nossa resposta à contestação da Ebazar) no processo que corre na 16ª Vara Cível de São Paulo. Temos até 30/06. Já preparei um rascunho, mas vou precisar verificar os argumentos da defesa deles nos autos antes de protocolar. Se precisar de mais alguma informação do caso, me avise!"
+
+CLIENTE: Maria Aparecida Zapparolli
+Processo: 4013390-48.2026.8.26.0554
+Mensagem sugerida (WhatsApp):
+"Olá, Maria Aparecida! Recebi uma notificação de movimentação no seu processo contra o Itaú Unibanco. Vou verificar o conteúdo da intimação hoje mesmo e te retorno com informações sobre o que precisa ser feito e o prazo. Fique tranquila que estou monitorando!"
+
+CLIENTE: Maria de La Cruz Parrado Dian e Luana Parrado Dian
+Processo: 1017403-15.2024.8.26.0554
+Mensagem sugerida (WhatsApp):
+"Olá! Quero te atualizar sobre o processo de locação. A sentença foi favorável na parte principal: o contrato foi rescindido sem multa e o juízo condenou a parte contrária a devolver R$634,09 das cobranças indevidas de água. O resultado foi parcialmente procedente. A parte contrária está recorrendo internamente (embargos de declaração). Estou monitorando o andamento e vou te explicar melhor as opções quando esse recurso deles for julgado. Qualquer dúvida, me fala!"
+
+════════════════════════════════════════════════════════════════
+7. ALERTAS DE SISTEMA
+════════════════════════════════════════════════════════════════
+
+🚨 CRÍTICO: Script de coleta PARADO há 6 dias
+O script de coleta automática do LinkLei e do DataJud não gerou nenhum arquivo para os dias 05, 06 (fim de semana), 08, 09 e 10/06/2026. O arquivo mais recente disponível é de 04/06/2026 (quinta-feira). Isso significa que as movimentações processuais dos dias úteis 05, 08, 09 e 10/06 não foram capturadas pelo mecanismo de coleta local. O Gmail compensou parcialmente, mas apenas os processos que geram notificações por e-mail foram identificados. Processos monitorados exclusivamente pelo script podem ter tido intimações perdidas.
+AÇÃO RECOMENDADA: Verificar urgentemente o VPS e reiniciar o script de coleta (coletar-linklei.js e o script do DataJud). Após reiniciar, executar uma coleta retroativa dos dias perdidos se possível.
+
+⚠ TRÊS PROCESSOS SEM MONITORAMENTO ATIVO (segredo de justiça):
+, 1019648-67.2022.8.26.0554 (ARTHUR/LUANA PARRADO DIAN)
+, 0017113-85.2022.8.26.0554 (ARTHUR/LUANA PARRADO DIAN)
+, 1004553-56.2025.8.26.0565 (GABRIEL DA COSTA PEREIRA MACHADO)
+Todos com mensagem "Processo possui segredo de justiça. Necessário senha para consultá-lo." Reconfigurar credenciais no LinkLei.
+
+⚠ DOIS PROCESSOS SEM NÚMERO DE PROCESSO IDENTIFICADO:
+, LEO BATISTA FORTES x 99 TECNOLOGIA LTDA (email LinkLei 09/06/2026)
+, FELIPE GARCIA x EXCLUSIVA ENGENHARIA E CONSTRUCAO LTDA (email LinkLei 09/06/2026)
+Verificar no painel do LinkLei para identificar os números. Esses processos podem não estar cadastrados no monitoramento do LinkLei (o email menciona "não cadastrado" em outros casos similares). Verificar se precisam ser adicionados ao painel.
+
+⚠ DATAJUD SEM MOVIMENTOS RECENTES:
+O arquivo DataJud de 04/06/2026 lista 57 processos mas o campo "movimentos" está vazio em todos os registros. O DataJud não trouxe complementação útil para nenhum processo. Verificar se o script de extração de movimentos do DataJud está funcionando corretamente.
+
+⚠ DISCREPÂNCIA DE DATA NO ARQUIVO LINKLEI:
+O arquivo linklei-raw-2026-06-04.txt contém movimentações datadas de 02/06 e 03/06/2026 como "há um dia" e "há 2 dias" (relativas ao dia 04/06). As movimentações dos dias 05, 06, 08, 09 e 10/06 estão ausentes do arquivo. Nenhuma duplicidade entre LinkLei e Gmail foi detectada para os processos confirmados.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AVISO DE SEGURANÇA:
+, Apenas leitura foi realizada no LinkLei, DataJud e no Gmail
+, Nenhuma notificação foi alterada, excluída ou marcada
+, Nenhum e-mail foi respondido, encaminhado ou movido
+, Nenhum dado foi modificado em qualquer plataforma de origem
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FIM DO RELATÓRIO
