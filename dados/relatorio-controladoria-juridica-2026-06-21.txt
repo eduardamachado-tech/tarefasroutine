@@ -1,0 +1,121 @@
+RELATÓRIO DIÁRIO DE CONTROLADORIA JURÍDICA
+Escritório Eduarda Machado Advocacia Estratégica
+Advogada Responsável: Dra. EDUARDA FERREIRA DA SILVA MACHADO, OAB/SP 545.832
+Data de Referência: 2026-06-21
+Gerado automaticamente em: 2026-06-21, 09:33 (horário de São Paulo)
+
+═══════════════════════════════════════════════════════════
+1. RESUMO EXECUTIVO
+═══════════════════════════════════════════════════════════
+
+- Total de movimentações coletadas: 1 (sendo 0 do LinkLei com conteúdo detalhado, 1 do Gmail, 0 duplicadas)
+- Quantidade por grau de urgência: 0 URGENTES, 0 ATENÇÃO, 1 MONITORAR
+- Quantidade de rascunhos de petição gerados: 0 (a movimentação encontrada é meramente informativa, não exige manifestação)
+- Quantidade de processos apenas para ciência: 1
+- Alertas críticos: ARQUIVO DE COLETA DO LINKLEI DESATUALIZADO HÁ 17 DIAS, ver seção 7
+
+ATENÇÃO PRIORITÁRIA: o e-mail de resumo do LinkLei recebido hoje (12:04) informa "9 Tarefas pendentes no total" na plataforma, mas não detalha quais processos ou prazos estão envolvidos. Sem o arquivo dados/linklei-raw-2026-06-21.txt, não foi possível identificar o conteúdo dessas 9 tarefas. Recomenda-se acesso manual urgente à plataforma LinkLei (https://app.linklei.com.br/workspace/notifications/) para verificar se há prazos em curso entre essas pendências.
+
+═══════════════════════════════════════════════════════════
+2. DIAGNÓSTICO DE QUALIDADE DOS DADOS
+═══════════════════════════════════════════════════════════
+
+LinkLei:
+- Arquivo dados/linklei-raw-2026-06-21.txt: NÃO ENCONTRADO no repositório
+- Último arquivo de coleta disponível: dados/linklei-raw-2026-06-04.txt (17 dias atrás)
+- Arquivo DataJud mais recente: dados/datajud-raw-2026-06-04.json (também 17 dias atrás)
+- Registros com número de processo: 0 de 0 (nenhum arquivo do dia para analisar)
+- Registros com teor da movimentação: 0 de 0
+- E-mail de resumo do LinkLei recebido hoje: SIM (apenas painel genérico, "9 Tarefas pendentes no total", sem detalhe de processos)
+
+Gmail:
+- E-mails de tribunais encontrados nas últimas 24h: 1 (TJSP, EPROC Cível)
+- E-mails com teor completo da intimação: 0 (o e-mail recebido é uma comunicação meramente informativa, sem valor de intimação, conforme texto do próprio e-mail)
+- E-mails sem número de processo identificável: 0
+- E-mails do LinkLei (resumo de notificações): 1, sem conteúdo detalhado de processos
+
+IMPACTO NA GERAÇÃO DE RASCUNHOS:
+- Rascunhos com teor completo (prontos para revisão): 0
+- Rascunhos com teor parcial (precisam de complementação manual): 0
+- Rascunhos-esqueleto (apenas estrutura, teor indisponível): 0 (a única movimentação identificada não exige manifestação, é apenas ciência)
+- Movimentações sem rascunho por falta total de dados: 0
+
+RECOMENDAÇÃO TÉCNICA:
+O script de coleta do LinkLei (coletar-linklei.js, no VPS) não gerou nenhum arquivo dados/linklei-raw-AAAA-MM-DD.txt nos últimos 17 dias (último arquivo: 2026-06-04). Isso é mais grave do que a ausência de teor: é a ausência total de coleta. Recomenda-se, com urgência:
+a) Verificar se o cron job do script ainda está ativo no VPS
+b) Verificar se a sessão/cookies do LinkLei expiraram sem gerar o marcador SESSAO_EXPIRADA esperado
+c) Verificar se o script está rodando mas falhando ao commitar/fazer push do arquivo para o repositório
+Enquanto o problema não for corrigido, o escritório está dependendo EXCLUSIVAMENTE dos e-mails diretos dos tribunais para monitoramento de prazos, o que aumenta o risco de perda de prazo para processos que não geram notificação por e-mail.
+
+═══════════════════════════════════════════════════════════
+3. MOVIMENTAÇÕES POR PROCESSO
+═══════════════════════════════════════════════════════════
+
+───────────────────────────────────────────────────────────
+PROCESSO Nº 4010032-76.2026.8.26.0004
+Origem: [Gmail]
+Partes: CARLA BANIETTI (autora, patrocinada pela Dra. Eduarda Machado) x FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA. (ré)
+Tribunal/Vara: TJSP, EPROC Cível, [INSERIR, vara e comarca não informados no e-mail, verificar no eproc1g.tjsp.jus.br]
+Tipo de movimentação: Comunicação informativa de andamento processual (não é intimação)
+Data da publicação/intimação: 2026-06-21
+Prazo: Não se aplica, não corre prazo para a autora nesta movimentação
+Urgência: 🟢 MONITORAR
+Manifestação cabível: CIÊNCIA
+Teor disponível: SIM (parcial, conforme corpo do e-mail)
+
+TEOR DA MOVIMENTAÇÃO:
+"Expedida/certificada a citação eletrônica", evento número 8. O e-mail do TJSP EPROC informa expressamente que esta comunicação é "meramente informativa, NÃO TENDO VALOR DE INTIMAÇÃO" e que o conteúdo integral do ato deve ser consultado diretamente no Processo Eletrônico (eproc1g.tjsp.jus.br).
+
+ANÁLISE JURÍDICA:
+Trata-se da expedição e certificação da citação eletrônica da ré Facebook Serviços Online do Brasil Ltda. Isso indica que o processo avançou da fase de distribuição/admissão para a fase de citação do polo passivo. Não há, nesta movimentação, qualquer ato ou prazo dirigido à parte autora. O prazo de resposta (contestação) corre para a ré a partir da efetivação da citação, não para o nosso lado.
+
+ESTRATÉGIA APLICÁVEL:
+Nenhuma ação imediata é necessária. Recomenda-se apenas registrar a data de expedição da citação para acompanhamento do prazo de contestação da ré (controle interno, sem necessidade de petição). Sugere-se conferir o andamento completo no eproc1g.tjsp.jus.br para confirmar a data efetiva de citação, uma vez que o e-mail não tem valor oficial de intimação.
+
+RASCUNHO DE PETIÇÃO:
+Não há petição a ser apresentada neste momento processual. Acompanhamento apenas.
+───────────────────────────────────────────────────────────
+
+═══════════════════════════════════════════════════════════
+4. LISTA CONSOLIDADA DE TAREFAS POR PRIORIDADE
+═══════════════════════════════════════════════════════════
+
+🔴 URGENTE (até 5 dias úteis):
+- (nenhuma movimentação urgente identificada hoje, com os dados disponíveis)
+
+🟡 ATENÇÃO (6 a 15 dias úteis):
+- [ ] Verificar manualmente na plataforma LinkLei as "9 Tarefas pendentes no total" informadas no resumo de hoje, conteúdo não disponível no arquivo do repositório [TEOR: indisponível]
+- [ ] Corrigir/verificar o script de coleta do LinkLei no VPS, sem coleta desde 2026-06-04
+
+🟢 MONITORAR (sem prazo imediato):
+- [ ] Processo nº 4010032-76.2026.8.26.0004, citação eletrônica expedida à ré Facebook, apenas ciência
+
+═══════════════════════════════════════════════════════════
+5. MENSAGENS PRONTAS PARA CLIENTES
+═══════════════════════════════════════════════════════════
+
+Cliente: Carla Banietti
+Processo: 4010032-76.2026.8.26.0004
+Mensagem sugerida (WhatsApp):
+"Olá Carla! Passando para informar que seu processo teve uma movimentação hoje: a citação da Facebook foi expedida, ou seja, a empresa agora será formalmente comunicada sobre o processo. Não é necessária nenhuma ação da sua parte neste momento, vamos acompanhar o prazo de resposta deles. Qualquer dúvida, estou à disposição!"
+
+═══════════════════════════════════════════════════════════
+6. ALERTAS DE SISTEMA
+═══════════════════════════════════════════════════════════
+
+1. ALERTA CRÍTICO, COLETA LINKLEI INTERROMPIDA: nenhum arquivo dados/linklei-raw-AAAA-MM-DD.txt foi gerado desde 2026-06-04 (17 dias). O mesmo vale para dados/datajud-raw-AAAA-MM-DD.json. Não há indicação de SESSAO_EXPIRADA ou SEM_MOVIMENTACOES porque simplesmente não existe arquivo para o período. Recomenda-se verificação imediata do script coletar-linklei.js e do cron job no VPS.
+2. O e-mail de resumo do LinkLei de hoje indica 9 tarefas pendentes na plataforma, sem detalhamento. Não foi possível avaliar se há prazos em risco entre essas pendências.
+3. Nenhuma divergência entre fontes foi observada (não havia LinkLei detalhado para comparar com o Gmail).
+4. Nenhum e-mail de tribunal sem número de processo identificável foi encontrado.
+5. Nenhum anexo relevante precisou ser processado nesta data.
+
+═══════════════════════════════════════════════════════════
+AVISO DE SEGURANÇA
+═══════════════════════════════════════════════════════════
+Apenas leitura foi realizada no LinkLei (arquivo local), DataJud (arquivo local) e Gmail.
+Nenhuma notificação foi alterada, excluída ou marcada.
+Nenhum e-mail foi respondido, encaminhado ou movido.
+Nenhum dado foi modificado em qualquer plataforma de origem.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
