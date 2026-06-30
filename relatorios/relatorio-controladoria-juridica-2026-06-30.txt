@@ -1,0 +1,654 @@
+RELATÓRIO DIÁRIO DE CONTROLADORIA JURÍDICA
+Escritório Eduarda Machado Advocacia Estratégica
+Advogada Responsável: Dra. EDUARDA FERREIRA DA SILVA MACHADO, OAB/SP 545.832
+Data de Referência: 2026-06-30
+Gerado automaticamente em: 2026-06-30T12:30 (horário de São Paulo)
+
+=============================================================
+2. RESUMO EXECUTIVO
+=============================================================
+
+Total de movimentações coletadas: 12 (sendo 12 do Gmail/LinkLei, 0 do arquivo LinkLei do repositório hoje)
+Quantidade por grau de urgência: 0 URGENTES, 6 ATENÇÃO, 5 MONITORAR
+Quantidade de rascunhos de petição gerados: 6 (0 com teor completo, 3 com teor parcial, 3 esqueleto)
+Quantidade de processos apenas para ciência: 4
+
+ALERTAS CRÍTICOS:
+- Processo 4004676-61.2026.8.26.0405 (JF ALIMENTOS LTDA): intimação para CONTRARRAZÕES ao recurso de apelação, DJ publicado 29/06/2026 (domingo), prazo INICIA HOJE 30/06/2026 e vence 21/07/2026.
+- Processo 4066746-59.2026.8.26.0100 (CLEYDSON VALADARES COSTA): intimação para RÉPLICA, prazo inicia 30/06 e vence 21/07/2026.
+- Processo 4075520-78.2026.8.26.0100 (PAULO ANDRE SILVA): intimação para ciência/réplica, prazo 15 dias, iniciando hoje.
+- ALERTA DE SISTEMA: Scripts VPS parados há 26 dias. Nenhum arquivo LinkLei ou DataJud novo desde 04/06/2026.
+- ALERTA DE SISTEMA: Google Drive com cota esgotada (primeira tentativa). Relatório salvo no repositório como fallback.
+
+=============================================================
+3. DIAGNÓSTICO DE QUALIDADE DOS DADOS
+=============================================================
+
+QUALIDADE DOS DADOS COLETADOS:
+
+LinkLei (arquivo repositório):
+- Arquivo mais recente: linklei-raw-2026-06-04.txt (26 dias desatualizado)
+- Nenhum arquivo gerado para 2026-06-30
+- Registros com número de processo: 0 de 0 (arquivo inexistente para hoje)
+- Registros com teor da movimentação: 0 de 0
+- STATUS: CRÍTICO, scripts VPS não funcionam há 26 dias
+
+DataJud (arquivo repositório):
+- Arquivo mais recente: datajud-raw-2026-06-04.json (26 dias desatualizado)
+- Nenhum arquivo gerado para 2026-06-30
+- STATUS: CRÍTICO
+
+Gmail (LinkLei via e-mail):
+- E-mails de notificação LinkLei encontrados: 7 threads, 13 mensagens individuais
+- Threads com teor de intimação/publicação: 3 threads (processos 1015517, 1501353, e thread 29/06 com 6 processos)
+- Threads com teor genérico apenas: 4 threads (ZILDA, Fabiano Bender, JF ALIMENTOS Evento 83, CLEYDSON x FACEBOOK)
+- E-mails com número de processo identificável: 9 mensagens
+- E-mails sem número de processo identificável: 4 mensagens
+
+IMPACTO NA GERAÇÃO DE RASCUNHOS:
+- Rascunhos com teor parcial (precisam de complementação): 3 (contrarrazões, 2 réplicas)
+- Rascunhos-esqueleto (teor indisponível): 3 (JF x IFOOD Evento 83, 4105579, 1000084)
+- Movimentações sem rascunho (ciência/mero expediente): 4
+
+RECOMENDAÇÃO TÉCNICA URGENTE:
+O script de coleta do VPS não está gerando arquivos desde 04/06/2026 (26 dias sem funcionamento). Todo o relatório de hoje foi gerado EXCLUSIVAMENTE via Gmail/LinkLei por e-mail. Recomenda-se verificar imediatamente o status do VPS e reiniciar/corrigir os scripts coletar-linklei.js e coletar-datajud.js. Sem os arquivos do repositório, a cobertura de processos fica incompleta, pois nem todos os processos monitorados no LinkLei geram notificações por e-mail.
+
+=============================================================
+4. MOVIMENTAÇÕES POR PROCESSO
+=============================================================
+
+───────────────────────────────────────────────────────────
+PROCESSO Nº 4004676-61.2026.8.26.0405
+Origem: [Gmail + LinkLei]
+Partes: JF ALIMENTOS LTDA (autor) x [INSERIR réu, verificar autos, possivelmente IFOOD.COM ou outro]
+Tribunal/Vara: TJSP, Comarca de Osasco (0405), vara a verificar
+Tipo de movimentação: Despacho, intimação para contrarrazões ao recurso de apelação
+Data da publicação/intimação: 29/06/2026 (publicado no DJ Eletrônico, conforme Evento 83)
+Prazo: 15 dias úteis, contados de 30/06/2026 (prazo inicia hoje, pois 29/06 foi domingo), vence 21/07/2026
+Urgência: ATENÇÃO (prazo de 15 dias úteis, iniciado hoje)
+Manifestação cabível: CONTRARRAZÕES AO RECURSO DE APELAÇÃO
+Teor disponível: PARCIAL (teor extraído do e-mail do LinkLei)
+
+TEOR DA MOVIMENTAÇÃO:
+Procedimento Comum Cível Nº 4004676-61.2026.8.26.0405/SP
+AUTOR: JF ALIMENTOS LTDA
+ADVOGADO(A): EDUARDA FERREIRA DA SILVA MACHADO (OAB SP 545832)
+DESPACHO/DECISÃO:
+"Vistos. Nos termos do artigo 1.010, §1º do CPC, intime-se o apelado para apresentar contrarrazões ao recurso de apelação 80.1, no prazo de 15 dias. Após, remetam-se os autos ao E. Tribunal de Justiça de São Paulo, com as cautelas de praxe. Nos termos do artigo 1.010, §3º do CPC, o Juízo de admissibilidade do recurso s[...texto truncado no e-mail]"
+
+ANÁLISE JURÍDICA:
+O processo está em fase recursal: foi interposto recurso de apelação por uma das partes, e o juízo de 1º grau intimou o apelado para apresentar contrarrazões (CPC art. 1.010, §1º). O prazo é de 15 dias úteis. ATENÇÃO CRÍTICA: é necessário verificar IMEDIATAMENTE se JF ALIMENTOS LTDA é o APELADO (necessitando apresentar contrarrazões) ou o APELANTE (em cujo caso a intimação é para a parte contrária). A notificação chegou à conta da Dra. Eduarda porque ela acompanha este processo, mas o despacho intima "o apelado". Se JF ALIMENTOS é o apelado, o prazo para contrarrazões corre HOJE. A publicação foi no DJ Eletrônico em 29/06/2026 (domingo), portanto o prazo começa nesta segunda-feira 30/06/2026.
+
+ESTRATÉGIA APLICÁVEL:
+1. URGENTE: Verificar nos autos do processo 4004676-61 no ESAJ/TJSP quem é o apelante e quem é o apelado.
+2. Se JF ALIMENTOS é o apelado: iniciar imediatamente a elaboração das contrarrazões, protocolando até 21/07/2026.
+3. Se JF ALIMENTOS é o apelante: monitorar o prazo da parte contrária para contrarrazões.
+4. As contrarrazões devem rebater os argumentos do recurso de apelação interposto pela parte contrária.
+
+NOTA: O Evento 83 publicado no DJ em 29/06/2026 para JF ALIMENTOS x IFOOD.COM (notificação separada de 30/06) é POSSIVELMENTE o mesmo despacho do processo 4004676-61. Confirmar se os processos são idênticos acessando os autos.
+
+RASCUNHO DE PETIÇÃO:
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 4004676-61.2026.8.26.0405
+Teor disponível: PARCIAL (e-mail LinkLei, despacho truncado)
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA [INSERIR, verificar qual vara em Osasco, TJSP]
+Comarca de Osasco, São Paulo
+
+Processo nº 4004676-61.2026.8.26.0405
+
+JF ALIMENTOS LTDA, já qualificada nos autos da ação de Procedimento Comum Cível que lhe é movida por [INSERIR nome do apelante, verificar nos autos], vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+CONTRARRAZÕES AO RECURSO DE APELAÇÃO
+
+com fundamento nos arts. 1.009 a 1.014 do Código de Processo Civil, pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+A presente ação [INSERIR, verificar nos autos: objeto da ação, pedidos da inicial, sentença de 1º grau]. A parte [INSERIR nome do apelante] interpôs recurso de apelação sob o argumento de [INSERIR, verificar no recurso de apelação nos autos]. A intimação para apresentação de contrarrazões foi publicada no DJ Eletrônico em 29/06/2026, referente ao Evento 83, com prazo de 15 dias para manifestação, conforme despacho nos autos.
+
+II, DO DIREITO
+
+Nos termos do art. 1.010, §1º do Código de Processo Civil, o apelado será intimado para apresentar contrarrazões no prazo de 15 dias. O recurso de apelação interposto pela parte contrária não merece prosperar, pelos seguintes fundamentos:
+
+[INSERIR argumentos jurídicos após verificar o teor do recurso de apelação nos autos]
+
+a) [INSERIR, pesquisar fundamentos para rebater as razões do recurso]
+b) [INSERIR, verificar se há preliminares a afastar]
+c) A sentença de 1º grau deve ser mantida em todos os seus termos, pois [INSERIR, verificar mérito da sentença]
+
+[INSERIR, pesquisar jurisprudência sobre o tema do processo, ex.: práticas abusivas, relação de consumo, direito civil pertinente ao caso]
+
+III, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) Conhecimento e improvimento do recurso de apelação interposto pela parte contrária, mantendo-se integralmente a r. sentença de 1º grau;
+b) Condenação do apelante ao pagamento de honorários advocatícios sucumbenciais em favor da apelada, nos termos do art. 85, §11, do CPC, por majoração dos honorários já fixados na sentença;
+c) Todos os demais benefícios de direito.
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, 30 de junho de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+───────────────────────────────────────────────────────────
+PROCESSO Nº 4066746-59.2026.8.26.0100
+Origem: [Gmail + LinkLei]
+Partes: CLEYDSON VALADARES COSTA (autor) x FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.
+Tribunal/Vara: TJSP, Foro Central de São Paulo (0100), Juíza LUCIANA BIAGIO LAQUIMIA
+Tipo de movimentação: Despacho + Ato Ordinatório, intimação para RÉPLICA à contestação
+Data da publicação/intimação: 29/06/2026 (ato ordinatório remetido ao DJE em 29/06)
+Prazo: 15 dias úteis a partir de 30/06/2026 (ou 01/07 se publicado em 30/06), vence 21/07/2026 (considerando feriado 09/07 SP)
+Urgência: ATENÇÃO (prazo de 15 dias úteis, iniciado nesta semana)
+Manifestação cabível: RÉPLICA
+Teor disponível: SIM (parcial, teor extraído do e-mail LinkLei)
+
+TEOR DA MOVIMENTAÇÃO:
+Ato Ordinatório: "Certifico e dou fé que, nos termos do art. 203, §4º, do CPC, preparei para remessa ao Diário da Justiça Eletrônico o(s) seguinte(s) ato(s) ordinatório(s): Manifeste(m)-se o(a)(s) autor(a)(es)(s) em réplica."
+
+Despacho da Juíza LUCIANA BIAGIO LAQUIMIA: "Vistos. Manifeste-se a parte autora em réplica à contestação. Intimem-se. São Paulo, data da assinatura eletrônica."
+
+Assunto do processo: Práticas Abusivas (Direito Civil)
+AUTOR: CLEYDSON VALADARES COSTA
+ADVOGADO(A): EDUARDA FERREIRA DA SILVA MACHADO (OAB SP 545832)
+
+Nota adicional: O LinkLei também enviou notificação (thread 29/06 01:03) de "2 Novas Movimentações Processuais" para CLEYDSON VALADARES COSTA x FACEBOOK com "Confirmada a intimação eletrônica - Refer. ao Evento: 36 | Usuário: SP138436", que é CONSOLIDADA com este processo (mesma causa).
+
+ANÁLISE JURÍDICA:
+O processo está em fase de réplica. CLEYDSON VALADARES COSTA (autor) ajuizou ação de práticas abusivas em face do Facebook. O réu apresentou contestação e a Juíza LUCIANA BIAGIO LAQUIMIA intimou a parte autora para manifestar-se em réplica à contestação, nos termos do art. 351 do CPC. A réplica é cabível quando o réu alegar qualquer das matérias enumeradas no art. 337 (como preliminares) ou quando houver fato impeditivo, modificativo ou extintivo do direito do autor (art. 350 CPC). O prazo é de 15 dias úteis.
+
+ESTRATÉGIA APLICÁVEL:
+1. Verificar o teor da contestação do Facebook nos autos para identificar: (a) preliminares a afastar; (b) fatos novos alegados pelo réu; (c) argumentos de mérito a rebater.
+2. Elaborar réplica com rebatimento ponto a ponto dos argumentos do Facebook.
+3. Atentar para questões típicas de cases contra Facebook: remoção de conteúdo, suspensão de conta, dever de informação, LGPD, Marco Civil da Internet (arts. 19-21).
+4. Protocolar até 21/07/2026.
+
+RASCUNHO DE PETIÇÃO:
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 4066746-59.2026.8.26.0100
+Teor disponível: PARCIAL (teor do despacho disponível, teor da contestação indisponível)
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO LUCIANA BIAGIO LAQUIMIA
+[INSERIR, verificar qual vara exata no Foro Central de São Paulo]
+São Paulo/SP
+
+Processo nº 4066746-59.2026.8.26.0100
+
+CLEYDSON VALADARES COSTA, já qualificado nos autos da ação de Práticas Abusivas (Direito Civil) que move em face de FACEBOOK SERVICOS ONLINE DO BRASIL LTDA., vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+RÉPLICA
+
+com fundamento nos arts. 350 e 351 do Código de Processo Civil, pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+O autor CLEYDSON VALADARES COSTA ajuizou a presente ação em face de FACEBOOK SERVICOS ONLINE DO BRASIL LTDA. em razão de [INSERIR, verificar objeto da ação nos autos]. O réu apresentou contestação alegando [INSERIR, verificar contestação nos autos].
+
+Contudo, as alegações defensivas não merecem prosperar, pelas razões a seguir expostas.
+
+II, DO DIREITO
+
+Das preliminares arguidas pelo réu (se houver):
+[INSERIR, verificar se o Facebook arguiu preliminares na contestação, como incompetência, ilegitimidade, etc.]
+
+Do mérito:
+
+a) Da responsabilidade do Facebook:
+[INSERIR, verificar fundamentos da ação, com base no Marco Civil da Internet (Lei 12.965/2014), LGPD (Lei 13.709/2018), CDC e/ou CC conforme aplicável]
+
+b) Das práticas abusivas alegadas:
+[INSERIR, verificar quais práticas abusivas foram alegadas na inicial e como o Facebook as nega na contestação]
+
+c) Do afastamento das alegações defensivas:
+[INSERIR, pesquisar jurisprudência sobre responsabilidade de redes sociais, ex.: INSERIR pesquisar jurisprudência TJSP sobre Facebook e práticas abusivas]
+
+III, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) O recebimento da presente réplica, com o consequente julgamento do processo nos termos da petição inicial;
+b) [INSERIR pedidos específicos conforme o mérito da ação]
+c) A condenação da ré ao pagamento de custas, despesas processuais e honorários advocatícios sucumbenciais.
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, 30 de junho de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+───────────────────────────────────────────────────────────
+PROCESSO Nº 4075520-78.2026.8.26.0100
+Origem: [Gmail + LinkLei]
+Partes: PAULO ANDRE SILVA (autor) x [INSERIR réu, verificar nos autos]
+Tribunal/Vara: TJSP, Foro Central de São Paulo (0100), vara a verificar
+Tipo de movimentação: Ato Ordinatório, intimação para ciência da contestação e documentos, prazo 15 dias
+Data da publicação/intimação: 29/06/2026 (remetido ao DJE)
+Prazo: 15 dias úteis a partir de 30/06/2026 (ou 01/07), vence 21/07/2026
+Urgência: ATENÇÃO (prazo de 15 dias úteis, iniciado nesta semana)
+Manifestação cabível: RÉPLICA (ou ciência com eventual réplica)
+Teor disponível: PARCIAL (teor extraído do e-mail LinkLei)
+
+TEOR DA MOVIMENTAÇÃO:
+Ato Ordinatório: "Ciência à parte autora sobre a contestação e documentos apresentados, pelo prazo de 15 dias."
+Assunto do processo: Dever de Informação (Direito Civil)
+AUTOR: PAULO ANDRE SILVA
+ADVOGADO(A): EDUARDA FERREIRA DA SILVA MACHADO (OAB SP 545832)
+
+ANÁLISE JURÍDICA:
+O processo está em fase inicial, após a apresentação de contestação pelo réu. A serventia expediu ato ordinatório intimando a parte autora (PAULO ANDRE SILVA) a tomar ciência da contestação e documentos apresentados, no prazo de 15 dias. Nos termos do art. 351 do CPC, a réplica é obrigatória quando o réu alegar qualquer das matérias do art. 337 ou modificação de fato. Mesmo que não seja obrigatória, é altamente recomendável manifestar-se para rebater os argumentos do réu. O prazo de 15 dias é para a réplica.
+
+ESTRATÉGIA APLICÁVEL:
+1. Verificar nos autos o teor da contestação do réu e os documentos apresentados.
+2. Avaliar se há preliminares a afastar e argumentos de mérito a rebater.
+3. No tema "Dever de Informação (Direito Civil)", verificar base no CDC (arts. 6º, 14, 31), CC (arts. 422, 184) e normas setoriais aplicáveis.
+4. Protocolar réplica até 21/07/2026.
+
+RASCUNHO DE PETIÇÃO:
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 4075520-78.2026.8.26.0100
+Teor disponível: PARCIAL (intimação para ciência/réplica identificada, contestação não disponível)
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA [INSERIR, verificar qual vara, Foro Central São Paulo]
+São Paulo/SP
+
+Processo nº 4075520-78.2026.8.26.0100
+
+PAULO ANDRE SILVA, já qualificado nos autos da ação sobre Dever de Informação (Direito Civil) que move em face de [INSERIR réu, verificar nos autos], vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+RÉPLICA À CONTESTAÇÃO
+
+com fundamento nos arts. 350 e 351 do Código de Processo Civil, pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+O autor PAULO ANDRE SILVA ajuizou a presente ação em razão de [INSERIR, verificar objeto da demanda nos autos]. O réu apresentou contestação afirmando [INSERIR, verificar contestação nos autos]. Os argumentos defensivos, data venia, não merecem acolhimento.
+
+II, DO DIREITO
+
+[INSERIR fundamentos jurídicos com base no tema "Dever de Informação (Direito Civil)". Possíveis bases: art. 422 do Código Civil (boa-fé objetiva e dever de informar), arts. 6º, III, e 31 do CDC (dever de informação nas relações de consumo), art. 927 CC (responsabilidade civil), conforme aplicável ao caso concreto]
+
+Das preliminares (se houver):
+[INSERIR, verificar se o réu arguiu alguma preliminar na contestação]
+
+Do mérito:
+[INSERIR argumentos após verificar contestação nos autos]
+
+[INSERIR, pesquisar jurisprudência sobre dever de informação aplicável ao caso]
+
+III, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) O recebimento da presente réplica;
+b) O julgamento do processo no estado em que se encontra, com o total acolhimento dos pedidos formulados na petição inicial;
+c) A condenação do réu ao pagamento de custas, despesas processuais e honorários advocatícios sucumbenciais.
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, 30 de junho de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+───────────────────────────────────────────────────────────
+PROCESSO: JF ALIMENTOS LTDA x IFOOD.COM AGENCIA DE RESTAURANTES ONLINE S.A.
+Número: [NÚMERO NÃO CAPTURADO, verificar se é 4004676-61 ou outro processo]
+Origem: [Gmail + LinkLei]
+Partes: JF ALIMENTOS LTDA x IFOOD.COM AGENCIA DE RESTAURANTES ONLINE S.A.
+Tribunal/Vara: [INSERIR, verificar nos autos]
+Tipo de movimentação: Publicação no DJ Eletrônico, Evento 83
+Data da publicação/intimação: 29/06/2026
+Prazo: A verificar (depende do teor do Evento 83)
+Urgência: ATENÇÃO (prazo potencialmente correndo desde hoje, teor indisponível)
+Manifestação cabível: [INSERIR, verificar teor do Evento 83]
+Teor disponível: NÃO (apenas notificação de publicação no DJ, sem teor do ato)
+
+TEOR DA MOVIMENTAÇÃO:
+"Disponibilizado no DJ Eletrônico - no dia 29/06/2026 - Refer. ao Evento: 83 | Usuário: secde"
+
+ANÁLISE JURÍDICA:
+O Evento 83 foi publicado no DJ Eletrônico em 29/06/2026 (domingo). A publicação em dia não útil conta como publicada no primeiro dia útil seguinte, ou seja, 30/06/2026 (hoje). O usuário "secde" sugere tratar-se de ato da serventia/secretaria de despacho. O teor do ato não foi disponibilizado no e-mail do LinkLei. SUSPEITA: este evento pode corresponder ao despacho de intimação para contrarrazões do processo 4004676-61.2026.8.26.0405 (JF ALIMENTOS LTDA), onde o mesmo cliente é identificado. Verificar nos autos se os processos são idênticos.
+
+ESTRATÉGIA APLICÁVEL:
+AÇÃO IMEDIATA: Acessar o processo no ESAJ/TJSP para verificar o teor do Evento 83. Identificar se o processo é o mesmo que 4004676-61 e se há prazo correndo. Se confirmado ser o despacho de contrarrazões, usar o rascunho gerado para o processo 4004676-61 acima.
+
+RASCUNHO DE PETIÇÃO:
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, JF ALIMENTOS x IFOOD, Evento 83/DJ 29/06/2026
+Teor disponível: NÃO (verificar nos autos qual processo e qual ato foi publicado)
+═══════════════════════════════════════════════════════════
+
+[AGUARDAR VERIFICAÇÃO DO TEOR DO EVENTO 83 ANTES DE REDIGIR ESTE RASCUNHO]
+[Após verificar o ato publicado no Evento 83, utilizar o rascunho do processo 4004676-61 se for o mesmo, ou gerar nova petição específica]
+
+INSERIR: Acessar ESAJ ou PJe, processo JF ALIMENTOS x IFOOD, verificar Evento 83, identificar o tipo de ato (despacho, decisão, certidão) e seu teor completo.
+═══════════════════════════════════════════════════════════
+
+───────────────────────────────────────────────────────────
+PROCESSO Nº 4105579-49.2026.8.26.0100
+Origem: [Gmail + LinkLei]
+Partes: WHAGNER DUARTE NUNES (exequente) x [INSERIR executado, verificar nos autos]
+Tribunal/Vara: TJSP, Foro Central de São Paulo (0100), vara a verificar
+Tipo de movimentação: Despacho sobre cumprimento provisório de sentença (multa art. 537 CPC)
+Data da publicação/intimação: 29/06/2026
+Prazo: A verificar (depende do teor completo do despacho)
+Urgência: ATENÇÃO (verificar necessidade de manifestação)
+Manifestação cabível: MANIFESTAÇÃO ou CIÊNCIA (verificar teor)
+Teor disponível: PARCIAL (teor truncado, início do despacho disponível)
+
+TEOR DA MOVIMENTAÇÃO (PARCIAL):
+"CUMPRIMENTO PROVISÓRIO DE SENTENÇA Nº 4105579-49.2026.8.26.0100/SP
+EXEQUENTE: WHAGNER DUARTE NUNES
+ADVOGADO(A): EDUARDA FERREIRA DA SILVA MACHADO (OAB SP 545832)
+DESPACHO/DECISÃO:
+Vistos. Nos termos do art. 537, §3º, do CPC, A decisão que fixa multa é passível de cumprimento provisório [texto truncado]"
+
+ANÁLISE JURÍDICA:
+O despacho menciona art. 537, §3º do CPC (astreintes em cumprimento de sentença), informando que a multa fixada é passível de cumprimento provisório. Isso significa que o exequente WHAGNER DUARTE NUNES pode iniciar a execução provisória da multa sem aguardar o trânsito em julgado. Verificar se o despacho exige alguma providência específica (como requerimento de levantamento, realização de cálculos ou início da penhora), pois o teor está truncado.
+
+ESTRATÉGIA APLICÁVEL:
+1. Verificar o teor completo do despacho nos autos (processo 4105579-49 no ESAJ).
+2. Se o despacho apenas informa a possibilidade de cumprimento provisório: tomar ciência e eventualmente requerer o prosseguimento da execução provisória.
+3. Se houver determinação específica (ex.: calcular valores, indicar bens): cumprir no prazo determinado.
+
+RASCUNHO DE PETIÇÃO:
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 4105579-49.2026.8.26.0100
+Teor disponível: PARCIAL (rascunho esqueleto, verificar teor completo nos autos)
+═══════════════════════════════════════════════════════════
+
+EXMO(A). SR(A). DR(A). JUIZ(A) DE DIREITO DA [INSERIR vara, Foro Central São Paulo]
+São Paulo/SP
+
+Processo nº 4105579-49.2026.8.26.0100
+
+WHAGNER DUARTE NUNES, já qualificado nos autos do Cumprimento Provisório de Sentença, vem, respeitosamente, à presença de Vossa Excelência, por intermédio de sua advogada que esta subscreve (procuração nos autos), apresentar
+
+MANIFESTAÇÃO
+
+com fundamento no art. 537, §3º, do Código de Processo Civil, pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+
+[INSERIR, verificar nos autos: quais são os fundamentos do cumprimento provisório, qual multa foi fixada, a quantia já acumulada]
+
+II, DO DIREITO
+
+Nos termos do art. 537, §3º, do CPC, a decisão que fixa multa (astreintes) é passível de cumprimento provisório, conforme reconhecido pelo Juízo no despacho ora noticiado.
+
+[INSERIR, verificar se o exequente pretende: (a) requerer levantamento parcial do valor da multa; (b) indicar bens para penhora; (c) prosseguir a execução de outro modo]
+
+III, DOS PEDIDOS
+
+Ante o exposto, requer:
+a) [INSERIR, verificar teor completo do despacho antes de formular pedidos]
+b) [INSERIR pedidos conforme necessidade após verificação]
+
+Nestes termos,
+pede deferimento.
+
+Santo André/SP, 30 de junho de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+───────────────────────────────────────────────────────────
+PROCESSO Nº 1000084-32.2023.8.26.0372
+Origem: [Gmail + LinkLei]
+Partes: Distribuidores de Sucesso Ltda ME x Jorge Trindade da Silva (executado)
+Tribunal/Vara: TJSP, Comarca 0372 (a identificar), vara a verificar
+Tipo de movimentação: Decisão sobre impugnação à penhora SISBAJUD
+Data da publicação/intimação: 29/06/2026
+Prazo: A verificar (se decisão desfavorável ao exequente, agravo de instrumento em 15 dias)
+Urgência: ATENÇÃO (verificar resultado da decisão)
+Manifestação cabível: AGRAVO DE INSTRUMENTO (se decisão desfavorável) ou CIÊNCIA
+Teor disponível: PARCIAL (início da decisão disponível, resultado não capturado)
+
+TEOR DA MOVIMENTAÇÃO (PARCIAL):
+"Processo 1000084-32.2023.8.26.0372 - Execução de Título Extrajudicial - Obrigações - Distribuidores de Sucesso Ltda ME - Jorge Trindade da Silva - Vistos. O executado impugna a penhora de valores realizada via SISBAJUD, sustentando, em síntese, a natureza impenhorável das quantias constritas, por supostamente se tratarem de verbas salariais e de depósitos em conta poupança, bem como alegando comprometimento com pensão alimentícia e despesas de locação. A decisão anterior determinou a juntada de documentos comprobatórios, notadamente extratos bancários completos, comprovação formal de obrigaç[texto truncado]"
+
+ANÁLISE JURÍDICA:
+O executado (Jorge Trindade da Silva) impugnou a penhora de valores via SISBAJUD alegando: (1) impenhorabilidade de verbas salariais (art. 833, IV, CPC); (2) impenhorabilidade de conta poupança até 40 salários mínimos (art. 833, X, CPC); (3) comprometimento com pensão alimentícia e despesas de locação. A decisão anterior determinou documentação, e agora há nova decisão. É FUNDAMENTAL verificar: (a) se a impugnação foi DEFERIDA (liberação da penhora, o que seria prejudicial ao exequente Distribuidores de Sucesso) ou INDEFERIDA (manutenção da penhora, favorável ao exequente). Se deferida, verificar se cabe Agravo de Instrumento em 15 dias (art. 1.015, CPC, impugnação à penhora é decisão interlocutória).
+
+ESTRATÉGIA APLICÁVEL:
+1. Acessar os autos do processo 1000084-32 no ESAJ/TJSP para verificar o resultado da decisão.
+2. Se impugnação INDEFERIDA (penhora mantida): tomar ciência e aguardar, monitorando possível Agravo pelo executado.
+3. Se impugnação DEFERIDA (penhora liberada): verificar o cabimento de Agravo de Instrumento (art. 1.015 CPC) e a necessidade de nova indicação de bens para penhora.
+4. Verificar se há outros bens do executado passíveis de constrição (imóveis, veículos via RENAVAM, outros ativos financeiros via BACENJUD).
+
+RASCUNHO DE PETIÇÃO:
+
+═══════════════════════════════════════════════════════════
+RASCUNHO DE PETIÇÃO, Processo nº 1000084-32.2023.8.26.0372
+Teor disponível: PARCIAL (início da decisão sobre impugnação à penhora, resultado desconhecido)
+═══════════════════════════════════════════════════════════
+
+[GERAR RASCUNHO ESPECÍFICO APÓS VERIFICAR O RESULTADO DA DECISÃO NOS AUTOS]
+
+Se a impugnação for DEFERIDA (penhora liberada), usar estrutura de Agravo de Instrumento:
+
+EXMO(A). SR(A). DR(A). RELATOR(A) DO TRIBUNAL DE JUSTIÇA DE SÃO PAULO
+[INSERIR câmara competente conforme TJ]
+
+Processo nº 1000084-32.2023.8.26.0372
+
+Distribuidores de Sucesso Ltda ME, já qualificada nos autos da Execução de Título Extrajudicial que move em face de Jorge Trindade da Silva, vem apresentar
+
+AGRAVO DE INSTRUMENTO
+
+com fundamento no art. 1.015, caput, do Código de Processo Civil (decisão interlocutória que versou sobre penhora), pelos fatos e fundamentos a seguir expostos.
+
+I, DOS FATOS
+[INSERIR, verificar nos autos: objeto da execução, valor do título, penhora realizada via SISBAJUD, impugnação do executado e resultado da decisão agravada]
+
+II, DO DIREITO
+[INSERIR, fundamentar por que os valores penhorados NÃO são impenhoráveis: ex. extratos mostram que não são exclusivamente salariais, poupança supera 40 salários mínimos, ausência de prova de pensão alimentícia, etc.]
+[INSERIR, pesquisar jurisprudência sobre impenhorabilidade de verbas salariais mistas em TJSP]
+
+III, DOS PEDIDOS
+a) Conhecimento e provimento do presente agravo, reformando-se a decisão agravada para manter a penhora via SISBAJUD;
+b) Concessão de efeito suspensivo, nos termos do art. 1.019, I, do CPC;
+c) [INSERIR pedidos adicionais conforme o caso]
+
+Nestes termos, pede deferimento.
+
+Santo André/SP, 30 de junho de 2026.
+
+EDUARDA FERREIRA DA SILVA MACHADO
+OAB/SP 545.832
+═══════════════════════════════════════════════════════════
+
+───────────────────────────────────────────────────────────
+PROCESSO Nº 1015517-54.2019.8.26.0554
+Origem: [Gmail + LinkLei]
+Partes: M.A.T., M.M.T.V., C.G.O., M.A.T.O., J.A.T., E.V.T., C.L.T., U.D.O., M.B.T.O., R.O.F., M.F.T.O. e D.V. (inventariantes/herdeiros) - nomes abreviados por sigilo
+Tribunal/Vara: TJSP, Comarca 0554 (Santo André), vara a verificar
+Tipo de movimentação: Publicação/Intimação, ciência da habilitação
+Data da publicação/intimação: 30/06/2026
+Prazo: Sem prazo imediato (apenas ciência)
+Urgência: MONITORAR
+Manifestação cabível: CIÊNCIA
+Teor disponível: SIM
+
+TEOR DA MOVIMENTAÇÃO:
+"Processo 1015517-54.2019.8.26.0554 - Inventário - Inventário e Partilha - [partes com iniciais]
+Fls. retro: ciência quanto à habilitação nos autos nesta data.
+ADV: EDUARDA FERREIRA DA SILVA MACHADO (OAB 545832/SP) [e outros advogados]"
+
+ANÁLISE JURÍDICA:
+Trata-se de um processo de Inventário e Partilha, onde foi expedida intimação para ciência quanto à habilitação de alguma parte nos autos. O ato é de mero expediente, informando que uma habilitação foi registrada. A Dra. Eduarda representa uma ou mais partes neste inventário. Não há prazo urgente, mas é importante acompanhar o andamento para verificar se a habilitação afeta a partilha.
+
+ESTRATÉGIA APLICÁVEL:
+Tomar ciência. Verificar nos autos quem se habilitou e avaliar se a habilitação é legítima ou se há necessidade de impugnar.
+
+Não há petição a ser apresentada neste momento processual. Acompanhamento apenas.
+
+───────────────────────────────────────────────────────────
+PROCESSO Nº 1501353-18.2024.8.26.0565
+Origem: [Gmail + LinkLei]
+Partes: [Fazenda Pública] x Rubens Marcondes da Fonseca (executado)
+Tribunal/Vara: TJSP, Comarca 0565 (São Bernardo do Campo ou outra, verificar), vara a verificar
+Tipo de movimentação: Despacho, determinação de consulta RENAJUD
+Data da publicação/intimação: 30/06/2026
+Prazo: Sem prazo imediato para Dra. Eduarda (aguarda resultado do RENAJUD)
+Urgência: MONITORAR
+Manifestação cabível: CIÊNCIA (aguardar resultado RENAJUD)
+Teor disponível: SIM
+
+TEOR DA MOVIMENTAÇÃO:
+"Processo 1501353-18.2024.8.26.0565 - Execução Fiscal - IPTU/Imposto Predial e Territorial Urbano - Rubens Marcondes da Fonseca
+Vistos. Pedido retro: Defiro, providenciando a serventia o necessário para consulta e restrição de veículos existentes em nome do executado, utilizando-se o sistema Renajud. Se positivo, à Fazenda Pública para manifestar-se em termos de prosseguimento. Antecipo que havendo pedido pela parte interessada, fica autorizado a expedição de ofício para que seja procedido, tão-somente, o licenciamento do(s) veículo(s). Se negativo, conforme precedente vinculante, REsp. 1.340.553/RS, Rel. Ministro Mauro Campbell Marques, publicado no DJE na data de 16/10/2018, suspendo esta Execução Fiscal nos termos do artigo 40 da Lei 6.830/80. Intime-se.
+ADV: EDUARDA FERREIRA DA SILVA MACHADO (OAB 545832/SP)"
+
+ANÁLISE JURÍDICA:
+O juiz deferimento a consulta ao sistema RENAJUD para localização e restrição de veículos em nome do executado Rubens Marcondes da Fonseca. Se houver veículos, a Fazenda Pública será intimada para manifestar-se sobre prosseguimento da execução. Se negativo, a execução fiscal será suspensa nos termos do art. 40 da LEF, com base no precedente vinculante do STJ (REsp 1.340.553/RS). Dra. Eduarda provavelmente representa a parte credora (ou acompanha para o executado). Sem ação imediata necessária, aguardar resultado do RENAJUD.
+
+ESTRATÉGIA APLICÁVEL:
+Aguardar resultado da consulta RENAJUD. Monitorar intimação subsequente.
+
+Não há petição a ser apresentada neste momento processual. Acompanhamento apenas.
+
+───────────────────────────────────────────────────────────
+PROCESSO Nº 1003900-87.2025.8.26.0554
+Origem: [Gmail + LinkLei]
+Partes: Fabiano Bender Machado (autor) x Juliana Galassi Vale Crepalli e outros
+Tribunal/Vara: TJSP, Comarca de Santo André (0554)
+Tipo de movimentação: Petição Juntada, Pedido de Honorários do Perito
+Data da publicação/intimação: 29/06/2026 (16:42)
+Prazo: Sem prazo imediato para Dra. Eduarda
+Urgência: MONITORAR
+Manifestação cabível: CIÊNCIA (aguardar intimação do juízo)
+Teor disponível: SIM
+
+TEOR DA MOVIMENTAÇÃO:
+"Petição Juntada Nº Protocolo: WSNE.26.70165968-3
+Tipo da Petição: Pedido de Honorários - Solicitação do Perito
+Data: 29/06/2026 16:42"
+
+ANÁLISE JURÍDICA:
+O perito nomeado no processo de Fabiano Bender Machado peticionou solicitando honorários periciais. O juízo provavelmente intimará as partes para manifestar-se sobre o valor ou para depositar o valor dos honorários. Aguardar intimação judicial.
+
+ESTRATÉGIA APLICÁVEL:
+Monitorar. Aguardar intimação do juízo sobre os honorários do perito. Quando intimada, manifestar concordância ou impugnação ao valor, conforme o caso.
+
+Não há petição a ser apresentada neste momento processual. Acompanhamento apenas.
+
+───────────────────────────────────────────────────────────
+PROCESSO: ZILDA DOS SANTOS FERREIRA MARQUES - Contratos de Consumo/Cartão de Crédito
+Número: [NÚMERO NÃO CAPTURADO PELO LINKLEI, verificar manualmente]
+Origem: [Gmail + LinkLei]
+Partes: ZILDA DOS SANTOS FERREIRA MARQUES x [INSERIR réu, verificar]
+Tipo de movimentação: Comunicação eletrônica expedida/certificada (mero expediente)
+Data da publicação/intimação: 30/06/2026
+Prazo: Sem prazo
+Urgência: MONITORAR
+Manifestação cabível: CIÊNCIA
+Teor disponível: NÃO (apenas título genérico)
+
+TEOR DA MOVIMENTAÇÃO:
+"Expedida/certificada a comunicação eletrônica" (comunicação genérica, sem número de processo e sem teor do ato)
+
+ANÁLISE JURÍDICA:
+Comunicação eletrônica expedida/certificada é mero expediente. Sem número de processo disponível e sem teor do ato. Verificar no LinkLei/ESAJ para identificar o processo e o conteúdo da comunicação.
+
+ESTRATÉGIA APLICÁVEL:
+Verificar no ESAJ o processo de ZILDA DOS SANTOS FERREIRA MARQUES em Contratos de Consumo/Cartão de Crédito para identificar o ato e avaliar se exige manifestação.
+
+Não há petição a ser apresentada neste momento processual. Acompanhamento apenas.
+
+=============================================================
+5. LISTA CONSOLIDADA DE TAREFAS POR PRIORIDADE
+=============================================================
+
+URGENTE (até 5 dias úteis):
+[Nenhuma tarefa urgente confirmada hoje]
+
+ATENÇÃO (6 a 15 dias úteis):
+- [ ] Processo 4004676-61.2026.8.26.0405 (JF ALIMENTOS LTDA), CONTRARRAZÕES AO RECURSO DE APELAÇÃO, prazo inicia 30/06/2026, vence 21/07/2026 [TEOR: PARCIAL, verificar se JF ALIMENTOS é apelado ou apelante]
+- [ ] Processo 4066746-59.2026.8.26.0100 (CLEYDSON VALADARES COSTA x FACEBOOK), RÉPLICA, prazo inicia 30/06/2026, vence 21/07/2026 [TEOR: PARCIAL, verificar contestação nos autos]
+- [ ] Processo 4075520-78.2026.8.26.0100 (PAULO ANDRE SILVA), RÉPLICA, prazo inicia 30/06/2026, vence 21/07/2026 [TEOR: PARCIAL, verificar contestação nos autos]
+- [ ] JF ALIMENTOS x IFOOD (Evento 83 DJ 29/06/2026), VERIFICAR TEOR do ato publicado, prazo potencialmente correndo [TEOR: INDISPONÍVEL, acessar ESAJ imediatamente]
+- [ ] Processo 4105579-49.2026.8.26.0100 (WHAGNER DUARTE NUNES), VERIFICAR DESPACHO cumprimento provisório, identificar providências necessárias [TEOR: PARCIAL]
+- [ ] Processo 1000084-32.2023.8.26.0372 (Distribuidores de Sucesso x Jorge Trindade), VERIFICAR RESULTADO da decisão sobre impugnação à penhora, prazo para Agravo de Instrumento em 15 dias se desfavorável [TEOR: PARCIAL]
+
+MONITORAR (sem prazo imediato):
+- [ ] Processo 1003900-87.2025.8.26.0554 (Fabiano Bender Machado), aguardar intimação sobre honorários do perito
+- [ ] Processo 1015517-54.2019.8.26.0554 (Inventário M.A.T. e outros), ciência da habilitação, monitorar
+- [ ] Processo 1501353-18.2024.8.26.0565 (Execução Fiscal IPTU, Rubens Marcondes), aguardar resultado RENAJUD
+- [ ] ZILDA DOS SANTOS FERREIRA MARQUES, verificar processo e teor da comunicação eletrônica
+- [ ] CLEYDSON VALADARES COSTA x FACEBOOK (Evento 36), ciência da confirmação de intimação eletrônica (consolidado no processo 4066746-59)
+
+=============================================================
+6. MENSAGENS PRONTAS PARA CLIENTES
+=============================================================
+
+Cliente: JF ALIMENTOS LTDA
+Processo: 4004676-61.2026.8.26.0405
+Mensagem sugerida (WhatsApp):
+"Olá! Passando para informar que houve uma movimentação no processo de vocês hoje. O tribunal publicou um despacho em 29/06 com prazo para manifestação, que começa a correr desta segunda-feira. Estamos verificando o teor completo nos autos e já preparamos o rascunho da petição. Qualquer dúvida, fico à disposição!"
+
+---
+
+Cliente: CLEYDSON VALADARES COSTA
+Processo: 4066746-59.2026.8.26.0100
+Mensagem sugerida (WhatsApp):
+"Olá Cleydson! O juízo determinou que apresentemos réplica à contestação do Facebook no seu processo. Temos 15 dias úteis para protocolar a peça (prazo até 21/07). Estou analisando a contestação para preparar a resposta. Assim que tiver novidades, te aviso!"
+
+---
+
+Cliente: PAULO ANDRE SILVA
+Processo: 4075520-78.2026.8.26.0100
+Mensagem sugerida (WhatsApp):
+"Olá Paulo! O processo teve uma movimentação: o juízo nos intimou para tomar ciência da contestação do réu e apresentar réplica no prazo de 15 dias. Estou preparando a peça para protocolar dentro do prazo. Qualquer dúvida, pode me chamar!"
+
+=============================================================
+7. ALERTAS DE SISTEMA
+=============================================================
+
+ALERTA CRÍTICO 1 - Scripts VPS parados há 26 dias:
+O script de coleta do LinkLei (coletar-linklei.js) e o equivalente do DataJud no VPS não geram arquivos desde 04/06/2026. Último arquivo encontrado no repositório: linklei-raw-2026-06-04.txt e datajud-raw-2026-06-04.json. O relatório de hoje foi gerado EXCLUSIVAMENTE via Gmail/LinkLei por e-mail, o que significa cobertura INCOMPLETA de processos. Processos monitorados no LinkLei que não geraram notificação por e-mail podem ter movimentações não capturadas.
+AÇÃO NECESSÁRIA: Verificar imediatamente o status do VPS, reiniciar os scripts e corrigir o problema.
+
+ALERTA 2 - Google Drive cota esgotada:
+A primeira tentativa de salvar o relatório no Google Drive (pasta ID: 1ggPT2-QUioAn3qNMJMiIpu7zxEo2TUVp) falhou com erro "Resource has been exhausted (quota)". O presente relatório está sendo salvo no repositório git como fallback. Verificar cota da API Google Drive.
+
+ALERTA 3 - Processos "não cadastrados" no LinkLei:
+Os processos 1015517-54.2019.8.26.0554, 1501353-18.2024.8.26.0565, 4004676-61.2026.8.26.0405, 4066746-59.2026.8.26.0100, 4105579-49.2026.8.26.0100, 4075520-78.2026.8.26.0100 e 1000084-32.2023.8.26.0372 aparecem como "(não cadastrado)" nas notificações do LinkLei. Esses processos foram detectados apenas via DJE/publicações que mencionam a OAB da Dra. Eduarda. Recomenda-se cadastrá-los formalmente no LinkLei para monitoramento ativo.
+
+ALERTA 4 - Agenda Google:
+Evento de conclusão foi criado com sucesso na agenda backupeduarda.machado@gmail.com (ID: 1lvgo1q4hgebdaelhl6qf561e8), 30/06/2026 09:30-09:45. Link do Drive: [INDISPONÍVEL, Drive não foi salvo com sucesso na primeira tentativa].
+
+ALERTA 5 - Processos com segredo de justiça (arquivo histórico LinkLei 04/06):
+Os processos 1019648-67.2022.8.26.0554 e 0017113-85.2022.8.26.0554 (clientes ARTHUR PARRADO DIAN e LUANA PARRADO DIAN) apresentam erro de "segredo de justiça" no LinkLei desde 04/06/2026. Verificar se as credenciais do ESAJ estão corretamente configuradas no LinkLei.
+
+ALERTA 6 - Processos em segredo sem teor disponível:
+ZILDA DOS SANTOS FERREIRA MARQUES: processo identificado pelo nome do cliente, mas sem número de processo capturado. Verificar no LinkLei qual processo corresponde a este nome.
+
+ALERTA 7 - JF ALIMENTOS x IFOOD (Evento 83):
+Potencial sobreposição entre o processo 4004676-61.2026.8.26.0405 (JF ALIMENTOS no ESAJ Osasco) e a notificação "JF ALIMENTOS x IFOOD Evento 83 DJ 29/06". Verificar se são o mesmo processo antes de agir.
+
+=============================================================
+AVISO DE SEGURANÇA
+=============================================================
+- Apenas leitura foi realizada no Gmail e nos arquivos do repositório.
+- Nenhuma notificação foi alterada, excluída ou marcada.
+- Nenhum e-mail foi respondido, encaminhado ou movido.
+- Nenhum dado foi modificado em qualquer plataforma de origem.
+- Nenhum acesso foi feito ao ESAJ, PJe ou sistemas do tribunal.
+- Relatório gerado em modo leitura apenas.
